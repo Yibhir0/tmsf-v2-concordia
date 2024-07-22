@@ -5,7 +5,19 @@ import ContactImg1 from "../../assets/img/contact-1.png";
 import ContactImg2 from "../../assets/img/contact-2.png";
 import ContactImg3 from "../../assets/img/contact-3.png";
 
+import ContactCard from "../Elements/ContactCard";
+
 export default function Contact() {
+  const socialLinks = {
+    facebook: 'https://www.facebook.com/ENLIGHTENEERING/',
+    linkedin: 'https://www.linkedin.com/company/enlighteneering-inc-',
+  };
+
+  const address = {
+    line1: '1550 De Maisonneuve West',
+    line2: 'Montreal, QC',
+    line3: 'H3G 2E9, Canada',
+  };
   return (
     <Wrapper id="contact">
       <div className="lightBg">
@@ -18,8 +30,8 @@ export default function Contact() {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <div className="row" style={{ paddingBottom: "30px" }}>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div className="flexSpaceCenter" style={{ paddingBottom: "30px" }}>
+            <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
               <Form>
                 <label className="font13">First name:</label>
                 <input type="text" id="fname" name="fname" className="font20 extraBold" />
@@ -27,28 +39,22 @@ export default function Contact() {
                 <input type="text" id="email" name="email" className="font20 extraBold" />
                 <label className="font13">Subject:</label>
                 <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+                <label className="font13">Message:</label>
+                <textarea rows="3" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
               </Form>
               <SumbitWrapper className="flex">
                 <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
-                <ContactImgBox>
-                  <img src={ContactImg1} alt="office" className="radius6" />
-                </ContactImgBox>
-                <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius6" />
-                </ContactImgBox>
-              </div>
-              <div style={{ width: "50%" }}>
-                <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
-                </div>
-              </div>
+            <ContactCard
+                companyName="Example Company"
+                address={address}
+                phone="08055384406"
+                email="info@mld.ng"
+                socialLinks={socialLinks}
+            />
             </div>
-          </div>
+        
         </div>
       </div>
     </Wrapper>
@@ -85,15 +91,15 @@ const Form = styled.form`
   }
 `;
 const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
+  border: 1px solid #800000;
+  background-color: #800000;
   width: 100%;
   padding: 15px;
   outline: none;
-  color: #fff;
+  color: #F2B300;
   :hover {
-    background-color: #580cd2;
-    border: 1px solid #7620ff;
+    background-color: #800000;
+    border: 1px solid #800000;
     color: #fff;
   }
   @media (max-width: 991px) {

@@ -12,7 +12,7 @@ import AddImage4 from "../../assets/img/add/4.png";
 
 import { FiExternalLink } from "react-icons/fi";
 
-export default function Services() {
+export default function Collaborators() {
   return (
     <Wrapper id="collaborators">
       <div className="whiteBg" style={{ padding: "60px 0" }}>
@@ -21,11 +21,6 @@ export default function Services() {
           
             <h1 className="font40 extraBold">Our Collaborators</h1>
             <FiExternalLink style={{ color: '#730621', marginLeft: '10px' }}  size={30}/>
-            {/* <p className="font13">
-            Internal Collaborators
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p> */}
           </HeaderInfo>
        
           {/* <ServiceBoxRow className="flex">
@@ -60,48 +55,7 @@ export default function Services() {
           <ClientSlider />
         </div>
       </div>
-        {/* <div className="lightBg">
-          <div className="container">
-            <Advertising className="flexSpaceCenter">
-              <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
-                <h2 className="font40 extraBold">A Study of Creativity</h2>
-                <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
-                  </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
-                  </div>
-                </ButtonsRow>
-              </AddLeft>
-              <AddRight>
-                <AddRightInner>
-                  <div className="flexNullCenter">
-                    <AddImgWrapp1 className="flexCenter">
-                      <img src={AddImage1} alt="office" />
-                    </AddImgWrapp1>
-                    <AddImgWrapp2>
-                      <img src={AddImage2} alt="office" />
-                    </AddImgWrapp2>
-                  </div>
-                  <div className="flexNullCenter">
-                    <AddImgWrapp3>
-                      <img src={AddImage3} alt="office" />
-                    </AddImgWrapp3>
-                    <AddImgWrapp4>
-                      <img src={AddImage4} alt="office" />
-                    </AddImgWrapp4>
-                  </div>
-                </AddRightInner>
-              </AddRight>
-            </Advertising>
-          </div>
-        </div> */}
+ 
       </div>
     
       

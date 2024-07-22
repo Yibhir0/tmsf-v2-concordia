@@ -50,19 +50,24 @@ export default function TopNavbar() {
                 </li>
 
           ))}
-                
-    
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer ">
-              <a href="/" style={{ padding: "10px 30px 10px 0" }} className=" nav-link ">
+            <Link  style={{ padding: "10px 30px 10px 0" }} className="nav-link"  to="/" >
+            Francais
+            </Link>
+              {/* <a href="/" style={{ padding: "10px 30px 10px 0" }} className=" nav-link ">
                 Francais
-              </a>
+              </a> */}
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              <a href="/" className="radius8 darkBg nav-link orangeColor" style={{ padding: "10px 15px" }}>
+              {/* <a href="/" className="radius8 darkBg nav-link orangeColor" style={{ padding: "10px 15px" }}>
                 Contact Us
-              </a>
+              </a> */}
+
+              <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor"  to="contact" >
+              Contact Us
+            </Link>
             </li>
           </UlWrapperRight>
         </NavInner>

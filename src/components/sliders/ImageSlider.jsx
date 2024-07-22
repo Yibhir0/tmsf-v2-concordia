@@ -13,7 +13,7 @@ function ImageSlider() {
         {sliderImages.map((URL, index) => (
           <div className="slide">
             {/* <img alt="sample_file" src={URL} key={index} /> */}
-               <Img className="radius8" src={URL} key={index} alt="thermal-spray" style={{zIndex: 9}} />
+               <Img className="radius8" src={URL} key={index} alt="thermal-spray"  />
           </div>
         ))}
       </Carousel>

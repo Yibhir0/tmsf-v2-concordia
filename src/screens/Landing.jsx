@@ -2,22 +2,26 @@ import React from "react";
 // Sections
 import TopNavbar from "../components/Nav/TopNavbar";
 import Header from "../components/Sections/Header";
-import Services from "../components/Sections/Services";
-import Projects from "../components/Sections/Projects";
-import Blog from "../components/Sections/Blog";
-import Pricing from "../components/Sections/Pricing";
+import Collaborators from "../components/Sections/Collaborators";
+import People from "../components/Sections/People";
+import Reasearch from "../components/Sections/Research";
+import Publications from "../components/Sections/Publications";
 import Contact from "../components/Sections/Contact";
-import Footer from "../components/Sections/Footer"
+import Footer from "../components/Sections/Footer";
+import Teaching from "../components/Sections/Teaching";
+import Gallery from "../components/Sections/Gallery";
 
 export default function Landing() {
   return (
     <>
       <TopNavbar />
       <Header />
-      <Services />
-      <Projects />
-      <Blog />
-      <Pricing />
+      <People />
+      <Reasearch />
+      <Teaching />
+      <Publications />
+      <Collaborators />
+      <Gallery/>
       <Contact />
       <Footer />
     </>

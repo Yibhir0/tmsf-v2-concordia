@@ -1,91 +1,39 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import ProjectBox from "../Elements/ProjectBox";
+import BlogBox from "../Elements/BlogBox";
 import FullButton from "../Buttons/FullButton";
-import AddImage2 from "../../assets/img/add/add2.png";
 
-import { peopleImages } from "../../assets/img/people/peopleImages";
 
-export default function Projects() {
+import { courses } from "../../constants/courses";
+
+export default function People() {
   return (
     <Wrapper id="teaching">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Team</h1>
-            <p className="font20 extraBold myColor">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            <h1 className="font40 extraBold">Teaching</h1>
+            <p className="font13">
+            Thermal Spray and Multiphase Flow Laboratories
+            Department of Mechanical and Industrial Engineering
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Concordia University
             </p>
           </HeaderInfo>
           <div className="row textCenter">
-
-          {peopleImages.map((URL, index) => (
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" key={index}>
-            <ProjectBox
-              img={URL}
-              title="Fadhel Ben Ettouil"
-              text="Researcher, technical Support"
-              email="Email: fadhel.benettouil@concordia.ca"
-              phone=" Phone: (438) 879 - 2108"
-              office= "Office: EV 4-111"
-          
+          {courses.map((course) => (
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" key={course.id}>
+            <BlogBox
+              title={course.title}
+              text={course.text}
+              tag={course.tag}
+              author={course.author}
               action={() => alert("clicked")}
             />
           </div>
         ))}
-            {/* <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg1}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg2}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg3}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-          </div>
-          <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg4}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg5}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg6}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div> */}
+     
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
@@ -94,7 +42,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="lightBg">
+      {/* <div className="lightBg">
         <div className="container">
           <Advertising className="flexSpaceCenter">
             <AddLeft>
@@ -121,8 +69,8 @@ export default function Projects() {
               </ButtonsRow>
             </AddRight>
           </Advertising>
-        </div>
-      </div>
+        </div>*/}
+     
     </Wrapper>
   );
 }
