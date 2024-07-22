@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import styled from "styled-components";
 import { sliderImages } from "../../assets/img/slider/sliderImages";
 
 
@@ -12,7 +12,8 @@ function ImageSlider() {
         infiniteLoop={true}  >
         {sliderImages.map((URL, index) => (
           <div className="slide">
-            <img alt="sample_file" src={URL} key={index} />
+            {/* <img alt="sample_file" src={URL} key={index} /> */}
+               <Img className="radius8" src={URL} key={index} alt="thermal-spray" style={{zIndex: 9}} />
           </div>
         ))}
       </Carousel>
@@ -20,3 +21,11 @@ function ImageSlider() {
   );
 }
 export default ImageSlider;
+
+
+const Img = styled.img`
+  @media (max-width: 560px) {
+    width: 80%;
+    height: auto;
+  }
+`;
