@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/tmsf-v2-concordia/static/css/main.48d19c58.css",
-    "main.js": "/tmsf-v2-concordia/static/js/main.a084f827.js",
+    "main.css": "/tmsf-v2-concordia/static/css/main.720529e9.css",
+    "main.js": "/tmsf-v2-concordia/static/js/main.02b71fb6.js",
     "static/js/453.e714295e.chunk.js": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js",
+    "static/media/MPF1.jpg": "/tmsf-v2-concordia/static/media/MPF1.e9a52c4fb6e3615e93c8.jpg",
+    "static/media/TSL9.jpg": "/tmsf-v2-concordia/static/media/TSL9.80e8a6967705f832c966.jpg",
+    "static/media/TSL8.jpg": "/tmsf-v2-concordia/static/media/TSL8.1c9534ff8168ab9fbf0d.jpg",
+    "static/media/MPF4.jpg": "/tmsf-v2-concordia/static/media/MPF4.87f0b6e25263ea052c21.jpg",
     "static/media/05.jpg": "/tmsf-v2-concordia/static/media/05.97785a31c410d5e24f65.jpg",
+    "static/media/TSL7.JPG": "/tmsf-v2-concordia/static/media/TSL7.b3fd08f104bd6602da8e.JPG",
+    "static/media/TSL6.JPG": "/tmsf-v2-concordia/static/media/TSL6.648fb5c4dfe2ecdde94f.JPG",
+    "static/media/TSL1.JPG": "/tmsf-v2-concordia/static/media/TSL1.b1482d00f5eebf4b69a7.JPG",
     "static/media/CNRC.jpeg": "/tmsf-v2-concordia/static/media/CNRC.a296047c100acc7cdc27.jpeg",
+    "static/media/TSL2.JPG": "/tmsf-v2-concordia/static/media/TSL2.d03029182bd494e7fc0c.JPG",
+    "static/media/TSL3.JPG": "/tmsf-v2-concordia/static/media/TSL3.efc2d48f06cc94010f4d.JPG",
+    "static/media/TSL4.JPG": "/tmsf-v2-concordia/static/media/TSL4.b78d6defb84d9c39fc8c.JPG",
+    "static/media/MPF2.jpg": "/tmsf-v2-concordia/static/media/MPF2.63c04f314c869198e521.jpg",
+    "static/media/TSL5.JPG": "/tmsf-v2-concordia/static/media/TSL5.d677e74f4a9d83c6a961.JPG",
     "static/media/02.jpg": "/tmsf-v2-concordia/static/media/02.2876146004293541cf70.jpg",
     "static/media/01.jpg": "/tmsf-v2-concordia/static/media/01.f5163565f6b0df6e191a.jpg",
     "static/media/logo-text.jpg": "/tmsf-v2-concordia/static/media/logo-text.cf1854c3bb2dfe24594b.jpg",
+    "static/media/MPF3.jpg": "/tmsf-v2-concordia/static/media/MPF3.7650094932aabacb20c5.jpg",
+    "static/media/TSL10.jpg": "/tmsf-v2-concordia/static/media/TSL10.72ccbd6a5ee23c24a38c.jpg",
     "static/media/03.jpg": "/tmsf-v2-concordia/static/media/03.0624956079978ba78249.jpg",
     "static/media/04.jpg": "/tmsf-v2-concordia/static/media/04.46c870a5740eeeae60d3.jpg",
     "static/media/CRIAQ.jpg": "/tmsf-v2-concordia/static/media/CRIAQ.f7a914d609e64fcbfc5d.jpg",
@@ -29,12 +43,12 @@
     "static/media/slick.ttf": "/tmsf-v2-concordia/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tmsf-v2-concordia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tmsf-v2-concordia/index.html",
-    "main.48d19c58.css.map": "/tmsf-v2-concordia/static/css/main.48d19c58.css.map",
-    "main.a084f827.js.map": "/tmsf-v2-concordia/static/js/main.a084f827.js.map",
+    "main.720529e9.css.map": "/tmsf-v2-concordia/static/css/main.720529e9.css.map",
+    "main.02b71fb6.js.map": "/tmsf-v2-concordia/static/js/main.02b71fb6.js.map",
     "453.e714295e.chunk.js.map": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d19c58.css",
-    "static/js/main.a084f827.js"
+    "static/css/main.720529e9.css",
+    "static/js/main.02b71fb6.js"
   ]
 }
