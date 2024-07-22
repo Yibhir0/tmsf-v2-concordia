@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69c4a0fd.css",
+    "main.js": "/static/js/main.9afda8c1.js",
+    "static/js/453.e714295e.chunk.js": "/static/js/453.e714295e.chunk.js",
+    "static/media/05.jpg": "/static/media/05.97785a31c410d5e24f65.jpg",
+    "static/media/CNRC.jpeg": "/static/media/CNRC.a296047c100acc7cdc27.jpeg",
+    "static/media/02.jpg": "/static/media/02.2876146004293541cf70.jpg",
+    "static/media/01.jpg": "/static/media/01.f5163565f6b0df6e191a.jpg",
+    "static/media/logo-text.jpg": "/static/media/logo-text.cf1854c3bb2dfe24594b.jpg",
+    "static/media/03.jpg": "/static/media/03.0624956079978ba78249.jpg",
+    "static/media/04.jpg": "/static/media/04.46c870a5740eeeae60d3.jpg",
+    "static/media/CRIAQ.jpg": "/static/media/CRIAQ.f7a914d609e64fcbfc5d.jpg",
+    "static/media/UA.png": "/static/media/UA.d793facb2bfb9959b75f.png",
+    "static/media/siemens.jpg": "/static/media/siemens.27c1d11f93312900d81f.jpg",
+    "static/media/simulent.jpg": "/static/media/simulent.f5719e699090d47a71d6.jpg",
+    "static/media/rolls-royce.jpg": "/static/media/rolls-royce.cd35f0226af337e95bc5.jpg",
+    "static/media/Pratt-and-Whitney.png": "/static/media/Pratt-and-Whitney.64cd4dac92d4e5c27c90.png",
+    "static/media/Christian-Moreau.jpg": "/static/media/Christian-Moreau.2c7b5d4ab7ba3ae565c8.jpg",
+    "static/media/Maniya-Aghasibeig.jpg": "/static/media/Maniya-Aghasibeig.801a4089f5b0aaa09c03.jpg",
+    "static/media/Khalid-Koraitem.jpg": "/static/media/Khalid-Koraitem.ea2b5c7bc460efc0baff.jpg",
+    "static/media/Ali-Doltabadi.jpg": "/static/media/Ali-Doltabadi.0619b1c5f808748f3b31.jpg",
+    "static/media/Nanoxplore-logo.png": "/static/media/Nanoxplore-logo.dcbd4bb4d73e7bd72713.png",
+    "static/media/Bombardier.jpg": "/static/media/Bombardier.7fd338ca4aa9511f6012.jpg",
+    "static/media/Dennis-De-Pauw.jpg": "/static/media/Dennis-De-Pauw.361538653d1b4d1b783a.jpg",
+    "static/media/Fadhel-Ben-Ettouil.jpg": "/static/media/Fadhel-Ben-Ettouil.b3fbf50a89d8d0f0e51e.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.69c4a0fd.css.map": "/static/css/main.69c4a0fd.css.map",
+    "main.9afda8c1.js.map": "/static/js/main.9afda8c1.js.map",
+    "453.e714295e.chunk.js.map": "/static/js/453.e714295e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69c4a0fd.css",
+    "static/js/main.9afda8c1.js"
+  ]
+}
