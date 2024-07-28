@@ -10,40 +10,25 @@ import ImageSlider from "../sliders/ImageSlider";
 
 export default function Header() {
   return (
-    <Wrapper id="home" className="container flexSpaceCenter">
-      <LeftSide className="flexCenter">
+    <Wrapper id="home" className="container flexNullCenter">
+      <LeftSide >
         <div>
-          <h1 className="extraBold font60">Concordia University</h1>
+          <h1 className="extraBold font40">Thermal Spray and Multiphase Flow Laboratories</h1>
           <HeaderP className="font20 extraBold myColor">
-            Thermal Spray and Multiphase Flow Laboratories
             Department of Mechanical and Industrial Engineering
+            Concordia University
           </HeaderP>
         
           <BtnWrapper>
-            <FullButton title="Contact Us" />
+            <FullButton title="Learn More" />
           </BtnWrapper>
         </div>
       </LeftSide>
-      <RightSide>
+      <RightSide >
         <ImageWrapper>
           <ImageSlider/>
-          {/* <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
-          <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
-              </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
-            </div>
-          </QuoteWrapper>
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper> */}
         </ImageWrapper>
-        {/* <GreyDiv className="lightBg"></GreyDiv> */}
+  
       </RightSide>
     </Wrapper>
   );
@@ -51,10 +36,11 @@ export default function Header() {
 
 
 const Wrapper = styled.section`
-  padding-top: 80px;
+  padding-top: 60px;
   width: 100%;
-  min-height: 840px;
+  min-height: 600px;
   @media (max-width: 960px) {
+
     flex-direction: column;
   }
 `;

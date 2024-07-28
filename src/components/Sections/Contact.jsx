@@ -1,3 +1,4 @@
+
 import React from "react";
 import styled from "styled-components";
 // Assets
@@ -18,6 +19,7 @@ export default function Contact() {
     line2: 'Montreal, QC',
     line3: 'H3G 2E9, Canada',
   };
+
   return (
     <Wrapper id="contact">
       <div className="lightBg">
@@ -30,8 +32,8 @@ export default function Contact() {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <div className="flexSpaceCenter" style={{ paddingBottom: "30px" }}>
-            <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
+          <ContentWrapper>
+          <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
               <Form>
                 <label className="font13">First name:</label>
                 <input type="text" id="fname" name="fname" className="font20 extraBold" />
@@ -47,14 +49,13 @@ export default function Contact() {
               </SumbitWrapper>
             </div>
             <ContactCard
-                companyName="Example Company"
-                address={address}
-                phone="08055384406"
-                email="info@mld.ng"
-                socialLinks={socialLinks}
+              companyName="Example Company"
+              address={address}
+              phone="08055384406"
+              email="info@mld.ng"
+              socialLinks={socialLinks}
             />
-            </div>
-        
+          </ContentWrapper>
         </div>
       </div>
     </Wrapper>
@@ -64,12 +65,14 @@ export default function Contact() {
 const Wrapper = styled.section`
   width: 100%;
 `;
+
 const HeaderInfo = styled.div`
   padding: 70px 0 30px 0;
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
+
 const Form = styled.form`
   padding: 70px 0 30px 0;
   input,
@@ -90,6 +93,7 @@ const Form = styled.form`
     padding: 30px 0;
   }
 `;
+
 const ButtonInput = styled.input`
   border: 1px solid #800000;
   background-color: #800000;
@@ -106,11 +110,7 @@ const ButtonInput = styled.input`
     margin: 0 auto;
   }
 `;
-const ContactImgBox = styled.div`
-  max-width: 180px; 
-  align-self: flex-end; 
-  margin: 10px 30px 10px 0;
-`;
+
 const SumbitWrapper = styled.div`
   @media (max-width: 991px) {
     width: 100%;
@@ -118,11 +118,13 @@ const SumbitWrapper = styled.div`
   }
 `;
 
-
-
-
-
-
-
-
-
+const ContentWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: center;
+  @media (max-width: 860px) {
+    flex-direction: column;
+  }
+`;
