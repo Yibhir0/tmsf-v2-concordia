@@ -82,6 +82,10 @@ const Wrapper = styled.nav`
   top: 0;
   left: 0;
   z-index: 999;
+     background-color: #f9f9f9; /* Very light grey, almost white */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 `;
 const NavInner = styled.div`
   position: relative;

@@ -51,6 +51,7 @@ const Wrapper = styled.div`
   text-align: left;
   padding: 20px 30px;
   margin-top: 30px;
+    border: 1px solid #e0e0e0;
 `;
 
 const PublicationItem = styled.div`

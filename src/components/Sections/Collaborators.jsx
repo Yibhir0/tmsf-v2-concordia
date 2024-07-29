@@ -10,7 +10,6 @@ import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
 
-import { FiExternalLink } from "react-icons/fi";
 
 export default function Collaborators() {
   return (
@@ -20,7 +19,7 @@ export default function Collaborators() {
           <HeaderInfo>
           
             <h1 className="font40 extraBold">Our Collaborators</h1>
-            <FiExternalLink style={{ color: '#730621', marginLeft: '10px' }}  size={30}/>
+          
           </HeaderInfo>
        
           {/* <ServiceBoxRow className="flex">

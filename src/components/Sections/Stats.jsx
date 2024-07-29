@@ -46,7 +46,7 @@ const Stats = () => {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <StatsWrapper>
+    <StatsWrapper>
       <StatsSection>
       {stats.map((stat) => (
           <StatCard key={stat.id}>
@@ -87,9 +87,10 @@ const Wrapper = styled.section`
 `;
 
 const StatsWrapper = styled.section`
-  padding: 60px 20px;
+  padding: 40px 20px;
   background: #f9f9f9;
   text-align: center;
+  margin: 0;
 `;
 
 const HeaderInfo = styled.div`
