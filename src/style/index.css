@@ -338,6 +338,12 @@
   font-size: 24px;
 }
 
+.center-item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .contact-detail {
   color: #9ca3af; /* text-gray-400 */
   font-size: 14px;

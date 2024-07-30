@@ -45,7 +45,7 @@ export default function Publications() {
             <TableBox>
               <PublicationTable
                 icon="book"
-                title="Professor Ali Dolatabadi "
+                title="Professor Pantcho P. Stoyanov "
                 description="List of recent research publications from our university."
                 publications={[
                   {
@@ -70,7 +70,7 @@ export default function Publications() {
             <TableBox>
               <PublicationTable
                 icon="book"
-                title="Professor Christian Moreau "
+                title="Professor Moussa Tembely "
                 description="List of recent research publications from our university."
                 publications={[
                   {
