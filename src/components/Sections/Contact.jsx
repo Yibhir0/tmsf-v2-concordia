@@ -2,9 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
+
 
 import ContactCard from "../Elements/ContactCard";
 
@@ -12,6 +10,8 @@ export default function Contact() {
   const socialLinks = {
     facebook: 'https://www.facebook.com/ENLIGHTENEERING/',
     linkedin: 'https://www.linkedin.com/company/enlighteneering-inc-',
+    twitter: 'https://www.facebook.com/ENLIGHTENEERING/',
+    youtube: 'https://www.linkedin.com/company/enlighteneering-inc-',
   };
 
   const address = {
@@ -49,7 +49,6 @@ export default function Contact() {
               </SumbitWrapper>
             </div>
             <ContactCard
-              companyName="Example Company"
               address={address}
               phone="08055384406"
               email="info@mld.ng"

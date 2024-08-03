@@ -50,9 +50,7 @@ const WrapperBtn = styled.button`
   margin: 0;
   padding: 0;
 
-  &:hover {
-    opacity: 0.8;
-  }
+ 
 `;
 
 const Text = styled.p`

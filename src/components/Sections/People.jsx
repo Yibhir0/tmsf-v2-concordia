@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
-import AddImage2 from "../../assets/img/add/add2.png";
+
 import { people } from "../../constants/people";
 
 export default function People() {
@@ -30,9 +30,7 @@ export default function People() {
                   name={person.name}
                   occupation={person.occupation}
                   department={person.department}
-                  email="Email: name@concordia.ca"
-                  phone=" Phone: Phone Number"
-                  office="Office: Office Number"
+                  email={person.email}
                   action={() => alert("clicked")}
                 />
               </div>
@@ -61,12 +59,6 @@ const HeaderInfo = styled.div`
   }
 `;
 
-const centerItemStyle = `
-  display: flex;
-  justify-content: center;
-  width: 100%;
-`;
 
-const CenterItem = styled.div`
-  ${centerItemStyle}
-`;
+
+

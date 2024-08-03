@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import CloseIcon from "../../assets/svg/CloseIcon";
 // import LogoIcon from "../../assets/svg/Logo";
 import LogoIcon from "../../assets/logos/Logo";
-import { navLinks } from "../../constants";
+import { navLinks } from "../../constants/navLinks";
 
 export default function Sidebar({ sidebarOpen, toggleSidebar }) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function ProjectBox({ img,  name, occupation,department,email,phone,office, action}) {
+export default function ProjectBox({ img,  name, occupation,department,email, action}) {
 
   
   return (
@@ -13,8 +13,7 @@ export default function ProjectBox({ img,  name, occupation,department,email,pho
       <p className="font15">{occupation}</p>
       <p className="font15">{department}</p>
       <p className="font13">{email}</p>
-      <p className="font13">{phone}</p>
-      <p className="font13">{office}</p>
+  
     </Wrapper>
   );
 }

@@ -8,7 +8,7 @@ import Backdrop from "../Elements/Backdrop";
 import LogoIcon from "../../assets/logos/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
-import { navLinks } from "../../constants";
+import { navLinks } from "../../constants/navLinks";
 
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
@@ -56,14 +56,10 @@ export default function TopNavbar() {
             <Link  style={{ padding: "10px 30px 10px 0" }} className="nav-link"  to="/" >
             Francais
             </Link>
-              {/* <a href="/" style={{ padding: "10px 30px 10px 0" }} className=" nav-link ">
-                Francais
-              </a> */}
+            
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              {/* <a href="/" className="radius8 darkBg nav-link orangeColor" style={{ padding: "10px 15px" }}>
-                Contact Us
-              </a> */}
+            
 
               <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor"  to="contact" >
               Contact Us

@@ -5,25 +5,28 @@ export const people = [
     {
         id: "cm",
         name: "Christian Moreau, PhD, FASM ",
-        occupation: "Professor and Canada Research Chair-Tier 1",
+        occupation: "Professor & Thermal Spray Director",
         department: "Mechanical, Industrial and Aerospace Engineering ",
         img: peopleImages[0],
+        email: "christian.moreau@concordia.ca"
 
     },
     {
         id: "pps",
         name: "Pantcho P. Stoyanov, PhD ",
-        occupation: "Associate Professor",
+        occupation: "Associate Professor & Tribology Lab Director",
         department: "Chemical and Materials Engineering ",
         img: peopleImages[1],
+        email: "pantcho.stoyanov@concordia.ca"
 
     },
     {
         id: "mt",
         name: "  Moussa Tembely, PhD ",
-        occupation: "Assistant Professor",
+        occupation: "Assistant Professor  ",
         department: "Mechanical, Industrial and Aerospace Engineering ",
         img: peopleImages[2],
+        email: "moussa.tembely@concordia.ca"
 
     },
     {
@@ -32,6 +35,7 @@ export const people = [
         occupation: "Research Associate & Lab Manager",
         department: "Mechanical, Industrial and Aerospace Engineering ",
         img: peopleImages[3],
+        email: "fadhel.benettouil@concordia.ca"
 
     },
 

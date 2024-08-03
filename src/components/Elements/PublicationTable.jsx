@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import FullButton from "../Buttons/FullButton";
 import BookIcon from "../../assets/svg/Services/PrinterIcon"; // Assuming you have an icon for publications
 
 export default function PublicationTable({ icon, title, description, publications, action }) {
@@ -39,9 +38,7 @@ export default function PublicationTable({ icon, title, description, publication
             ))
           : null}
       </div>
-      {/* <div style={{ maxWidth: "120px", margin: "30px auto 0 auto" }}>
-        <FullButton title="Learn More" action={action} />
-      </div> */}
+    
     </Wrapper>
   );
 }

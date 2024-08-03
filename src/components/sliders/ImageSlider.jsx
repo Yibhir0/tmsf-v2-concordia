@@ -8,11 +8,11 @@ function ImageSlider() {
   return (
     <div className="box">
       <Carousel useKeyboardArrows={true} showArrows={true}  autoPlay={true} 
-        interval={3000} 
+        interval={1500} 
         infiniteLoop={true}  >
         {sliderImages.map((URL, index) => (
           <div className="slide">
-            {/* <img alt="sample_file" src={URL} key={index} /> */}
+        
                <Img className="radius8" src={URL} key={index} alt="thermal-spray"  />
           </div>
         ))}

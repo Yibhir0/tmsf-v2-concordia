@@ -1,17 +1,7 @@
+
+
 export const stats = [
-    {
-        id: "stats-1",
-        title: "User Active",
-        value: "3800+",
-    },
-    {
-        id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
-    },
-    {
-        id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
-    },
+    { id: 1, value: 380, title: "Students", },
+    { id: 2, value: 230, title: 'TRUSTED BY COMPANY' },
+    { id: 3, value: 230, title: 'Research' },
 ];

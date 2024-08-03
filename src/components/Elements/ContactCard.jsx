@@ -3,7 +3,7 @@ import React from 'react';
 
 import { FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
 
-const ContactCard = ({ companyName, address, phone, email, socialLinks }) => {
+const ContactCard = ({ address, phone, email, socialLinks }) => {
   return (
     <div className="contact-card">
       <div className="contact-info">
@@ -43,6 +43,16 @@ const ContactCard = ({ companyName, address, phone, email, socialLinks }) => {
         {socialLinks.linkedin && (
           <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon">
             <FaLinkedinIn />
+          </a>
+        )}
+            {socialLinks.twitter && (
+          <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="social-icon">
+            <FaTwitter />
+          </a>
+        )}
+        {socialLinks.youtube && (
+          <a href={socialLinks.youtube} target="_blank" rel="noopener noreferrer" aria-label="Youtube" className="social-icon">
+            <FaYoutube />
           </a>
         )}
       </div>

@@ -1,16 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import CountUp from 'react-countup';
 import styled from 'styled-components';
+import {stats} from '../../constants/stats'
 
-const stats = [
-  { id: 1, value: 3800, title: 'USER ACTIVE' },
-  { id: 2, value: 230, title: 'TRUSTED BY COMPANY' },
-  { id: 3, value: 230, title: 'TRANSACTION', prefix: '$', suffix: 'M' },
-];
+
 
 const Stats = () => {
   const [inView, setInView] = useState(false);
-  const statsRef = useRef();
+  const statsRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -24,21 +21,24 @@ const Stats = () => {
       { threshold: 0.5 }
     );
 
-    if (statsRef.current) {
-      observer.observe(statsRef.current);
+    const currentRef = statsRef.current; // Store the ref value in a variable
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (statsRef.current) {
-        observer.unobserve(statsRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
+
   return (
     <Wrapper ref={statsRef}>
-    <div className="whiteBg">
-      <div className="container">
-        <HeaderInfo>
+      <div className="whiteBg">
+        <div className="container">
+          <HeaderInfo>
             <h1 className="font40 extraBold">Our Statistics</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
@@ -46,32 +46,30 @@ const Stats = () => {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-    <StatsWrapper>
-      <StatsSection>
-      {stats.map((stat) => (
-          <StatCard key={stat.id}>
-            {inView ? (
-              <h4>
-                <CountUp
-                  end={stat.value}
-                  duration={2.5}
-                  prefix={stat.prefix || ''}
-                  suffix={stat.suffix ? stat.suffix + '+' : '+'}
-                />
-              </h4>
-            ) : (
-              <h4>0</h4>
-            )}
-            <p>{stat.title}</p>
-          </StatCard>
-        ))}
-      </StatsSection>
-    </StatsWrapper>
-    </div>
+          <StatsWrapper>
+            <StatsSection>
+              {stats.map((stat) => (
+                <StatCard key={stat.id}>
+                  {inView ? (
+                    <h4>
+                      <CountUp
+                        end={stat.value}
+                        duration={2.5}
+                        prefix={stat.prefix || ''}
+                        suffix={stat.suffix ? stat.suffix + '+' : '+'}
+                      />
+                    </h4>
+                  ) : (
+                    <h4>0</h4>
+                  )}
+                  <p>{stat.title}</p>
+                </StatCard>
+              ))}
+            </StatsSection>
+          </StatsWrapper>
+        </div>
       </div>
-   
     </Wrapper>
-    
   );
 };
 
@@ -81,7 +79,6 @@ const Wrapper = styled.section`
   width: 100%;
   padding-bottom: 50px;
   @media (max-width: 960px) {
-
     flex-direction: column;
   }
 `;
