@@ -9,12 +9,7 @@ import ImageSlider from "../sliders/ImageSlider";
 export default function Header() {
   return (
     <Wrapper id="home" className="container flexNullCenter flexColumn">
-       <RightSide >
-        <ImageWrapper>
-          <ImageSlider/>
-        </ImageWrapper>
-  
-      </RightSide>
+    
       <LeftSide >
         <div>
           <h1 className="extraBold font40">Thermal Spray and Multiphase Flow Laboratories</h1>
@@ -28,6 +23,12 @@ export default function Header() {
           </BtnWrapper>
         </div>
       </LeftSide>
+      <RightSide >
+        <ImageWrapper>
+          <ImageSlider/>
+        </ImageWrapper>
+  
+      </RightSide>
      
     </Wrapper>
   );
@@ -47,20 +48,23 @@ const LeftSide = styled.div`
   width: 100%;
   height: 100%;
   margin-bottom: 50px;
+  margin-top: 50px;
   @media (max-width: 960px) {
     width: 100%;
-    margin-bottom: 50px;
+    margin-top: 0;
     text-align: center;
+    order:2;
   }
 
 `;
 const RightSide = styled.div`
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-bottom: 50px;
   @media (max-width: 960px) {
     width: 100%;
     margin-top: 50px;
+    order:1;
   }
 `;
 const HeaderP = styled.div`
