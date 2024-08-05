@@ -3,7 +3,11 @@ import styled from "styled-components";
 // Components
 import PublicationTable from "../Elements/PublicationTable";
 
+import { publications } from "../../constants/publications";
+
 export default function Publications() {
+
+ 
   return (
     <Wrapper id="publications">
       <div className="whiteBg">
@@ -17,81 +21,22 @@ export default function Publications() {
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
-            <TableBox>
-              <PublicationTable
-                  icon="book"
-                  title="Professor Christian Moreau "
-                  description="List of recent research publications from our university."
-                  publications={[
-                    {
-                      title: "Research Paper 1",
-                      authors: "Author 1, Author 2",
-                      journal: "Journal Name",
-                      year: 2023,
-                      link: "https://example.com/paper1"
-                    },
-                    {
-                      title: "Research Paper 2",
-                      authors: "Author 3, Author 4",
-                      journal: "Another Journal",
-                      year: 2022,
-                      link: "https://example.com/paper2"
-                    },
-                    // Add more publication objects as needed
-                  ]}
-                  action={() => alert("Publication clicked")}
-                  />
-            </TableBox>
-            <TableBox>
-              <PublicationTable
+          {publications
+          ? publications.map((publication, index) => (
+            <TableBox key={index}>
+            <PublicationTable
                 icon="book"
-                title="Professor Pantcho P. Stoyanov "
+                title={publication.title}
                 description="List of recent research publications from our university."
-                publications={[
-                  {
-                    title: "Research Paper 1",
-                    authors: "Author 1, Author 2",
-                    journal: "Journal Name",
-                    year: 2023,
-                    link: "https://example.com/paper1"
-                  },
-                  {
-                    title: "Research Paper 2",
-                    authors: "Author 3, Author 4",
-                    journal: "Another Journal",
-                    year: 2022,
-                    link: "https://example.com/paper2"
-                  },
-                  // Add more publication objects as needed
-                ]}
-                action={() => alert("Publication clicked")}
-              />
-            </TableBox>
-            <TableBox>
-              <PublicationTable
-                icon="book"
-                title="Professor Moussa Tembely "
-                description="List of recent research publications from our university."
-                publications={[
-                  {
-                    title: "Research Paper 1",
-                    authors: "Author 1, Author 2",
-                    journal: "Journal Name",
-                    year: 2023,
-                    link: "https://example.com/paper1"
-                  },
-                  {
-                    title: "Research Paper 2",
-                    authors: "Author 3, Author 4",
-                    journal: "Another Journal",
-                    year: 2022,
-                    link: "https://example.com/paper2"
-                  },
-                  // Add more publication objects as needed
-                ]}
-                action={() => alert("Publication clicked")}
-              />
-            </TableBox>
+                publications={publication.publications}
+                scholarLink={publication.scholarLink}
+
+                action={() =>  window.open(publication.scholarLink, '_blank')}
+                />
+          </TableBox>
+            ))
+          : null}
+           
           </TablesWrapper>
         </div>
       </div>

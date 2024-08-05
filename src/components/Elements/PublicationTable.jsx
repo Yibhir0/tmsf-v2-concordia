@@ -1,23 +1,25 @@
 import React from "react";
 import styled from "styled-components";
-import BookIcon from "../../assets/svg/Services/PrinterIcon"; // Assuming you have an icon for publications
 
-export default function PublicationTable({ icon, title, description, publications, action }) {
+import GoogleScholar from "../../assets/svg/GoogleScholar"; // Assuming you have an icon for publications
+
+export default function PublicationTable({ icon, title, description, publications,scholarLink, action }) {
   let getIcon;
 
   switch (icon) {
     case "book":
-      getIcon = <BookIcon />;
+      getIcon = <GoogleScholar  />;
       break;
     default:
-      getIcon = <BookIcon />;
+      getIcon = <GoogleScholar  />;
       break;
   }
 
   return (
-    <Wrapper className="grayBg radius8 shadow">
+    
+    <Wrapper className="grayBg radius8 shadow" >
       <div className="flexSpaceCenter">
-        {getIcon}
+        <a href={scholarLink} target="_blank" rel="noreferrer" title={title}>{getIcon}</a>
       </div>
       <div style={{ margin: "30px 0" }}>
         <h4 className="font30 extraBold">{title}</h4>
@@ -49,6 +51,20 @@ const Wrapper = styled.div`
   padding: 20px 30px;
   margin-top: 30px;
     border: 1px solid #e0e0e0;
+`;
+
+const WrapperBtn = styled.button`
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+ 
 `;
 
 const PublicationItem = styled.div`
