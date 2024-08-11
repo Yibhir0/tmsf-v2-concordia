@@ -4,6 +4,8 @@ import styled from "styled-components";
 import ImageGallery from "../sliders/ImageGallery";
 import FullButton from "../Buttons/FullButton";
 
+import Video from "../Elements/Video"
+
 
 export default function Gallery() {
   return (
@@ -19,10 +21,10 @@ export default function Gallery() {
             </p>
           </HeaderInfo>
 
-          <div style={{marginTop:"40px"}}>
+          <div >
+            <Video url='https://vimeo.com/975637287' />
             <ImageGallery/>
           </div>
-        
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
               <FullButton title="Load More" action={() => alert("clicked")} />
@@ -37,10 +39,12 @@ export default function Gallery() {
 
 const Wrapper = styled.section`
   width: 100%;
+
 `;
 const HeaderInfo = styled.div`
 
   @media (max-width: 860px) {
+   
     text-align: center;
   }
 `;

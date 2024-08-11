@@ -8,7 +8,7 @@ import ContactCard from "../Elements/ContactCard";
 
 export default function Contact() {
   const socialLinks = {
-    facebook: 'https://www.facebook.com/ENLIGHTENEERING/',
+    facebook: 'https://www.facebook.com/MultiphaseFlowThermalSprayLaboratory',
     linkedin: 'https://www.linkedin.com/company/enlighteneering-inc-',
     twitter: 'https://www.facebook.com/ENLIGHTENEERING/',
     youtube: 'https://www.linkedin.com/company/enlighteneering-inc-',

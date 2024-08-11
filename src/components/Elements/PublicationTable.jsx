@@ -53,19 +53,6 @@ const Wrapper = styled.div`
     border: 1px solid #e0e0e0;
 `;
 
-const WrapperBtn = styled.button`
-  border: 0px;
-  outline: none;
-  background-color: transparent;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-
- 
-`;
 
 const PublicationItem = styled.div`
   margin: 15px 0;
