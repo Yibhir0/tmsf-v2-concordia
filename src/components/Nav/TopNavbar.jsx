@@ -54,13 +54,11 @@ export default function TopNavbar() {
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer ">
             <Link  style={{ padding: "10px 30px 10px 0" }} className="nav-link"  to="/" >
-            Francais
+              Francais
             </Link>
             
             </li>
             <li className="semiBold font15 pointer flexCenter">
-            
-
               <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor"  to="contact" >
               Contact Us
             </Link>

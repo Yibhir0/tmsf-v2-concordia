@@ -51,10 +51,15 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </a>
         </li> 
          <li className="semiBold font15 pointer flexCenter">
-          <a href="/" className="radius8 orangeBg alink myColor " style={{ padding: "10px 15px" }} activeClass="active"
-                    >
-            Contact Us
-          </a>
+          
+          <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg alink myColor "  to="contact" activeClass="active"
+             onClick={() => toggleSidebar(!sidebarOpen)}
+             spy={true}
+             smooth={true}
+             offset={-60}
+          >
+              Contact Us
+            </Link>
         </li>
       </UlStyle>
     </Wrapper>
