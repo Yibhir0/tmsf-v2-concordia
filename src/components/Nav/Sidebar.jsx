@@ -52,7 +52,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         </li>
         <li className="semiBold font15 pointer flexCenter">
 
-          <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg alink myColor " to="contact"
+          <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="contact"
             onClick={() => toggleSidebar(!sidebarOpen)}
             spy={true}
             smooth={true}
