@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create .env file from GitHub environment variables
+        run: |
+          echo "REACT_APP_SERVICE_ID=$REACT_APP_SERVICE_ID" >> .env
+          echo "REACT_APP_TEMPLATE_ID=$REACT_APP_TEMPLATE_ID" >> .env
+          echo "REACT_APP_PUBLIC_KEY=$REACT_APP_PUBLIC_KEY" >> .env
+        env:
+          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID}}
+          REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY}}
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
