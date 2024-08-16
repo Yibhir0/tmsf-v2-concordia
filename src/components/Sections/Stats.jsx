@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import CountUp from 'react-countup';
 import styled from 'styled-components';
-import {stats} from '../../constants/stats'
+import { stats } from '../../constants/stats'
 
 
 

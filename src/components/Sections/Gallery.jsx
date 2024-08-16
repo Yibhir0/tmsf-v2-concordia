@@ -10,7 +10,7 @@ import Video from "../Elements/Video"
 export default function Gallery() {
   return (
     <Wrapper id="gallery">
-        <div className="whiteBg">
+      <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Gallery</h1>
@@ -23,7 +23,7 @@ export default function Gallery() {
 
           <div >
             <Video url='https://vimeo.com/975637287' />
-            <ImageGallery/>
+            <ImageGallery />
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
@@ -32,7 +32,7 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-    
+
     </Wrapper>
   );
 }

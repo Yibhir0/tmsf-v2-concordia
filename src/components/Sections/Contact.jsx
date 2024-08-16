@@ -1,5 +1,6 @@
 
 import React from "react";
+
 import styled from "styled-components";
 import emailjs from 'emailjs-com';
 // Assets
@@ -17,11 +18,11 @@ export default function Contact() {
 
   // const SERVICE_ID = process.env.SERVICE_ID;
   // const TEMPLATE_ID = process.env.TEMPLATE_ID;
-  //  const PUBLIC_KEY = process.env.PUBLIC_KEY;
+  // const PUBLIC_KEY = process.env.PUBLIC_KEY;
 
-const SERVICE_ID = "service_qa4t9cl";
-const TEMPLATE_ID = "template_63z4n8u";
-const PUBLIC_KEY = "hJKfOqxEHWZ5v5XBL";
+  const SERVICE_ID = "service_qa4t9cl";
+  const TEMPLATE_ID = "template_63z4n8u";
+  const PUBLIC_KEY = "hJKfOqxEHWZ5v5XBL";
 
   const address = {
     line1: '1550 De Maisonneuve West',
@@ -42,7 +43,7 @@ const PUBLIC_KEY = "hJKfOqxEHWZ5v5XBL";
       });
     e.target.reset()
   };
-  
+
   return (
     <Wrapper id="contact">
       <div className="lightBg">
@@ -56,32 +57,32 @@ const PUBLIC_KEY = "hJKfOqxEHWZ5v5XBL";
             </p>
           </HeaderInfo>
           <ContentWrapper>
-          <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
-              <Form onSubmit = {handleOnSubmit}>
+            <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
+              <Form onSubmit={handleOnSubmit}>
                 <label className="font13">First name:</label>
                 <input type="text" id="fname" name="fname" className="font20 extraBold" />
                 <label className="font13">Email:</label>
                 <input type="text" id="email" name="email" className="font20 extraBold" />
                 <label className="font13">Subject:</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold"  />
+                <input type="text" id="subject" name="subject" className="font20 extraBold" />
                 <label className="font13">Message:</label>
-                <textarea rows="3" cols="50" type="text" id="message" name="message" className="font20 extraBold"  />
-              
-              <SumbitWrapper className="flex">
-           
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} >
-                Send Message
-                </ButtonInput>
-              </SumbitWrapper>
+                <textarea rows="3" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+
+                <SumbitWrapper className="flex">
+
+                  <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} >
+                    Send Message
+                  </ButtonInput>
+                </SumbitWrapper>
               </Form>
-        </div>
-          <ContactCard
-            address={address}
-            phone="08055384406"
-            email="info@mld.ng"
-            socialLinks={socialLinks}
-          />
-      </ContentWrapper>
+            </div>
+            <ContactCard
+              address={address}
+              phone="08055384406"
+              email="info@mld.ng"
+              socialLinks={socialLinks}
+            />
+          </ContentWrapper>
         </div>
       </div>
     </Wrapper>

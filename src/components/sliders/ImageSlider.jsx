@@ -7,13 +7,12 @@ import { sliderImages } from "../../assets/img/slider/sliderImages";
 function ImageSlider() {
   return (
     <div className="box">
-      <Carousel useKeyboardArrows={true} showArrows={true}  autoPlay={true} 
-        interval={2000} 
+      <Carousel useKeyboardArrows={true} showArrows={true} autoPlay={true}
+        interval={2000}
         infiniteLoop={true}  >
         {sliderImages.map((URL, index) => (
-          <div className="slide">
-            {/* <img alt="sample_file" src={URL} key={index} /> */}
-               <Img className="radius8" src={URL} key={index} alt="thermal-spray"  />
+          <div className="slide" key={index}>
+            <Img className="radius8" src={URL} alt="thermal-spray" />
           </div>
         ))}
       </Carousel>

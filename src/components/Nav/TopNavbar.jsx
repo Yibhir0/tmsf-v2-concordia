@@ -30,38 +30,38 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
             <LogoIcon />
-            <h1 style={{ marginLeft: "15px", color:"#730621" }} className="font20 extraBold ">
+            <h1 style={{ marginLeft: "15px", color: "#730621" }} className="font20 extraBold ">
               TSFM
             </h1>
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
             <BurgerIcon />
           </BurderWrapper>
-       
+
           <UlWrapper className="flexNullCenter">
 
-          {
-                navLinks.map((nav, i) => (
+            {
+              navLinks.map((nav, i) => (
 
-                  <li className="semiBold font15 pointer " key={i}>
-                  <Link activeClass="active" style={{ padding: "10px 15px " }} className="nav-link"  to={nav.id} spy={true} smooth={true} offset={-80}>
+                <li className="semiBold font15 pointer " key={i}>
+                  <Link style={{ padding: "10px 15px " }} className="nav-link" to={nav.id} spy={true} smooth={true} offset={-80}>
                     {nav.title}
                   </Link>
                 </li>
 
-          ))}
+              ))}
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer ">
-            <Link  style={{ padding: "10px 30px 10px 0" }} className="nav-link"  to="/" >
-              Francais
-            </Link>
-            
+              <Link style={{ padding: "10px 30px 10px 0" }} className="nav-link" to="/" >
+                FR
+              </Link>
+
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor"  to="contact" >
-              Contact Us
-            </Link>
+              <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="contact" >
+                Contact Us
+              </Link>
             </li>
           </UlWrapperRight>
         </NavInner>

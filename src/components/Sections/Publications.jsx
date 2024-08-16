@@ -7,7 +7,7 @@ import { publications } from "../../constants/publications";
 
 export default function Publications() {
 
- 
+
   return (
     <Wrapper id="publications">
       <div className="whiteBg">
@@ -21,22 +21,22 @@ export default function Publications() {
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
-          {publications
-          ? publications.map((publication, index) => (
-            <TableBox key={index}>
-            <PublicationTable
-                icon="book"
-                title={publication.title}
-                description="List of recent research publications from our university."
-                publications={publication.publications}
-                scholarLink={publication.scholarLink}
+            {publications
+              ? publications.map((publication, index) => (
+                <TableBox key={index}>
+                  <PublicationTable
+                    icon="book"
+                    title={publication.title}
+                    description="List of recent research publications from our university."
+                    publications={publication.publications}
+                    scholarLink={publication.scholarLink}
 
-                action={() =>  window.open(publication.scholarLink, '_blank')}
-                />
-          </TableBox>
-            ))
-          : null}
-           
+                    action={() => window.open(publication.scholarLink, '_blank')}
+                  />
+                </TableBox>
+              ))
+              : null}
+
           </TablesWrapper>
         </div>
       </div>

@@ -25,7 +25,7 @@ export default function Landing() {
       <Teaching />
       <Publications />
       <Collaborators />
-      <Gallery  />
+      <Gallery />
       <Contact />
       <Footer />
     </>

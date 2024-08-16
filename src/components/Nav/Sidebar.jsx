@@ -22,44 +22,44 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         </CloseBtn>
       </SidebarHeader>
       <UlStyle className="flexNullCenter flexColumn">
-      {
-                navLinks.map((nav, i) => (
+        {
+          navLinks.map((nav, i) => (
 
-                  <li className="semiBold font15 pointer" key={i}>
-                  <Link
-                    onClick={() => toggleSidebar(!sidebarOpen)}
-                    activeClass="active"
-                    className="whiteColor nav-link"
-                    style={{ padding: "10px 15px" }}
-                    to={nav.id}
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                  >
-                   {nav.title}
-                  </Link>
-                </li>
+            <li className="semiBold font15 pointer" key={i}>
+              <Link
+                onClick={() => toggleSidebar(!sidebarOpen)}
+
+                className="whiteColor nav-link"
+                style={{ padding: "10px 15px" }}
+                to={nav.id}
+                spy={true}
+                smooth={true}
+                offset={-60}
+              >
+                {nav.title}
+              </Link>
+            </li>
 
           ))}
-           </UlStyle>
-  
+      </UlStyle>
+
       <UlStyle className="flexSpaceCenter">
         <li className="semiBold font15 pointer">
-          <a href="/" style={{ padding: "10px 30px 10px 0" }} activeClass="active"
-                    className="whiteColor nav-link">
-            Francais
+          <a href="/" style={{ padding: "10px 30px 10px 0" }}
+            className="whiteColor nav-link">
+            FR
           </a>
-        </li> 
-         <li className="semiBold font15 pointer flexCenter">
-          
-          <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg alink myColor "  to="contact" activeClass="active"
-             onClick={() => toggleSidebar(!sidebarOpen)}
-             spy={true}
-             smooth={true}
-             offset={-60}
+        </li>
+        <li className="semiBold font15 pointer flexCenter">
+
+          <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg alink myColor " to="contact"
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            spy={true}
+            smooth={true}
+            offset={-60}
           >
-              Contact Us
-            </Link>
+            Contact Us
+          </Link>
         </li>
       </UlStyle>
     </Wrapper>

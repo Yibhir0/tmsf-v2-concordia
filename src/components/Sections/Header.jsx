@@ -9,7 +9,7 @@ import ImageSlider from "../sliders/ImageSlider";
 export default function Header() {
   return (
     <Wrapper id="home" className="container flexNullCenter flexColumn">
-    
+
       <LeftSide >
         <div>
           <h1 className="extraBold font40">Thermal Spray and Multiphase Flow Laboratories</h1>
@@ -17,7 +17,7 @@ export default function Header() {
             Department of Mechanical and Industrial Engineering
             Concordia University
           </HeaderP>
-        
+
           <BtnWrapper>
             <FullButton title="Learn More" />
           </BtnWrapper>
@@ -25,11 +25,11 @@ export default function Header() {
       </LeftSide>
       <RightSide >
         <ImageWrapper>
-          <ImageSlider/>
+          <ImageSlider />
         </ImageWrapper>
-  
+
       </RightSide>
-     
+
     </Wrapper>
   );
 }

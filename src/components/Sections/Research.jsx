@@ -93,19 +93,6 @@ export default function Reasearch() {
           </div>
         </div>
       </div>
-      {/* <div className="lightBg" style={{padding: '50px 0'}}>
-        <div className="container">
-          <HeaderInfo>
-            <h1 className="font40 extraBold">What They Say?</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
-          </HeaderInfo>
-          <TestimonialSlider />
-        </div>
-      </div> */}
     </Wrapper>
   );
 }
