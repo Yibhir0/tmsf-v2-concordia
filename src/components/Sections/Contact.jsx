@@ -1,8 +1,9 @@
 
 import React from "react";
-
 import styled from "styled-components";
 import emailjs from 'emailjs-com';
+
+
 // Assets
 
 
@@ -16,13 +17,15 @@ export default function Contact() {
     youtube: 'https://www.linkedin.com/company/enlighteneering-inc-',
   };
 
-  // const SERVICE_ID = process.env.SERVICE_ID;
-  // const TEMPLATE_ID = process.env.TEMPLATE_ID;
-  // const PUBLIC_KEY = process.env.PUBLIC_KEY;
+  const REACT_APP_SERVICE_ID = process.env.SERVICE_ID;
+  const REACT_APP_TEMPLATE_ID = process.env.TEMPLATE_ID;
+  const REACT_APP_PUBLIC_KEY = process.env.PUBLIC_KEY;
 
-  const SERVICE_ID = "service_qa4t9cl";
-  const TEMPLATE_ID = "template_63z4n8u";
-  const PUBLIC_KEY = "hJKfOqxEHWZ5v5XBL";
+  console.log(REACT_APP_PUBLIC_KEY);
+
+  // const SERVICE_ID = "service_qa4t9cl";
+  // const TEMPLATE_ID = "template_63z4n8u";
+  // const PUBLIC_KEY = "hJKfOqxEHWZ5v5XBL";
 
   const address = {
     line1: '1550 De Maisonneuve West',
@@ -31,10 +34,10 @@ export default function Contact() {
   };
   const handleOnSubmit = (e) => {
 
-    console.log(PUBLIC_KEY);
+
     console.log(e.target);
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+    emailjs.sendForm(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, e.target, REACT_APP_PUBLIC_KEY)
       .then((result) => {
         alert('Message Sent Successfully')
       }, (error) => {

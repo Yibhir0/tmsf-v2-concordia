@@ -6,5 +6,4 @@ import { galleryImages } from "../../assets/img/gallery/index";
 function MyImageGallery() {
   return <ImageGallery items={galleryImages} />;
 }
-
 export default MyImageGallery;

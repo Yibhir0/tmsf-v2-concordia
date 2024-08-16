@@ -9,7 +9,8 @@ function ImageSlider() {
     <div className="box">
       <Carousel useKeyboardArrows={true} showArrows={true} autoPlay={true}
         interval={2000}
-        infiniteLoop={true}  >
+        infiniteLoop={true}
+        showThumbs={false}  >
         {sliderImages.map((URL, index) => (
           <div className="slide" key={index}>
             <Img className="radius8" src={URL} alt="thermal-spray" />

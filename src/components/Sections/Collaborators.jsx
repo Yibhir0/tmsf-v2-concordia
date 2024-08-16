@@ -11,20 +11,18 @@ export default function Collaborators() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-          
             <h1 className="font40 extraBold">Our Collaborators</h1>
-          
           </HeaderInfo>
         </div>
         <div className="lightBg" style={{ padding: "50px 0" }}>
-        <div className="container">
-          <ClientSlider />
+          <div className="container">
+            <ClientSlider />
+          </div>
         </div>
+
       </div>
- 
-      </div>
-    
-      
+
+
     </Wrapper>
   );
 }
