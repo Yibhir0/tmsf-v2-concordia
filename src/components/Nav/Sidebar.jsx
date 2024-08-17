@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
+
+import CloseIcon from "../../assets/svg/CloseIcon";
+
 import LogoIcon from "../../assets/logos/Logo";
 import { navLinks } from "../../constants/navLinks";
 
