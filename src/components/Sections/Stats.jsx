@@ -41,7 +41,7 @@ const Stats = () => {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">{t('header')}</h1>
+            <h1 className="font40 extraBold">{t('statsHeader')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />

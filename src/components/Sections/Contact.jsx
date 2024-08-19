@@ -2,6 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import emailjs from 'emailjs-com';
+import { useTranslation } from 'react-i18next';
 
 
 // Assets
@@ -10,6 +11,8 @@ import emailjs from 'emailjs-com';
 import ContactCard from "../Elements/ContactCard";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   const socialLinks = {
     facebook: 'https://www.facebook.com/MultiphaseFlowThermalSprayLaboratory',
     linkedin: 'https://www.linkedin.com/company/enlighteneering-inc-',
@@ -47,7 +50,7 @@ export default function Contact() {
       <div className="lightBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Let's get in touch</h1>
+            <h1 className="font40 extraBold"> {t('contactHeader')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -57,27 +60,27 @@ export default function Contact() {
           <ContentWrapper>
             <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
               <Form onSubmit={handleOnSubmit}>
-                <label className="font13">First name:</label>
+                <label className="font13">{t('fName')}</label>
                 <input type="text" id="fname" name="fname" className="font20 extraBold" />
-                <label className="font13">Email:</label>
+                <label className="font13">{t('contactEmail')}</label>
                 <input type="text" id="email" name="email" className="font20 extraBold" />
-                <label className="font13">Subject:</label>
+                <label className="font13">{t('subject')}</label>
                 <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <label className="font13">Message:</label>
+                <label className="font13">{t('message')}</label>
                 <textarea rows="3" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
 
                 <SumbitWrapper className="flex">
 
                   <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} >
-                    Send Message
+                    {t('sendMessage')}
                   </ButtonInput>
                 </SumbitWrapper>
               </Form>
             </div>
             <ContactCard
               address={address}
-              phone="08055384406"
-              email="info@mld.ng"
+              phone="514-848-2424"
+              email="info@concordia.ca"
               socialLinks={socialLinks}
             />
           </ContentWrapper>

@@ -36,7 +36,7 @@ export default function TopNavbar() {
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+          <Link className="pointer flexNullCenter " to="home" smooth={true}>
             <LogoIcon />
             <h1 style={{ marginLeft: "15px", color: "#730621" }} className="font20 extraBold ">
               TSFM
@@ -85,7 +85,7 @@ const Wrapper = styled.nav`
   top: 0;
   left: 0;
   z-index: 999;
-     background-color: #f9f9f9; /* Very light grey, almost white */
+  background-color: #fff; /* Very light grey, almost white */
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 

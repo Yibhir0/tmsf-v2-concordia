@@ -1,0 +1,12 @@
+
+{
+    "contactHeader":  "Let's get in touch",
+    "fName": "First name:",
+    "contactEmail": "Email:",
+    "subject": "Subject:",
+    "message": "Message:",
+    "sendMessage":"Send Message",
+    "officeAddress":"Office Address",
+    "callUs":"Call Us",
+    "sendEmail": "Send an E-mail"
+}

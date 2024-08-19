@@ -1,16 +1,20 @@
 // ContactCard.js
 import React from 'react';
 
-import { FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
+import { useTranslation } from 'react-i18next';
 const ContactCard = ({ address, phone, email, socialLinks }) => {
+
+  const { t } = useTranslation();
   return (
     <div className="contact-card">
       <div className="contact-info">
         <div className="contact-item">
           <i className="fas fa-map-marker-alt icon" />
           <div>
-            <h2 className="contact-title">Office Address</h2>
+            <h2 className="contact-title">{t('officeAddress')}</h2>
             <p className="contact-detail">{address.line1}</p>
             <p className="contact-detail">{address.line2}</p>
             <p className="contact-detail">{address.line3}</p>
@@ -20,7 +24,7 @@ const ContactCard = ({ address, phone, email, socialLinks }) => {
         <div className="contact-item">
           <i className="fas fa-phone-alt icon" />
           <div>
-            <h2 className="contact-title">Call Us</h2>
+            <h2 className="contact-title">{t('callUs')}</h2>
             <p className="contact-detail">Tel: {phone}</p>
           </div>
         </div>
@@ -28,7 +32,7 @@ const ContactCard = ({ address, phone, email, socialLinks }) => {
         <div className="contact-item">
           <i className="fas fa-envelope icon" />
           <div>
-            <h2 className="contact-title">Send an E-mail</h2>
+            <h2 className="contact-title">{t('sendEmail')}</h2>
             <p ><a href={`mailto:${email}`} className="contact-detail">{email}</a></p>
           </div>
         </div>
@@ -45,9 +49,9 @@ const ContactCard = ({ address, phone, email, socialLinks }) => {
             <FaLinkedinIn />
           </a>
         )}
-            {socialLinks.twitter && (
+        {socialLinks.twitter && (
           <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="social-icon">
-            <FaTwitter />
+            <FaXTwitter />
           </a>
         )}
         {socialLinks.youtube && (

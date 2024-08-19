@@ -5,15 +5,18 @@ import ImageGallery from "../sliders/ImageGallery";
 import FullButton from "../Buttons/FullButton";
 
 import Video from "../Elements/Video"
+import { useTranslation } from 'react-i18next';
 
 
 export default function Gallery() {
+
+  const { t } = useTranslation();
   return (
     <Wrapper id="gallery">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Gallery</h1>
+            <h1 className="font40 extraBold">{t('galleryHeader')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -27,7 +30,7 @@ export default function Gallery() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="See More" action={() => alert("clicked")} />
+              <FullButton title={t('seeMore')} action={() => alert("clicked")} />
             </div>
           </div>
         </div>

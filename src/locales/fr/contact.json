@@ -1,0 +1,11 @@
+{
+    "contactHeader":  "Prenons contact",
+    "fName": "Prénom:",
+    "contactEmail": "E-mail:",
+    "subject": "Sujet:",
+    "message": "Message:",
+    "sendMessage":"Envoyer un Message",
+    "officeAddress":"Adresse du Bureau",
+    "callUs":"Appelez-Nous",
+    "sendEmail": "Envoyer un E-mail"
+}

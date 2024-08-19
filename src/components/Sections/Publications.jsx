@@ -4,16 +4,18 @@ import styled from "styled-components";
 import PublicationTable from "../Elements/PublicationTable";
 
 import { publications } from "../../constants/publications";
+import { useTranslation } from 'react-i18next';
 
 export default function Publications() {
 
+  const { t } = useTranslation();
 
   return (
     <Wrapper id="publications">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Publications</h1>
+            <h1 className="font40 extraBold">{t('publicationsHeader')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -27,7 +29,7 @@ export default function Publications() {
                   <PublicationTable
                     icon="book"
                     title={publication.title}
-                    description="List of recent research publications from our university."
+                    description={t('publicationsDescription')}
                     publications={publication.publications}
                     scholarLink={publication.scholarLink}
 

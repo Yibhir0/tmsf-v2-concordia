@@ -13,6 +13,13 @@ import researchEN from '../locales/en/research.json';
 import researchFR from '../locales/fr/research.json';
 import collaboratorsEN from '../locales/en/collaborators.json';
 import collaboratorsFR from '../locales/fr/collaborators.json';
+import galleryEN from '../locales/en/gallery.json';
+import galleryFR from '../locales/fr/gallery.json';
+import contactEN from '../locales/en/contact.json';
+import contactFR from '../locales/fr/contact.json';
+
+import publicationsEN from '../locales/en/publications.json';
+import publicationsFR from '../locales/fr/publications.json';
 
 const resources = {
     en: {
@@ -23,6 +30,9 @@ const resources = {
             ...peopleEN,
             ...researchEN,
             ...collaboratorsEN,
+            ...galleryEN,
+            ...contactEN,
+            ...publicationsEN,
         }
     },
     fr: {
@@ -32,7 +42,10 @@ const resources = {
             ...statsFR,
             ...peopleFR,
             ...researchFR,
-            ...collaboratorsFR
+            ...collaboratorsFR,
+            ...galleryFR,
+            ...contactFR,
+            ...publicationsFR
 
         }
     }
