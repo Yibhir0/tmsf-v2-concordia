@@ -5,9 +5,16 @@ import { Link } from "react-scroll";
 import CloseIcon from "../../assets/svg/CloseIcon";
 
 import LogoIcon from "../../assets/logos/Logo";
-import { navLinks } from "../../constants/navLinks";
+// import { navLinks } from "../../constants/navLinks";
+import LanguageBtn from "./LanguageBtn";
+
+import { useNavLinks } from '../../hooks/useNavLinks';
+import { useTranslation } from 'react-i18next';
 
 export default function Sidebar({ sidebarOpen, toggleSidebar }) {
+  const navLinks = useNavLinks();
+  const { t } = useTranslation();
+
   return (
     <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
@@ -23,7 +30,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       </SidebarHeader>
       <UlStyle className="flexNullCenter flexColumn">
         {
-          navLinks.map((nav, i) => (
+          navLinks.map((link, i) => (
 
             <li className="semiBold font15 pointer" key={i}>
               <Link
@@ -31,12 +38,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 
                 className="whiteColor nav-link"
                 style={{ padding: "10px 15px" }}
-                to={nav.id}
+                to={link.id}
                 spy={true}
                 smooth={true}
                 offset={-60}
               >
-                {nav.title}
+                {link.title}
               </Link>
             </li>
 
@@ -45,10 +52,11 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 
       <UlStyle className="flexSpaceCenter">
         <li className="semiBold font15 pointer">
-          <a href="/" style={{ padding: "10px 30px 10px 0" }}
+          < LanguageBtn s={"whiteColor nav-link"} />
+          {/* <a href="/" style={{ padding: "10px 30px 10px 0" }}
             className="whiteColor nav-link">
             FR
-          </a>
+          </a> */}
         </li>
         <li className="semiBold font15 pointer flexCenter">
 
@@ -58,7 +66,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Contact Us
+            {t('contact')}
           </Link>
         </li>
       </UlStyle>

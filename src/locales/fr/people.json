@@ -1,0 +1,41 @@
+
+{
+
+    "moreau":{
+        "name": "Christian Moreau, Doctorat, FASM ",
+        "occupation": "Professeur & Directeur de la Pulvérisation Thermique",
+        "department": "Génie mécanique, industriel et aérospatial "
+   
+        
+    },
+    
+    "stoyanov":{
+        "name": "Pantcho P. Stoyanov, Doctorat ",
+        "occupation": "Professeur et directeur du laboratoire de tribologie",
+        "department": "Génie chimique et des matériaux"
+
+
+    },
+    "tembely":{
+        "name": "Moussa Tembely, Doctorat ",
+        "occupation": "Professeur et directeur du laboratoire ",
+        "department": "Génie mécanique, industriel et aérospatial "
+   
+
+    },
+    "ettouil":{
+        "name": "Fadhel Ben Ettouil, Doctorat ",
+        "occupation": "Associé de recherche et responsable de laboratoire",
+        "department": "Génie mécanique, industriel et aérospatial"
+
+
+    },
+
+    "peopleHeader":"Notre Formidable Équipe",
+    "seeMore":"Voir Plus"
+
+
+}
+ 
+
+

@@ -2,24 +2,26 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
-// Assets
 
 import ImageSlider from "../sliders/ImageSlider";
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
+
+  const { t } = useTranslation()
   return (
     <Wrapper id="home" className="container flexNullCenter flexColumn">
 
       <LeftSide >
         <div>
-          <h1 className="extraBold font40">Thermal Spray and Multiphase Flow Laboratories</h1>
+
+          <h1 className="extraBold font40">{t('first')}</h1>
           <HeaderP className="font20 extraBold myColor">
-            Department of Mechanical and Industrial Engineering
-            Concordia University
+            {t('second')}
           </HeaderP>
 
           <BtnWrapper>
-            <FullButton title="Learn More" />
+            <FullButton title={t('learn')} />
           </BtnWrapper>
         </div>
       </LeftSide>

@@ -4,15 +4,20 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 
-import { people } from "../../constants/people";
+import { usePeople } from "../../hooks/usePeople";
+import { useTranslation } from 'react-i18next';
 
 export default function People() {
+
+  const people = usePeople();
+
+  const { t } = useTranslation()
   return (
     <Wrapper id="people">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Team</h1>
+            <h1 className="font40 extraBold">{t('peopleHeader')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -38,7 +43,7 @@ export default function People() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="See More" action={() => alert("clicked")} />
+              <FullButton title={t('seeMore')} action={() => alert("clicked")} />
             </div>
           </div>
         </div>

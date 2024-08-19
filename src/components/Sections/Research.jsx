@@ -3,92 +3,44 @@ import styled from "styled-components";
 // Components
 import BlogBox from "../Elements/BlogBox";
 import FullButton from "../Buttons/FullButton";
+import { useResearch } from "../../hooks/useResearch";
+import { useTranslation } from 'react-i18next';
 
 
 export default function Reasearch() {
+  const research = useResearch();
+  const { t } = useTranslation()
   return (
     <Wrapper id="research">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Research</h1>
+            <h1 className="font40 extraBold">{t('researchHeader')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <BlogBox
-                title="Multiphase Flow"
-                text="Spray and atomization
-                      Droplet impact & heat transfer
-                      Rivulet & liquid thin film
-                      Digital Microfluidics-Electrowetting
-                       Instability of elliptic liquid jets."
-                tag="learn more"
-                author="Department of Mechanical and Industrial Engineering"
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <BlogBox
-                title="Thermal spray"
-                text="Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared."
-                tag="learn more"
-                author="Department of Mechanical and Industrial Engineering"
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <BlogBox
-                title="Multiphase Flow"
-                text="Spray and atomization
-                      Droplet impact & heat transfer
-                      Rivulet & liquid thin film
-                      Digital Microfluidics-Electrowetting
-                       Instability of elliptic liquid jets."
-                tag="learn more"
-                author="Department of Mechanical and Industrial Engineering"
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <BlogBox
-                title="Thermal spray"
-                text="Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared."
-                tag="learn more"
-                author="Department of Mechanical and Industrial Engineering"
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <BlogBox
-                title="Multiphase Flow"
-                text="Spray and atomization
-                      Droplet impact & heat transfer
-                      Rivulet & liquid thin film
-                      Digital Microfluidics-Electrowetting
-                       Instability of elliptic liquid jets."
-                tag="learn more"
-                author="Department of Mechanical and Industrial Engineering"
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <BlogBox
-                title="Thermal spray"
-                text="Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared."
-                tag="learn more"
-                author="Department of Mechanical and Industrial Engineering"
-                action={() => alert("clicked")}
-              />
-            </div>
+          <div className="row textCenter flexCenter">
+
+            {research.map((r, index) => (
+              <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"
+                key={index}>
+                <BlogBox
+                  title={r.title}
+                  text={r.text}
+                  tag={r.tag}
+                  author={r.author}
+                  action={() => alert("clicked")}
+                />
+              </div>
+            ))}
+
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="See More" action={() => alert("clicked")} />
+              <FullButton title={t('seeMore')} action={() => alert("clicked")} />
             </div>
           </div>
         </div>

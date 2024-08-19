@@ -1,36 +1,10 @@
 export const navLinks = [
-    {
-        id: "home",
-        title: "Home",
-    },
-    {
-        id: "people",
-        title: "People",
-    },
-    {
-        id: "research",
-        title: "Research",
-    },
-    {
-        id: "teaching",
-        title: "Teaching",
-    },
-    {
-        id: "publications",
-        title: "Publications",
-    },
-    {
-        id: "collaborators",
-        title: "Collaborators",
-    },
-    {
-        id: "gallery",
-        title: "Gallery",
-    },
-    {
-        id: "facilities",
-        title: "Facilities",
-    },
-
-
+    { id: 'home', titleKey: 'home' },
+    { id: 'people', titleKey: 'people' },
+    { id: 'research', titleKey: 'research' },
+    // { id: 'teaching', titleKey: 'teaching' },
+    { id: 'publications', titleKey: 'publications' },
+    { id: 'collaborators', titleKey: 'collaborators' },
+    { id: 'gallery', titleKey: 'gallery' },
+    // { id: 'facilities', titleKey: 'facilities' }
 ];

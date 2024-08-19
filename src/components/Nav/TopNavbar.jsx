@@ -7,12 +7,20 @@ import Backdrop from "../Elements/Backdrop";
 
 import LogoIcon from "../../assets/logos/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
+import LanguageBtn from "./LanguageBtn";
 
-import { navLinks } from "../../constants/navLinks";
+
+
+import { useNavLinks } from '../../hooks/useNavLinks';
+
+import { useTranslation } from 'react-i18next';
 
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
   const [sidebarOpen, toggleSidebar] = useState(false);
+
+  const navLinks = useNavLinks()
+  const { t } = useTranslation();
 
   useEffect(() => {
     window.addEventListener("scroll", () => setY(window.scrollY));
@@ -53,14 +61,15 @@ export default function TopNavbar() {
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer ">
-              <Link style={{ padding: "10px 30px 10px 0" }} className="nav-link" to="/" >
+              {/* <Link style={{ padding: "10px 30px 10px 0" }} className="nav-link" to="/" >
                 FR
-              </Link>
+              </Link> */}
+              < LanguageBtn s={"nav-link"} />
 
             </li>
             <li className="semiBold font15 pointer flexCenter">
               <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="contact" >
-                Contact Us
+                {t('contact')}
               </Link>
             </li>
           </UlWrapperRight>

@@ -1,13 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import CountUp from 'react-countup';
 import styled from 'styled-components';
-import { stats } from '../../constants/stats'
+import { useStats } from '../../hooks/useStats';
 
-
+import { useTranslation } from 'react-i18next';
 
 const Stats = () => {
   const [inView, setInView] = useState(false);
   const statsRef = useRef(null);
+  const { t } = useTranslation();
+  const stats = useStats();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -39,7 +41,7 @@ const Stats = () => {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Statistics</h1>
+            <h1 className="font40 extraBold">{t('header')}</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />

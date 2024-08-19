@@ -1,24 +1,22 @@
 import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
-// Assets
 
-
-import {collaboratorsImages } from "../../assets/img/collaborators/collaboratorsImages";
+import { collaboratorsImages } from "../../assets/img/collaborators/collaboratorsImages";
 
 
 export default function ClientSlider() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    slidesToShow:5,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
+    speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
 
-  
+
     responsive: [
       {
         breakpoint: 1024,
@@ -45,10 +43,10 @@ export default function ClientSlider() {
   };
   return (
     <div>
-      
+
       <Slider {...settings}>
-      {collaboratorsImages.map((URL, index) => (
-            <LogoWrapper className="flexCenter" key={index}>
+        {collaboratorsImages.map((URL, index) => (
+          <LogoWrapper className="flexCenter" key={index}>
             <ImgStyle src={URL} alt="client logo" />
           </LogoWrapper>
         ))}
