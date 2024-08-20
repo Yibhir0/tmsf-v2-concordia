@@ -71,9 +71,12 @@ export default function TopNavbar() {
 
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="contact" >
+              {/* <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="contact" >
                 {t('contact')}
-              </Link>
+              </Link> */}
+              <HashLink style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="/#contact" spy={true} smooth={true} offset={-80}>
+                {t('contact')}
+              </HashLink>
             </li>
           </UlWrapperRight>
         </NavInner>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
 
 import CloseIcon from "../../assets/svg/CloseIcon";
 
@@ -33,7 +34,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           navLinks.map((link, i) => (
 
             <li className="semiBold font15 pointer" key={i}>
-              <Link
+              {/* <Link
                 onClick={() => toggleSidebar(!sidebarOpen)}
 
                 className="whiteColor nav-link"
@@ -44,7 +45,15 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
                 offset={-60}
               >
                 {link.title}
-              </Link>
+              </Link> */}
+              < HashLink onClick={() => toggleSidebar(!sidebarOpen)}
+
+                className="whiteColor nav-link"
+                style={{ padding: "10px 15px" }}
+                to={`/#${link.id}`}
+                spy={true}
+                smooth={true}
+                offset={-60}> {link.title}</HashLink>
             </li>
 
           ))}
@@ -60,14 +69,21 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         </li>
         <li className="semiBold font15 pointer flexCenter">
 
-          <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="contact"
+          {/* <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="contact"
             onClick={() => toggleSidebar(!sidebarOpen)}
             spy={true}
             smooth={true}
             offset={-60}
           >
             {t('contact')}
-          </Link>
+          </Link> */}
+          <HashLink style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="/#contact"
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            spy={true}
+            smooth={true}
+            offset={-60}>
+            {t('contact')}
+          </HashLink>
         </li>
       </UlStyle>
     </Wrapper>

@@ -5,23 +5,23 @@ import styled from "styled-components";
 
 export default function Header() {
 
-    return (
-        <Wrapper id="home" className="container flexNullCenter flexColumn">
+  return (
+    <Wrapper id="home" className="container flexNullCenter flexColumn">
 
-            <LeftSide >
-                <div>
+      <LeftSide >
+        <div>
 
-                    <h1 className="extraBold font40">About page</h1>
-                    <HeaderP className="font20 extraBold myColor">
-                        Who we are ?
-                    </HeaderP>
+          <h1 className="extraBold font40">About page</h1>
+          <HeaderP className="font20 extraBold myColor">
+            Who we are ?
+          </HeaderP>
 
 
-                </div>
-            </LeftSide>
+        </div>
+      </LeftSide>
 
-        </Wrapper>
-    );
+    </Wrapper>
+  );
 }
 
 
@@ -40,8 +40,9 @@ const LeftSide = styled.div`
   margin-bottom: 50px;
   margin-top: 50px;
   @media (max-width: 960px) {
-    width: 100%;
-    margin-top: 0;
+   
+     width: 100%;
+    margin-top: 50px;
     text-align: center;
     order:2;
   }

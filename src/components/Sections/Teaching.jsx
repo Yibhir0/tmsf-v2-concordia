@@ -7,6 +7,8 @@ import FullButton from "../Buttons/FullButton";
 
 import { courses } from "../../constants/courses";
 
+
+
 export default function Teaching() {
   return (
     <Wrapper id="teaching">

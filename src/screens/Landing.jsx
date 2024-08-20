@@ -11,10 +11,10 @@ import Footer from "../components/Sections/Footer";
 // import Teaching from "../components/Sections/Teaching";
 import Gallery from "../components/Sections/Gallery";
 
-
 import Stats from "../components/Sections/Stats"
 
 export default function Landing() {
+
   return (
     <>
       {/* <TopNavbar /> */}
