@@ -8,7 +8,7 @@ import Backdrop from "../Elements/Backdrop";
 import LogoIcon from "../../assets/logos/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 import LanguageBtn from "./LanguageBtn";
-
+import { HashLink } from "react-router-hash-link";
 
 
 import { useNavLinks } from '../../hooks/useNavLinks';
@@ -52,9 +52,12 @@ export default function TopNavbar() {
               navLinks.map((nav, i) => (
 
                 <li className="semiBold font15 pointer " key={i}>
-                  <Link style={{ padding: "10px 15px " }} className="nav-link" to={nav.id} spy={true} smooth={true} offset={-80}>
+                  {/* <Link style={{ padding: "10px 15px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
                     {nav.title}
-                  </Link>
+                  </Link> */}
+                  <HashLink style={{ padding: "10px 15px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
+                    {nav.title}
+                  </HashLink>
                 </li>
 
               ))}

@@ -1,6 +1,6 @@
 import React from "react";
 // Sections
-import TopNavbar from "../components/Nav/TopNavbar";
+// import TopNavbar from "../components/Nav/TopNavbar";
 import Header from "../components/Sections/Header";
 import Collaborators from "../components/Sections/Collaborators";
 import People from "../components/Sections/People";
@@ -17,7 +17,7 @@ import Stats from "../components/Sections/Stats"
 export default function Landing() {
   return (
     <>
-      <TopNavbar />
+      {/* <TopNavbar /> */}
       <Header />
       <Stats />
       <People />

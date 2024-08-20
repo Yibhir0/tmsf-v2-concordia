@@ -5,10 +5,17 @@ import FullButton from "../Buttons/FullButton";
 
 import ImageSlider from "../sliders/ImageSlider";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
 
-  const { t } = useTranslation()
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+
+
+  const goToAboutPage = () => {
+    navigate('/about');
+  };
   return (
     <Wrapper id="home" className="container flexNullCenter flexColumn">
 
@@ -21,7 +28,7 @@ export default function Header() {
           </HeaderP>
 
           <BtnWrapper>
-            <FullButton title={t('learn')} />
+            <FullButton title={t('learn')} action={goToAboutPage} />
           </BtnWrapper>
         </div>
       </LeftSide>
