@@ -4,7 +4,7 @@ import React from "react";
 import Header from "../components/Sections/Header";
 import Collaborators from "../components/Sections/Collaborators";
 import People from "../components/Sections/People";
-import Reasearch from "../components/Sections/Research";
+import Research from "../components/Sections/Research";
 import Publications from "../components/Sections/Publications";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer";
@@ -21,7 +21,7 @@ export default function Landing() {
       <Header />
       <Stats />
       <People />
-      <Reasearch />
+      <Research />
       {/* <Teaching /> */}
       <Publications />
       <Collaborators />

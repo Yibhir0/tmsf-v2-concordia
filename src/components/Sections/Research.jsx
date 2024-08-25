@@ -6,10 +6,20 @@ import FullButton from "../Buttons/FullButton";
 import { useResearch } from "../../hooks/useResearch";
 import { useTranslation } from 'react-i18next';
 
+import { useNavigate } from "react-router-dom";
 
-export default function Reasearch() {
+export default function Research() {
   const research = useResearch();
   const { t } = useTranslation()
+
+
+  const navigate = useNavigate();
+
+
+  const goToResearchPage = () => {
+    navigate('/research');
+  };
+
   return (
     <Wrapper id="research">
       <div className="whiteBg">
@@ -40,7 +50,7 @@ export default function Reasearch() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title={t('seeMore')} action={() => alert("clicked")} />
+              <FullButton title={t('seeMore')} action={goToResearchPage} />
             </div>
           </div>
         </div>

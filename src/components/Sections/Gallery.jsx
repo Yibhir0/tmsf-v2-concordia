@@ -8,7 +8,16 @@ import Video from "../Elements/Video"
 import { useTranslation } from 'react-i18next';
 
 
+import { useNavigate } from "react-router-dom";
+
 export default function Gallery() {
+  const navigate = useNavigate();
+
+
+  const goToGalleryPage = () => {
+    navigate('/gallery');
+  };
+
 
   const { t } = useTranslation();
   return (
@@ -30,7 +39,7 @@ export default function Gallery() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title={t('seeMore')} action={() => alert("clicked")} />
+              <FullButton title={t('seeMore')} action={goToGalleryPage} />
             </div>
           </div>
         </div>

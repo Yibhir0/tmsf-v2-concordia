@@ -4,10 +4,6 @@ import styled from "styled-components";
 import emailjs from 'emailjs-com';
 import { useTranslation } from 'react-i18next';
 
-
-// Assets
-
-
 import ContactCard from "../Elements/ContactCard";
 
 export default function Contact() {
@@ -31,9 +27,6 @@ export default function Contact() {
     line3: 'H3G 2E9, Canada',
   };
   const handleOnSubmit = (e) => {
-
-    console.log(PUBLIC_KEY);
-    console.log(e.target);
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
       .then((result) => {

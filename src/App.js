@@ -5,7 +5,9 @@ import Landing from "./screens/Landing.jsx";
 import About from "./screens/About.jsx";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import TopNavbar from "./components/Nav/TopNavbar.jsx";
-
+import PeopleScreen from "./screens/PeopleScreen.jsx";
+import ResearchScreen from "./screens/ResearchScreen.jsx";
+import GalleryScreen from "./screens/GalleryScreen.jsx";
 
 
 
@@ -24,6 +26,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/people" element={<PeopleScreen />} />
+          <Route path="/research" element={<ResearchScreen />} />
+          <Route path="/gallery" element={<GalleryScreen />} />
         </Routes>
 
 

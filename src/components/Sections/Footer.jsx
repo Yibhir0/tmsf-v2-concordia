@@ -17,9 +17,9 @@ export default function Contact() {
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "20px 0" }}>
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />
-              <h1 className="font15 extraBold myColor" style={{ marginLeft: "15px" }}>
+              {/* <h1 className="font15 extraBold myColor" style={{ marginLeft: "15px" }}>
                 TSMF
-              </h1>
+              </h1> */}
             </Link>
             <StyleP
               className="semiBold font15 pointer"
@@ -29,13 +29,14 @@ export default function Contact() {
             </StyleP>
 
             <Link
-              className="myColor animate pointer font13"
+              className="myColor animate pointer font13 flexColumn flexNullCenter"
               to="home"
               smooth={true}
               offset={-80}
               title="Back to top"
             >
               <GoMoveToTop size={24} />
+              <span>Back to top</span>
             </Link>
           </InnerWrapper>
         </div>

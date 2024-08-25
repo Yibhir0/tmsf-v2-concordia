@@ -6,12 +6,19 @@ import FullButton from "../Buttons/FullButton";
 
 import { usePeople } from "../../hooks/usePeople";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from "react-router-dom";
 
 export default function People() {
 
   const people = usePeople();
 
-  const { t } = useTranslation()
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+
+
+  const goToPeoplePage = () => {
+    navigate('/people');
+  };
   return (
     <Wrapper id="people">
       <div className="whiteBg">
@@ -43,7 +50,7 @@ export default function People() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title={t('seeMore')} action={() => alert("clicked")} />
+              <FullButton title={t('seeMore')} action={goToPeoplePage} />
             </div>
           </div>
         </div>
