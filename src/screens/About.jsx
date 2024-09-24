@@ -15,8 +15,6 @@ export default function Header() {
           <HeaderP className="font20 extraBold myColor">
             Who we are ?
           </HeaderP>
-
-
         </div>
       </LeftSide>
 

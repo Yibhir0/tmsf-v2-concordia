@@ -21,6 +21,9 @@ import contactFR from '../locales/fr/contact.json';
 import publicationsEN from '../locales/en/publications.json';
 import publicationsFR from '../locales/fr/publications.json';
 
+import FooterEn from '../locales/en/footer.json';
+import FooterFr from '../locales/fr/footer.json';
+
 const resources = {
     en: {
         translation: {
@@ -33,6 +36,7 @@ const resources = {
             ...galleryEN,
             ...contactEN,
             ...publicationsEN,
+            ...FooterEn
         }
     },
     fr: {
@@ -45,7 +49,8 @@ const resources = {
             ...collaboratorsFR,
             ...galleryFR,
             ...contactFR,
-            ...publicationsFR
+            ...publicationsFR,
+            ...FooterFr
 
         }
     }

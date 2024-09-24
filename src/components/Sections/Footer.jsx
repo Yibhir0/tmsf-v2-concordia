@@ -5,7 +5,11 @@ import { Link } from "react-scroll";
 import LogoImg from "../../assets/logos/Logo";
 import { GoMoveToTop } from "react-icons/go";
 
+import { useTranslation } from 'react-i18next';
+
 export default function Contact() {
+
+  const { t } = useTranslation();
   const getCurrentYear = () => {
     return new Date().getFullYear();
   }
@@ -36,7 +40,7 @@ export default function Contact() {
               title="Back to top"
             >
               <GoMoveToTop size={24} />
-              <span>Back to top</span>
+              <span>{t("backToTopBtn")}</span>
             </Link>
           </InnerWrapper>
         </div>
