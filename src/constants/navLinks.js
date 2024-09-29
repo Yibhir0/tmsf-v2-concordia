@@ -6,5 +6,5 @@ export const navLinks = [
     { id: 'publications', titleKey: 'publications' },
     { id: 'collaborators', titleKey: 'collaborators' },
     { id: 'gallery', titleKey: 'gallery' },
-    // { id: 'facilities', titleKey: 'facilities' }
+    { id: 'facilities', titleKey: 'facilities' }
 ];
