@@ -75,17 +75,17 @@ const RightSide = styled.div`
     margin-top: 50px;
     order:1;
   }
-`;
-const HeaderP = styled.div`
-  max-width: 470px;
-  padding: 15px 0 50px 0;
-  line-height: 1.5rem;
-  @media (max-width: 960px) {
-    padding: 15px 0 50px 0;
-    text-align: center;
-    max-width: 100%;
-  }
-`;
+// `;
+// const HeaderP = styled.div`
+//   max-width: 470px;
+//   padding: 15px 0 50px 0;
+//   line-height: 1.5rem;
+//   @media (max-width: 960px) {
+//     padding: 15px 0 50px 0;
+//     text-align: center;
+//     max-width: 100%;
+//   }
+// `;
 const BtnWrapper = styled.div`
   max-width: 190px;
   @media (max-width: 960px) {
