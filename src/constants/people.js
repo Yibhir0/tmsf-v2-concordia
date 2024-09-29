@@ -30,15 +30,15 @@ export const people = [
         email: "moussa.tembely@concordia.ca"
 
     },
-    {
-        id: "fbe",
-        name: "ettouil.name",
-        occupation: "ettouil.occupation",
-        department: "ettouil.department",
-        img: peopleImages[3],
-        email: "fadhel.benettouil@concordia.ca"
+    // {
+    //     id: "fbe",
+    //     name: "ettouil.name",
+    //     occupation: "ettouil.occupation",
+    //     department: "ettouil.department",
+    //     img: peopleImages[3],
+    //     email: "fadhel.benettouil@concordia.ca"
 
-    },
+    // },
 
 
 

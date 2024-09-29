@@ -21,8 +21,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
           <LogoIcon />
-          <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
-            TSFM
+          <h1 className="whiteColor font20" style={{ marginLeft: "18px" }}>
+            TSTMF
           </h1>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
@@ -33,7 +33,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         {
           navLinks.map((link, i) => (
 
-            <li className="semiBold font15 pointer" key={i}>
+            <li className="semiBold font18 pointer" key={i}>
               {/* <Link
                 onClick={() => toggleSidebar(!sidebarOpen)}
 
@@ -60,14 +60,14 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       </UlStyle>
 
       <UlStyle className="flexSpaceCenter">
-        <li className="semiBold font15 pointer">
+        <li className="semiBold font18 pointer">
           < LanguageBtn s={"whiteColor nav-link"} />
           {/* <a href="/" style={{ padding: "10px 30px 10px 0" }}
             className="whiteColor nav-link">
             FR
           </a> */}
         </li>
-        <li className="semiBold font15 pointer flexCenter">
+        <li className="semiBold font18 pointer flexCenter">
 
           {/* <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="contact"
             onClick={() => toggleSidebar(!sidebarOpen)}
@@ -77,7 +77,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             {t('contact')}
           </Link> */}
-          <HashLink style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="/#contact"
+          <HashLink style={{ padding: "10px 18px" }} className="radius8 whiteColor nav-link" to="/#contact"
             onClick={() => toggleSidebar(!sidebarOpen)}
             spy={true}
             smooth={true}

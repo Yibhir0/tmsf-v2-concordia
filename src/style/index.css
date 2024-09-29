@@ -45,7 +45,7 @@
     color: #0B093B;
   }
   .alink:hover {
-    color: #800000;
+    color: #912338;
   }
   input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 50px #fff inset; /* Change the color to your own background color */
@@ -82,7 +82,7 @@
   }
 
   .myColor{
-      color: #800000;
+      color: #912338;
   }
 
   /* HELLPERS */
@@ -280,7 +280,7 @@
   }
   /* BACKGROUNDS */
   .darkBg {
-    background-color: #800000;
+    background-color: #912338;
   }
   .purpleBg {
     background-color: #7620FF;

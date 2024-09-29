@@ -22,9 +22,9 @@ export default function Contact() {
 
 
   const address = {
-    line1: '1550 De Maisonneuve West',
-    line2: 'Montreal, QC',
-    line3: 'H3G 2E9, Canada',
+    line1: '1550 Boulevard De Maisonneuve Ouest,',
+    line2: 'Montreal, Quebec',
+    line3: 'H3G2E9, CANADA',
   };
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -44,7 +44,7 @@ export default function Contact() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold"> {t('contactHeader')}</h1>
-            <p className="font13">
+            <p className="font15">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -64,7 +64,7 @@ export default function Contact() {
 
                 <SumbitWrapper className="flex">
 
-                  <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} >
+                  <ButtonInput type="submit" value="Send Message" className="pointer animate radius8 font18" style={{ maxWidth: "220px" }} >
                     {t('sendMessage')}
                   </ButtonInput>
                 </SumbitWrapper>
@@ -117,15 +117,15 @@ const Form = styled.form`
 
 const ButtonInput = styled.button`
   border: 1px solid black;
-  background-color: #800000;
+  background-color: #912338;
   width: 100%;
   padding: 15px;
   outline: none;
-  color: #F2B300;
+  color: #fff;
   :hover {
-    background-color: #800000;
-    border: 1px solid #800000;
-    color: #fff;
+    background-color: #912338;
+    border: 1px solid #912338;
+    color: #F2B300;
   }
   @media (max-width: 991px) {
     margin: 0 auto;

@@ -26,7 +26,7 @@ export default function Research() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">{t('researchHeader')}</h1>
-            <p className="font13">
+            <p className="font15">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.

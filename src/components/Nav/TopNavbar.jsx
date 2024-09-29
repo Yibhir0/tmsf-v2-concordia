@@ -38,8 +38,8 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <HashLink className="pointer flexNullCenter " to="/#home" smooth={true}>
             <LogoIcon />
-            <h1 style={{ marginLeft: "15px", color: "#730621" }} className="font20 extraBold ">
-              TSFM
+            <h1 style={{ marginLeft: "15px", color: "#912338" }} className="font20 extraBold ">
+              TSTMF
             </h1>
           </HashLink >
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
@@ -51,11 +51,11 @@ export default function TopNavbar() {
             {
               navLinks.map((nav, i) => (
 
-                <li className="semiBold font15 pointer " key={i}>
+                <li className="semiBold font18 pointer " key={i}>
                   {/* <Link style={{ padding: "10px 15px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
                     {nav.title}
                   </Link> */}
-                  <HashLink style={{ padding: "10px 15px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
+                  <HashLink style={{ padding: "10px 18px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
                     {nav.title}
                   </HashLink>
                 </li>
@@ -63,18 +63,18 @@ export default function TopNavbar() {
               ))}
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
-            <li className="semiBold font15 pointer ">
+            <li className="semiBold font18 pointer ">
               {/* <Link style={{ padding: "10px 30px 10px 0" }} className="nav-link" to="/" >
                 FR
               </Link> */}
               < LanguageBtn s={"nav-link"} />
 
             </li>
-            <li className="semiBold font15 pointer flexCenter">
+            <li className="semiBold font18 pointer flexCenter">
               {/* <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="contact" >
                 {t('contact')}
               </Link> */}
-              <HashLink style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="/#contact" spy={true} smooth={true} offset={-80}>
+              <HashLink style={{ padding: "10px 18px" }} className="radius8 darkBg nav-link whiteColor" to="/#contact" spy={true} smooth={true} offset={-80}>
                 {t('contact')}
               </HashLink>
             </li>

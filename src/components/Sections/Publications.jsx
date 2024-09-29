@@ -5,10 +5,18 @@ import PublicationTable from "../Elements/PublicationTable";
 
 import { publications } from "../../constants/publications";
 import { useTranslation } from 'react-i18next';
+import FullButton from "../Buttons/FullButton";
+import { useNavigate } from "react-router-dom";
+
 
 export default function Publications() {
 
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const goToPublicationPage = () => {
+    navigate('/publications');
+  };
 
   return (
     <Wrapper id="publications">
@@ -16,7 +24,7 @@ export default function Publications() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">{t('publicationsHeader')}</h1>
-            <p className="font13">
+            <p className="font15">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -40,6 +48,11 @@ export default function Publications() {
               : null}
 
           </TablesWrapper>
+          <div className="row flexCenter">
+            <div style={{ margin: "50px 0", width: "200px" }}>
+              <FullButton title={t('seeMore')} action={goToPublicationPage} />
+            </div>
+          </div>
         </div>
       </div>
     </Wrapper>

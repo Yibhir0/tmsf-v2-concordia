@@ -1,22 +1,22 @@
 
 {
     "moreau":{
-        "name": "Christian Moreau, Phd, FASM ",
+        "name": "Christian Moreau, PhD, FASM ",
         "occupation": "Professor & Thermal Spray Director",
         "department": "Mechanical, Industrial and Aerospace Engineering "   
     },
     "stoyanov":{
-        "name": "Pantcho P. Stoyanov, Phd ",
+        "name": "Pantcho P. Stoyanov, PhD ",
         "occupation": "Associate Professor & Tribology Lab Director",
         "department": "Chemical and Materials Engineering "
     },
     "tembely":{
-        "name": "Moussa Tembely, Phd",
+        "name": "Moussa Tembely, PhD",
         "occupation": "Assistant Professor & Lab Director ",
         "department": "Mechanical, Industrial and Aerospace Engineering "
     },
     "ettouil":{
-        "name": "Fadhel Ben Ettouil, Phd",
+        "name": "Fadhel Ben Ettouil, PhD",
         "occupation": "Research Associate & Lab Manager ",
         "department": "Mechanical, Industrial and Aerospace Engineering"
     },

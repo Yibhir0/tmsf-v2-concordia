@@ -6,18 +6,18 @@ export const publications = [
         publications: [
 
             {
-                title: "Influence of hBN on the abradable performance of AlSi-based coatings: Bridging the gap between tribological assessment and abradability testing",
+                title: "Microstructural analysis and tribological characteristics of thermally sprayed Co-Ni-O ternary oxide coatings",
                 authors: "K Bertuol, FRE Rivadeneira, RB Nair, B Barnett, C Moreau, P Stoyanov",
-                journal: "Surface and Coatings Technology",
-                year: 2024,
-                link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=GgDkBHsAAAAJ&sortby=pubdate&citation_for_view=GgDkBHsAAAAJ:oldoQiaHq2UC"
+                journal: "Journal of the European Ceramic Society",
+                year: 2025,
+                link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=GgDkBHsAAAAJ&sortby=pubdate&citation_for_view=GgDkBHsAAAAJ:_mQi-xiA4oYC"
             },
             {
-                title: "Microstructure and Tribological Behavior of Low-Temperature HVAF Ti6Al4V Coatings",
+                title: "Wear behavior of HVOF sprayed cobalt-based composite coatings reinforced with Cr3C2",
                 authors: "P Khamsepour, P Stoyanov, A Dolatabad, C Moreau",
-                journal: "Journal of Thermal Spray Technology",
+                journal: "Wear",
                 year: 2024,
-                link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=GgDkBHsAAAAJ&sortby=pubdate&citation_for_view=GgDkBHsAAAAJ:5LPo_wSKItgC"
+                link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=GgDkBHsAAAAJ&sortby=pubdate&citation_for_view=GgDkBHsAAAAJ:pUxgyZctzPYC"
             }]
     },
     {
@@ -26,11 +26,11 @@ export const publications = [
         publications: [
 
             {
-                title: "Influence of hBN on the abradable performance of AlSi-based coatings: Bridging the gap between tribological assessment and abradability testing",
+                title: "Microstructural analysis and tribological characteristics of thermally sprayed Co-Ni-O ternary oxide coatings",
                 authors: "K Bertuol, FRE Rivadeneira, RB Nair, B Barnett, C Moreau, P Stoyanov",
-                journal: "Surface and Coatings Technology",
-                year: 2024,
-                link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EKIun-gAAAAJ&sortby=pubdate&citation_for_view=EKIun-gAAAAJ:l7t_Zn2s7bgC"
+                journal: "Journal of the European Ceramic Society",
+                year: 2025,
+                link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EKIun-gAAAAJ&sortby=pubdate&citation_for_view=EKIun-gAAAAJ:vRqMK49ujn8C"
             },
             {
                 title: "Microstructure and Tribological Behavior of Low-Temperature HVAF Ti6Al4V Coatings",
@@ -47,7 +47,7 @@ export const publications = [
 
         publications: [
             {
-                title: "Estimating Residual Oil Saturation in Carbonate Rocks: A Combined Approach of Direct Simulation and Data-Driven Analysis",
+                title: "Estimating Residual Oil Saturation in Carbonate Rocks: A Combined Approach of Direct Simulation",
                 authors: "AS Rizk, M Tembely, W AlAmeri, EW Al-Shalabi, R Farmanov, S Markovic",
                 journal: "SPE Journal",
                 year: 2024,

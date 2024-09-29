@@ -5,11 +5,11 @@ export default function BlogBox({ tag, title, text, action, author }) {
   return (
     <WrapperBtn className="animate pointer" onClick={action ? () => action() : null}>
       <Wrapper className="whiteBg radius8 shadow">
-        <h3 className="font20 extraBold darkColor">{title}</h3>
-        <Text className="font13 textH darkColor">{text}</Text>
-        <Author className="font13 extraBold darkColor">{author}</Author>
+        <h3 className="font18 extraBold darkColor">{title}</h3>
+        <Text className="font14 textH darkColor">{text}</Text>
+        <Author className="font16 extraBold darkColor">{author}</Author>
         <Flex className="flex">
-          <Tag className="tag darkBg radius6 font13 orangeColor">{tag}</Tag>
+          <Tag className="tag darkBg radius6 font16 whiteColor">{tag}</Tag>
         </Flex>
       </Wrapper>
     </WrapperBtn>

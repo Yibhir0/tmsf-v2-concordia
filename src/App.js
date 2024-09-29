@@ -8,6 +8,7 @@ import TopNavbar from "./components/Nav/TopNavbar.jsx";
 import PeopleScreen from "./screens/PeopleScreen.jsx";
 import ResearchScreen from "./screens/ResearchScreen.jsx";
 import GalleryScreen from "./screens/GalleryScreen.jsx";
+import PublicationScreen from "./screens/PublicationScreen.jsx";
 
 
 
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/people" element={<PeopleScreen />} />
           <Route path="/research" element={<ResearchScreen />} />
           <Route path="/gallery" element={<GalleryScreen />} />
+          <Route path="/publications" element={<PublicationScreen />} />
         </Routes>
 
 
