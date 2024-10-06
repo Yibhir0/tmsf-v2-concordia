@@ -8,10 +8,10 @@ import Research from "../components/Sections/Research";
 import Publications from "../components/Sections/Publications";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer";
-// import Teaching from "../components/Sections/Teaching";
+import Facilities from "../components/Sections/Facilities";
 import Gallery from "../components/Sections/Gallery";
 
-import Stats from "../components/Sections/Stats"
+import Stats from "../components/Sections/Stats";
 
 export default function Landing() {
 
@@ -25,6 +25,7 @@ export default function Landing() {
       {/* <Teaching /> */}
       <Publications />
       <Collaborators />
+      <Facilities />
       <Gallery />
       <Contact />
       <Footer />

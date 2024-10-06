@@ -9,6 +9,7 @@ import PeopleScreen from "./screens/PeopleScreen.jsx";
 import ResearchScreen from "./screens/ResearchScreen.jsx";
 import GalleryScreen from "./screens/GalleryScreen.jsx";
 import PublicationScreen from "./screens/PublicationScreen.jsx";
+import FacilitiesScreen from "./screens/FacilitiesScreen.jsx";
 
 
 
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/research" element={<ResearchScreen />} />
           <Route path="/gallery" element={<GalleryScreen />} />
           <Route path="/publications" element={<PublicationScreen />} />
+          <Route path="/facilities" element={<FacilitiesScreen />} />
         </Routes>
 
 

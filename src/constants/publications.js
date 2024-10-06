@@ -32,6 +32,7 @@ export const publications = [
                 year: 2025,
                 link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EKIun-gAAAAJ&sortby=pubdate&citation_for_view=EKIun-gAAAAJ:vRqMK49ujn8C"
             },
+
             {
                 title: "Microstructure and Tribological Behavior of Low-Temperature HVAF Ti6Al4V Coatings",
                 authors: "P Khamsepour, P Stoyanov, A Dolatabad, C Moreau",
@@ -61,8 +62,4 @@ export const publications = [
                 link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=XMJxuz8AAAAJ&sortby=pubdate&citation_for_view=XMJxuz8AAAAJ:NaGl4SEjCO4C"
             }],
     },
-
-
-
-
 ];

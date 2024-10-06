@@ -21,6 +21,9 @@ import contactFR from '../locales/fr/contact.json';
 import publicationsEN from '../locales/en/publications.json';
 import publicationsFR from '../locales/fr/publications.json';
 
+import facilitiesEN from "../locales/en/facilities.json";
+import facilitiesFR from "../locales/fr/facilities.json";
+
 import FooterEn from '../locales/en/footer.json';
 import FooterFr from '../locales/fr/footer.json';
 
@@ -36,7 +39,8 @@ const resources = {
             ...galleryEN,
             ...contactEN,
             ...publicationsEN,
-            ...FooterEn
+            ...FooterEn,
+            ...facilitiesEN
         }
     },
     fr: {
@@ -50,7 +54,8 @@ const resources = {
             ...galleryFR,
             ...contactFR,
             ...publicationsFR,
-            ...FooterFr
+            ...FooterFr,
+            ...facilitiesFR
 
         }
     }
