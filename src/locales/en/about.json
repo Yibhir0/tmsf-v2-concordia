@@ -1,0 +1,31 @@
+{
+    "aboutHeader":  {
+
+        "header": "About Us",
+        "welcome": "Welcome to the Thermal Spray, Tribology, and Multiphase Flow Lab at the Department of Mechanical and Industrial Engineering at Concordia University. Our lab is dedicated to fundamental and applied research in the areas of thermal spray coatings, tribology, and multiphase flow dynamics. We work closely with industry to solve complex problems and develop innovative solutions for aerospace, automotive, energy, and manufacturing applications. Our team consists of researchers, engineers, interns, and undergraduate and graduate students who share a passion for science and technology. We are proud of our commitment to academic excellence, diversity, and inclusion, and we strive to create a dynamic and collaborative research environment. We invite you to explore our website to learn more about our research activities and lab facilities. Feel free to contact us if you have any questions or would like to learn more about our research projects and collaboration opportunities. We would be delighted to welcome you to our lab and work together to tackle the technological challenges of tomorrow. Welcome to the Thermal Spray, Tribology, and Multiphase Flow Lab at Concordia University!",
+        "about": "Our labs are dedicated to advancing the frontiers of materials science through cutting-edge research and innovative solutions in thermal spray coatings, tribology, and multiphase flow dynamics. We are committed to fostering collaboration between academia and industry to drive technological progress and address real-world challenges."
+    },
+
+    "aboutBody":{
+
+        "thermal":{
+            "header": "Thermal Spray Lab:",
+            "body": "Equipped with state-of-the-art thermal spray equipment for the deposition of advanced coatings. Our research focuses on the development of novel thermal spray processes, advanced materials, and coatings for a wide range of applications, including aerospace, automotive, and energy."
+
+
+        },
+
+        "tribology":{
+            "header": "Tribology Lab:",
+            "body": "Dedicated to studying friction, wear, and lubrication processes for different aerospace application under extreme conditions. Our work aims to understand the underlying mechanisms of material interactions and improve the reliability and efficiency of mechanical systems."
+        },
+
+        "multiphase":{
+            "header": "Multiphase Flow Lab:",
+            "body": " Exploring the complex behavior of fluids with multiple phases. We investigate flow dynamics in various settings to enhance process efficiency and safety in industries such as energy, manufacturing, and chemical processing."
+        }
+       
+    }
+
+    
+}

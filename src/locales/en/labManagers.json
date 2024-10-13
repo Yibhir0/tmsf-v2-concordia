@@ -1,0 +1,35 @@
+
+{
+
+   
+    "ettouil":{
+        "name": "Fadhel Ben Ettouil, PhD",
+        "occupation": "Research Associate & Lab Manager",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
+        "bio" : " Dr. Fadhel Ben Ettouil is a Research Associate in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. He is the Manager of the Thermal Spray Laboratory. He is a member of the American Society of Mechanical Engineers (ASME) and the Canadian Society for Mechanical Engineering (CSME). He is the author of more than 20 scientific papers and has supervised more than 5 graduate students. His research interests include thermal spray coatings, surface engineering, and materials characterization."
+
+    },
+
+    "labMan1":{
+        "name": "Lab Manager Name",
+        "occupation": "Lab Manager Occupation",
+        "department": "Lab Manager Department",
+        "bio" : " Dr. Jane Doe is a Senior Research Scientist in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. She is the Co-Manager of the Thermal Spray Laboratory. She is a member of the American Ceramic Society (ACerS) and the Materials Research Society (MRS). She has published over 25 scientific papers and has mentored more than 10 graduate students. Her research focuses on advanced materials processing, thermal barrier coatings, and nanostructured materials. " 
+    },
+
+    "labMan2":{
+        "name": "Lab Manager Name",
+        "occupation": "Lab Manager Occupation",
+        "department": "Lab Manager Department",
+        "bio" : " Dr. Jane Doe is a Senior Research Scientist in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. She is the Co-Manager of the Thermal Spray Laboratory. She is a member of the American Ceramic Society (ACerS) and the Materials Research Society (MRS). She has published over 25 scientific papers and has mentored more than 10 graduate students. Her research focuses on advanced materials processing, thermal barrier coatings, and nanostructured materials."
+    
+    },
+
+
+    "labManagers":"Lab Managers"
+
+
+}
+ 
+
+

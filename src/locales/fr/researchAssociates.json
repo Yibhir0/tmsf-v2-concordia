@@ -1,0 +1,31 @@
+
+{
+
+   
+   "ra1":{
+         "name": "Nom du chercheur associé",
+         "occupation": "Occupation du chercheur associé",
+         "department": "Département du chercheur associé",
+         "bio" : " Dr. Jane Doe est chercheur principal en sciences de la recherche au Département de génie mécanique, industriel et aérospatial de l'Université Concordia. Elle est co-gestionnaire du Laboratoire de projection thermique. Elle est membre de l'American Ceramic Society (ACerS) et de la Materials Research Society (MRS). Elle a publié plus de 25 articles scientifiques et a encadré plus de 10 étudiants diplômés. Ses recherches portent sur le traitement de matériaux avancés, les revêtements barrières thermiques et les matériaux nanostructurés."
+   },
+    "ra2":{
+            "name": "Nom du chercheur associé",
+            "occupation": "Occupation du chercheur associé",
+            "department": "Département du chercheur associé",
+            "bio" : " Dr. Jane Doe est chercheur principal en sciences de la recherche au Département de génie mécanique, industriel et aérospatial de l'Université Concordia. Elle est co-gestionnaire du Laboratoire de projection thermique. Elle est membre de l'American Ceramic Society (ACerS) et de la Materials Research Society (MRS). Elle a publié plus de 25 articles scientifiques et a encadré plus de 10 étudiants diplômés. Ses recherches portent sur le traitement de matériaux avancés, les revêtements barrières thermiques et les matériaux nanostructurés."
+    },
+
+    "ra3":{
+            "name": "Nom du chercheur associé",
+            "occupation": "Occupation du chercheur associé",
+            "department": "Département du chercheur associé",
+            "bio" : " Dr. Jane Doe est chercheur principal en sciences de la recherche au Département de génie mécanique, industriel et aérospatial de l'Université Concordia. Elle est co-gestionnaire du Laboratoire de projection thermique. Elle est membre de l'American Ceramic Society (ACerS) et de la Materials Research Society (MRS). Elle a publié plus de 25 articles scientifiques et a encadré plus de 10 étudiants diplômés. Ses recherches portent sur le traitement de matériaux avancés, les revêtements barrières thermiques et les matériaux nanostructurés."
+    },
+
+    "researchAssociates":" chercheurs associés"
+
+
+}
+ 
+
+

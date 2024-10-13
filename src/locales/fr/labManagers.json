@@ -1,0 +1,34 @@
+
+{
+
+   
+    "ettouil":{
+        "name": "Fadhel Ben Ettouil, Doctorat ",
+        "occupation": "Associé de Recherche et Responsable de Laboratoire",
+        "department": "Génie Mécanique, Industriel et Aérospatial",
+        "bio" : " Dr. Fadhel Ben Ettouil est un associé de recherche au département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est le gestionnaire du laboratoire de pulvérisation thermique. Il est membre de l'American Society of Mechanical Engineers (ASME) et de la Société canadienne de génie mécanique (CSME). Il est l'auteur de plus de 20 articles scientifiques et a supervisé plus de 5 étudiants diplômés. Ses intérêts de recherche incluent les revêtements de pulvérisation thermique, l'ingénierie de surface et la caractérisation des matériaux."
+
+    },
+
+    "labMan1":{
+        "name": "Nom du Gestionnaire de Laboratoire",
+        "occupation": "Occupation du Gestionnaire de Laboratoire",
+        "department": "Département du Gestionnaire de Laboratoire",
+        "bio" : " Le premier gestionnaire de laboratoire est un chercheur principal en sciences dans le département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est le co-gestionnaire du laboratoire de pulvérisation thermique. Il est membre de l'American Ceramic Society (ACerS) et de la Materials Research Society (MRS). Il a publié plus de 25 articles scientifiques et a encadré plus de 10 étudiants diplômés. Ses recherches portent sur le traitement avancé des matériaux, les revêtements de barrière thermique et les matériaux nanostructurés. "
+    },
+
+    "labMan2":{
+        "name": "Nom du Gestionnaire de Laboratoire",
+        "occupation": "Occupation du Gestionnaire de Laboratoire",
+        "department": "Département du Gestionnaire de Laboratoire",
+        "bio" : "Le deuxième gestionnaire de laboratoire est un expert en ingénierie des matériaux avec plus de 15 ans d'expérience dans le domaine. Il a travaillé sur divers projets de recherche et développement, notamment dans les domaines de la pulvérisation thermique et de la caractérisation des matériaux. Il est membre de plusieurs sociétés professionnelles et a publié de nombreux articles scientifiques. Il est également impliqué dans la supervision des étudiants et la gestion des projets de recherche au sein du laboratoire."
+    },
+
+
+    "labManagers":"Gestionnaires de Laboratoire"
+
+
+}
+ 
+
+

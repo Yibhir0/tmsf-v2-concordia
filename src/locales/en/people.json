@@ -3,25 +3,31 @@
     "moreau":{
         "name": "Christian Moreau, PhD, FASM ",
         "occupation": "Professor & Thermal Spray Director",
-        "department": "Mechanical, Industrial and Aerospace Engineering "   
+        "department": "Mechanical, Industrial and Aerospace Engineering ",
+        "bio" : "Dr. Christian Moreau is a Professor in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. He is the Director of the Thermal Spray Laboratory and the Director of the Centre for Advanced Coating Technologies. He is a Fellow of the American Society for Materials (ASM) and a member of the ASM Thermal Spray Society. He is also a member of the International Thermal Spray Association (ITSA) and the International Institute of Welding (IIW). He is the author of more than 200 scientific papers and has supervised more than 50 graduate students. He is the recipient of the 2016 ASM Thermal Spray Society Award."   
+
     },
     "stoyanov":{
         "name": "Pantcho P. Stoyanov, PhD ",
         "occupation": "Associate Professor & Tribology Lab Director",
-        "department": "Chemical and Materials Engineering "
+        "department": "Chemical and Materials Engineering ",
+        "bio" : " Dr. Pantcho P. Stoyanov is an Associate Professor in the Department of Chemical and Materials Engineering at Concordia University. He is the Director of the Tribology Laboratory. He is a member of the Society of Tribologists and Lubrication Engineers (STLE) and the Canadian Society for Mechanical Engineering (CSME). He is the author of more than 100 scientific papers and has supervised more than 30 graduate students. His research interests include tribology, surface engineering, and advanced materials. He is the recipient of the 2016 CSME Tribology Medal."
     },
     "tembely":{
         "name": "Moussa Tembely, PhD",
         "occupation": "Assistant Professor & Lab Director ",
-        "department": "Mechanical, Industrial and Aerospace Engineering "
+        "department": "Mechanical, Industrial and Aerospace Engineering ",
+        "bio" : " Dr. Moussa Tembely is an Assistant Professor in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. He is the Director of the Advanced Manufacturing Laboratory. He is a member of the American Society of Mechanical Engineers (ASME) and the Canadian Society for Mechanical Engineering (CSME). He is the author of more than 50 scientific papers and has supervised more than 10 graduate students. His research interests include advanced manufacturing, additive manufacturing, and materials processing."
     },
     "ettouil":{
         "name": "Fadhel Ben Ettouil, PhD",
         "occupation": "Research Associate & Lab Manager ",
-        "department": "Mechanical, Industrial and Aerospace Engineering"
+        "department": "Mechanical, Industrial and Aerospace Engineering",
+        "bio" : " Dr. Fadhel Ben Ettouil is a Research Associate in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. He is the Manager of the Thermal Spray Laboratory. He is a member of the American Society of Mechanical Engineers (ASME) and the Canadian Society for Mechanical Engineering (CSME). He is the author of more than 20 scientific papers and has supervised more than 5 graduate students. His research interests include thermal spray coatings, surface engineering, and materials characterization."
     },
     
     "peopleHeader":"Our Awesome Team",
+    "professors":"Professors",
     "seeMore":"See More"
 
 }

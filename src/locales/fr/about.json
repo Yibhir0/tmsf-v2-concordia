@@ -1,0 +1,32 @@
+{
+    "aboutHeader":  {
+
+        "header": "À propos de Nous",
+        "welcome": " Bienvenue au Laboratoire de projection thermique, de tribologie et d'écoulement multiphasique du Département de Génie Mécanique et Industriel de l'Université Concordia. Notre laboratoire est dédié à la recherche fondamentale et appliquée dans les domaines de la projection thermique, de la tribologie et de l'écoulement multiphasique. Nous travaillons en étroite collaboration avec l'industrie pour résoudre des problèmes complexes et développer des solutions innovantes pour les applications aérospatiales, automobiles, énergétiques et manufacturières. Notre équipe est composée de chercheurs, d'ingénieurs, de stagiaires et d'étudiants de premier cycle et de cycles supérieurs qui partagent une passion pour la science et la technologie. Nous sommes fiers de notre engagement envers l'excellence académique, la diversité et l'inclusion, et nous nous efforçons de créer un environnement de recherche dynamique et collaboratif. Nous vous invitons à explorer notre site Web pour en savoir plus sur nos activités de recherche et nos installations de laboratoire. N'hésitez pas à nous contacter si vous avez des questions ou si vous souhaitez en savoir plus sur nos projets de recherche et nos possibilités de collaboration. Nous serions ravis de vous accueillir dans notre laboratoire et de travailler ensemble pour relever les défis technologiques de demain. Bienvenue au Laboratoire de projection thermique, de tribologie et d'écoulement multiphasique de l'Université Concordia!",
+        "about": "Nos laboratoires sont dédiés à l'avancement des frontières de la science des matériaux grâce à la recherche de pointe et à des solutions innovantes dans les domaines des revêtements de projection thermique, de la tribologie et de la dynamique de l'écoulement multiphasique. Nous nous engageons à favoriser la collaboration entre le monde universitaire et l'industrie pour stimuler le progrès technologique et relever les défis du monde réel."
+    
+    },
+
+    "aboutBody":{
+
+        "thermal":{
+            "header": "Laboratoire de projection thermique:",
+            "body": "Dédié à l'étude des procédés de projection thermique pour les applications aérospatiales, automobiles et manufacturières. Nous développons de nouvelles techniques de revêtement pour améliorer les performances des matériaux et prolonger leur durée de vie dans des environnements extrêmes."
+
+
+        },
+
+        "tribology":{
+            "header": "Laboratoire de tribologie:",
+            "body": "Se concentrant sur l'étude des phénomènes de frottement, d'usure et de lubrification dans les systèmes mécaniques. Nous cherchons à améliorer l'efficacité et la fiabilité des composants mécaniques en développant des revêtements et des lubrifiants innovants."
+        },
+
+        "multiphase":{
+            "header": "Laboratoire d'écoulement multiphasique:",
+            "body": " Explorant les interactions complexes entre les fluides et les solides dans des environnements industriels. Nous étudions les phénomènes d'écoulement multiphasique pour améliorer l'efficacité des procédés de fabrication et la sécurité des installations industrielles."
+        }
+       
+    }
+
+    
+}

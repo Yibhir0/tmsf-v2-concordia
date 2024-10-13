@@ -11,6 +11,7 @@ export const usePeople = () => {
         id: p.id,
         occupation: t(p.occupation),
         department: t(p.department),
+        bio: t(p.bio),
         img: p.img,
         email: p.email,
     }));

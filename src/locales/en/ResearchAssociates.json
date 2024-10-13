@@ -1,0 +1,33 @@
+
+{
+
+   
+    "ra1":{
+        "name": "Research Associate Name",
+        "occupation": "Research Associate Occupation",
+        "department": "Research Associate Department",
+        "bio" : " Dr. Jane Doe is a Senior Research Scientist in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. She is the Co-Manager of the Thermal Spray Laboratory. She is a member of the American Ceramic Society (ACerS) and the Materials Research Society (MRS). She has published over 25 scientific papers and has mentored more than 10 graduate students. Her research focuses on advanced materials processing, thermal barrier coatings, and nanostructured materials."
+    },
+
+    "ra2":{
+        "name": "Research Associate Name",
+        "occupation": "Research Associate Occupation",
+        "department": "Research Associate Department",
+        "bio" : " Dr. Jane Doe is a Senior Research Scientist in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. She is the Co-Manager of the Thermal Spray Laboratory. She is a member of the American Ceramic Society (ACerS) and the Materials Research Society (MRS). She has published over 25 scientific papers and has mentored more than 10 graduate students. Her research focuses on advanced materials processing, thermal barrier coatings, and nanostructured materials. " 
+    },
+
+    "ra3":{
+        "name": "Research Associate Name",
+        "occupation": "Research Associate Occupation",
+        "department": "Research Associate Department",
+        "bio" : " Dr. Jane Doe is a Senior Research Scientist in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. She is the Co-Manager of the Thermal Spray Laboratory. She is a member of the American Ceramic Society (ACerS) and the Materials Research Society (MRS). She has published over 25 scientific papers and has mentored more than 10 graduate students. Her research focuses on advanced materials processing, thermal barrier coatings, and nanostructured materials. " 
+    },
+
+
+    "researchAssociates":"Research Associates"
+
+
+}
+ 
+
+

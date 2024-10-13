@@ -27,6 +27,14 @@ import facilitiesFR from "../locales/fr/facilities.json";
 import FooterEn from '../locales/en/footer.json';
 import FooterFr from '../locales/fr/footer.json';
 
+import AboutEn from '../locales/en/about.json';
+import AboutFr from '../locales/fr/about.json';
+
+import LabManagersEn from '../locales/en/labManagers.json';
+import LabManagersFr from '../locales/fr/labManagers.json';
+
+import ResearchAssociatesEn from '../locales/en/ResearchAssociates.json';
+import ResearchAssociatesFr from '../locales/fr/researchAssociates.json';
 const resources = {
     en: {
         translation: {
@@ -40,7 +48,11 @@ const resources = {
             ...contactEN,
             ...publicationsEN,
             ...FooterEn,
-            ...facilitiesEN
+            ...facilitiesEN,
+            ...AboutEn,
+            ...LabManagersEn,
+            ...ResearchAssociatesEn
+
         }
     },
     fr: {
@@ -55,7 +67,10 @@ const resources = {
             ...contactFR,
             ...publicationsFR,
             ...FooterFr,
-            ...facilitiesFR
+            ...facilitiesFR,
+            ...AboutFr,
+            ...LabManagersFr,
+            ...ResearchAssociatesFr
 
         }
     }

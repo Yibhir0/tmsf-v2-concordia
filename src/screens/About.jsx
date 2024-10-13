@@ -1,9 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
+import { useTranslation } from "react-i18next";
+
 
 
 export default function About() {
+
+  const { t } = useTranslation();
 
   return (
     <Wrapper id="home" className="container flexNullCenter flexColumn">
@@ -11,39 +15,39 @@ export default function About() {
       <LeftSide >
         <div>
 
-          <h1 className="extraBold font40 myColor">About Us</h1>
+          <h1 className="extraBold font40 myColor">{t("aboutHeader.header")}</h1>
           {/* <HeaderP className="font20 extraBold myColor">
             
           </HeaderP> */}
           <p className="font20 ">
-            Welcome to the official LinkedIn page of Concordia Thermal Spray, Tribology, and Multiphase Flow Labs (TSTMF Labs) at Concordia University!
+            {t("aboutHeader.welcome")}
           </p>
           <p className="font20 ">
-            Our labs are dedicated to advancing the frontiers of materials science through cutting-edge research and innovative solutions in thermal spray coatings, tribology, and multiphase flow dynamics. We are committed to fostering collaboration between academia and industry to drive technological progress and address real-world challenges.
+            {t("aboutHeader.about")}
           </p>
           <br />
 
           <HeaderP className="font30 myColor ">
-            Thermal Spray Lab:
+            {t("aboutBody.thermal.header")}
           </HeaderP>
           <p className="font20 ">
-            Thermal Spray Lab: Specializing in the development and optimization of advanced coating technologies. Our research focuses on We utilize state-of-the-art thermal spray techniques to address critical industrial issues such as wear and corrosion resistance, surface protection, and performance enhancement. By employing innovative methods and exploring diverse coating materials, we deliver tailored solutions that meet the specific needs of our industrial partners.
+            {t("aboutBody.thermal.body")}
 
           </p>
           <br />
           <HeaderP className="font30 myColor ">
-            Tribology Lab:
+            {t("aboutBody.tribology.header")}
           </HeaderP>
           <p className="font20 ">
-            Dedicated to studying friction, wear, and lubrication processes for different aerospace application under extreme conditions. Our work aims to understand the underlying mechanisms of material interactions and improve the reliability and efficiency of mechanical systems.
+            {t("aboutBody.tribology.body")}
 
           </p>
           <br />
           <HeaderP className="font30 myColor ">
-            Multiphase Flow Lab:
+            {t("aboutBody.multiphase.header")}
           </HeaderP>
           <p className="font20">
-            Exploring the complex behavior of fluids with multiple phases. We investigate flow dynamics in various settings to enhance process efficiency and safety in industries such as energy, manufacturing, and chemical processing.
+            {t("aboutBody.multiphase.body")}
 
           </p>
         </div>
@@ -79,13 +83,13 @@ const LeftSide = styled.div`
 `;
 
 const HeaderP = styled.div`
-  max-width: 470px;
+    max-width: 100%;
   padding: 15px 0 50px 0;
   line-height: 1.5rem;
   @media (max-width: 960px) {
     padding: 15px 0 50px 0;
     text-align: center;
-    max-width: 100%;
+  
   }
 `;
 
