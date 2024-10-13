@@ -11,7 +11,7 @@ export default function About() {
       <LeftSide >
         <div>
 
-          <h1 className="extraBold font40">About Us</h1>
+          <h1 className="extraBold font40 myColor">About Us</h1>
           {/* <HeaderP className="font20 extraBold myColor">
             
           </HeaderP> */}
@@ -21,24 +21,29 @@ export default function About() {
           <p className="font20 ">
             Our labs are dedicated to advancing the frontiers of materials science through cutting-edge research and innovative solutions in thermal spray coatings, tribology, and multiphase flow dynamics. We are committed to fostering collaboration between academia and industry to drive technological progress and address real-world challenges.
           </p>
+          <br />
 
-          <HeaderP className="font20 ">
-            What we do:
+          <HeaderP className="font30 myColor ">
+            Thermal Spray Lab:
           </HeaderP>
           <p className="font20 ">
-            <span className="font20 extraBold">Thermal Spray Lab:</span>Thermal Spray Lab: Specializing in the development and optimization of advanced coating technologies. Our research focuses on We utilize state-of-the-art thermal spray techniques to address critical industrial issues such as wear and corrosion resistance, surface protection, and performance enhancement. By employing innovative methods and exploring diverse coating materials, we deliver tailored solutions that meet the specific needs of our industrial partners.
+            Thermal Spray Lab: Specializing in the development and optimization of advanced coating technologies. Our research focuses on We utilize state-of-the-art thermal spray techniques to address critical industrial issues such as wear and corrosion resistance, surface protection, and performance enhancement. By employing innovative methods and exploring diverse coating materials, we deliver tailored solutions that meet the specific needs of our industrial partners.
 
           </p>
+          <br />
+          <HeaderP className="font30 myColor ">
+            Tribology Lab:
+          </HeaderP>
           <p className="font20 ">
-
-            <span className="font20 extraBold">Tribology Lab:</span> Dedicated to studying friction, wear, and lubrication processes for different aerospace application under extreme conditions. Our work aims to understand the underlying mechanisms of material interactions and improve the reliability and efficiency of mechanical systems.
+            Dedicated to studying friction, wear, and lubrication processes for different aerospace application under extreme conditions. Our work aims to understand the underlying mechanisms of material interactions and improve the reliability and efficiency of mechanical systems.
 
           </p>
-
-          <p className="font20 ">
-
-
-            <span className="font20 extraBold">Multiphase Flow Lab:</span>   Exploring the complex behavior of fluids with multiple phases. We investigate flow dynamics in various settings to enhance process efficiency and safety in industries such as energy, manufacturing, and chemical processing.
+          <br />
+          <HeaderP className="font30 myColor ">
+            Multiphase Flow Lab:
+          </HeaderP>
+          <p className="font20">
+            Exploring the complex behavior of fluids with multiple phases. We investigate flow dynamics in various settings to enhance process efficiency and safety in industries such as energy, manufacturing, and chemical processing.
 
           </p>
         </div>

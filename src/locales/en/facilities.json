@@ -1,30 +1,27 @@
 
 {
-   "flow_facility":
+   "t1":
     {
-    "title": "Multiphase Flow",
-    "text": "Spray and atomization Droplet impact & heat transfer Rivulet & liquid thin film Digital Microfluidics-Electrowetting Instability of elliptic liquid jets.",
-    "tag": "Learn More",
-    "author":"Department of Mechanical and Industrial Engineering"
+        "name": "Vacuum Plasma Spray System",
+        "description": "The vacuum plasma spray system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites. "
     
     },
   
-    "thermal_facility":
+    "t2":
     {
-    "title": "Thermal spray",
-    "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
-    "tag": "Learn More",
-    "author":"Department of Mechanical and Industrial Engineering"
+        "name": "Bordeur Thermal Spray Coating System",
+        "description": "The Bordeur thermal spray coating system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites."
+    
     
     },
-    "tribology_facility":
+    "t3":
     {
-    "title": "Tribology",
-    "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
-    "tag": "Learn More",
-    "author":"Department of Mechanical and Industrial Engineering"
+        "name": "Thermal Spraying",
+        "description": "Thermal spraying is a coating process that uses a heat source to melt a material and propel it onto a substrate. The material is melted in the form of a powder, wire, or rod, and is then sprayed onto the substrate using a high-velocity gas stream. The material solidifies on the substrate to form a coating. "
+    
     
     },
+
     "facilitiesHeader":"Our Facilities",
     "seeMore":"See More"
 

@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function ProjectBox({ img,  name, occupation,department,email, action}) {
+export default function ProjectBox({ img, name, occupation, department, email, action }) {
 
-  
+
   return (
     <Wrapper>
       <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
@@ -13,7 +13,7 @@ export default function ProjectBox({ img,  name, occupation,department,email, ac
       <p className="font15">{occupation}</p>
       <p className="font15">{department}</p>
       <p className="font13">{email}</p>
-  
+
     </Wrapper>
   );
 }

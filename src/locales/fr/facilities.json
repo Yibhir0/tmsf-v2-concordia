@@ -1,30 +1,25 @@
 
 {
-    "flow_facility":
-     {
-     "title": "Multiphase Flow",
-     "text": "Spray and atomization Droplet impact & heat transfer Rivulet & liquid thin film Digital Microfluidics-Electrowetting Instability of elliptic liquid jets.",
-     "tag": "Learn More",
-     "author":"Department of Mechanical and Industrial Engineering"
-     
-     },
-   
-     "thermal_facility":
-     {
-     "title": "Thermal spray",
-     "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
-     "tag": "Learn More",
-     "author":"Department of Mechanical and Industrial Engineering"
-     
-     },
-     "tribology_facility":
-     {
-     "title": "Tribology",
-     "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
-     "tag": "Learn More",
-     "author":"Department of Mechanical and Industrial Engineering"
-     
-     },
+    "t1":
+    {
+        "name": "Système de pulvérisation plasma sous vide",
+        "description": "Le système de pulvérisation plasma sous vide est un système de pulvérisation thermique de pointe capable de déposer une large gamme de matériaux, y compris des céramiques, des métaux et des composites. Le système est équipé d'une torche plasma de 60 kW, d'un robot 6 axes et d'un manipulateur 6 axes. Le système est capable de déposer des revêtements sur des substrats jusqu'à 12 pouces de diamètre et 12 pouces de longueur. "
+    
+    },
+  
+    "t2":
+    {
+        "name": "Système de revêtement par pulvérisation thermique Bordeur",
+        "description": "Le système de revêtement par pulvérisation thermique Bordeur est un système de pulvérisation thermique de pointe capable de déposer une large gamme de matériaux, y compris des céramiques, des métaux et des composites. Le système est équipé d'une torche plasma de 60 kW, d'un robot 6 axes et d'un manipulateur 6 axes. Le système est capable de déposer des revêtements sur des substrats jusqu'à 12 pouces de diamètre et 12 pouces de longueur."
+    
+    },
+    "t3":
+    {
+        "name": "Pulvérisation thermique",
+        "description": "La pulvérisation thermique est un procédé de revêtement qui utilise une source de chaleur pour faire fondre un matériau et le propulser sur un substrat. Le matériau est fondu sous forme de poudre, de fil ou de tige, puis pulvérisé sur le substrat à l'aide d'un jet de gaz à haute vitesse. Le matériau se solidifie sur le substrat pour former un revêtement."
+    
+    
+    },
      "facilitiesHeader":"Nos Installations",
     "seeMore":"Voir Plus"
  }
