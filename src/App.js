@@ -11,6 +11,8 @@ import GalleryScreen from "./screens/GalleryScreen.jsx";
 import PublicationScreen from "./screens/PublicationScreen.jsx";
 import FacilitiesScreen from "./screens/FacilitiesScreen.jsx";
 
+import Profile from "./screens/Profile.jsx";
+
 
 
 export default function App() {
@@ -34,6 +36,7 @@ export default function App() {
           <Route path="/gallery" element={<GalleryScreen />} />
           <Route path="/publications" element={<PublicationScreen />} />
           <Route path="/facilities" element={<FacilitiesScreen />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
 
 

@@ -52,9 +52,7 @@ export default function TopNavbar() {
               navLinks.map((nav, i) => (
 
                 <li className="semiBold font18 pointer " key={i}>
-                  {/* <Link style={{ padding: "10px 15px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
-                    {nav.title}
-                  </Link> */}
+
                   <HashLink style={{ padding: "10px 18px " }} className="nav-link" to={`/#${nav.id}`} spy={true} smooth={true} offset={-80}>
                     {nav.title}
                   </HashLink>
@@ -64,16 +62,12 @@ export default function TopNavbar() {
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font18 pointer ">
-              {/* <Link style={{ padding: "10px 30px 10px 0" }} className="nav-link" to="/" >
-                FR
-              </Link> */}
+
               < LanguageBtn s={"nav-link"} />
 
             </li>
             <li className="semiBold font18 pointer flexCenter">
-              {/* <Link style={{ padding: "10px 15px" }} className="radius8 darkBg nav-link orangeColor" to="contact" >
-                {t('contact')}
-              </Link> */}
+
               <HashLink style={{ padding: "10px 18px" }} className="radius8 darkBg nav-link whiteColor" to="/#contact" spy={true} smooth={true} offset={-80}>
                 {t('contact')}
               </HashLink>

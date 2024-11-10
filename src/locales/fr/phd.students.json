@@ -1,0 +1,183 @@
+
+{
+
+  "phdstudents": "Doctorants",
+
+  "phd_students":
+  [
+    {
+      "name": "Kaue Bertuol",
+      "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+      "email": "kaue.bertuol@mail.concordia.ca; kauebertuol@gmail.com ",
+      "research_summary": "Doctorat en génie mécanique, spécialisé dans les revêtements par projection thermique et la tribologie, avec un accent sur les joints abradables pour la technologie aérospatiale. La plupart des recherches et projets de Kaue, sous la supervision du Prof. Pantcho Stoyanov et du Prof. Christian Moreau, ont été soutenus par MITACS, CRIAQ, CRSNG et des leaders de l'industrie comme Pratt & Whitney. Avec plus de six ans d'expérience industrielle en tant que chef de projet et responsable de production dans la production de machines, Kaue a démontré de solides compétences en leadership. Sur le plan académique, il a reçu de nombreux prix et distinctions, y compris des programmes entièrement financés à RMIT (Australie), UTFPR (Brésil) et Concordia (Canada), reconnaissant son excellent engagement envers la technologie de l'ingénierie.",
+      "picture": "bertuol_kaue.jpg" ,
+      "linkedin": "www.linkedin.com/in/kauebertuol",
+      "google_scholar": "https://scholar.google.ca/citations?hl=en&user=u5-Ft-oAAAAJ",
+      "research_gate": "https://www.researchgate.net/profile/Kaue-Bertuol/research",
+      "duration": "2022 - Present"
+  },
+  {
+      "name": "Hamideh Vakilifard",
+      "occupation": "Doctorante, Département de génie mécanique, industriel et aérospatial",
+      "email": "hamideh.vakilifard@concordia.ca",
+      "research_summary": "Hamideh étudie les céramiques avancées pour les couches de finition des revêtements de barrière thermique (TBC) en utilisant la méthode SPS. Ses études visent à améliorer la durabilité et l'efficacité des TBC, à améliorer les performances des turbines à gaz et à favoriser les avancées en matière d'efficacité énergétique et de science des matériaux. Elle détient une maîtrise en ingénierie des matériaux d'Iran, se concentrant sur l'optimisation des TBC à gradient fonctionnel. Son expérience de dix ans dans l'industrie de la conception et de la fabrication de turbines à gaz représente un ensemble de compétences significatif. En dehors de la recherche, elle aime cultiver diverses plantes, faire des randonnées dans la nature et se reconnecter avec l'extérieur.",
+      "picture": "vakilifard_hamideh.jpg",
+      "linkedin": "www.linkedin.com/in/hamidehvf-13660heo",
+      "research_gate": "https://www.researchgate.net/profile/Hamideh-Vakilifard",
+      "duration": "2022 – Present"
+      
+  },
+{
+      "name": "Parastoo Fallah",
+      "occupation": "Doctorante, Département de génie chimique et des matériaux (CME)",
+      "email": "Parastoo.fallah@concordia.ca",
+      "research_summary": "Parastoo est doctorante à l'Université Concordia, où elle recherche le comportement tribologique des lubrifiants solides écologiques à base de MoS2 couramment utilisés dans l'industrie aérospatiale. Elle est sous la supervision du Prof. Pantcho Stoyanov et du Prof. Rolf Wuthrich. Parastoo détient une maîtrise en génie des matériaux, spécialisée dans la coulée et la solidification directionnelle des superalliages à base de nickel utilisés dans les sections chaudes des turbines à gaz. De plus, elle possède plus de cinq ans d'expérience industrielle en tant que chef de projet dans les secteurs minier et sidérurgique.",
+      "picture": "parastoo-fallah.png",
+      "linkedin": "www.linkedin.com/in/parastoo-fallah-9b8699101",
+      "google_scholar": "https://scholar.google.com/citations?user=eczQhmIAAAAJ&hl=en&oi=ao",
+      "duration": "2023 - Present"
+  },
+{
+      "name": "Ashkan Ghafari",
+      "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+      "email": "ashkan.ghafari@mail.concoridia.ca",
+      "research_summary": "Ashkan est actuellement engagé dans des recherches sur les simulations numériques du processus de projection plasma par suspension axiale, en se concentrant sur la production de revêtements de barrière thermique (TBC) pour améliorer l'efficacité et la durabilité des moteurs de turbine. Il a obtenu à la fois son M.Sc. et son B.Sc. en génie mécanique de l'Université de technologie d'Ispahan, en Iran, où il s'est spécialisé dans des techniques expérimentales telles que la vélocimétrie par image de particules (PIV) et les méthodes de shadowgraph, ainsi que les simulations de dynamique des fluides computationnelle (CFD). Avec plus d'une décennie d'expérience en CFD, Ashkan a fondé CFD College, une plateforme en ligne innovante dédiée à l'enseignement des logiciels CFD et au mentorat des étudiants et des chercheurs dans le domaine, lui fournissant une compréhension complète de diverses disciplines du génie mécanique. En dehors de ses activités professionnelles, il aime s'immerger dans les films et les séries, et il a une passion pour le football.",
+      "picture": "ashkan-ghafari.png",
+      "linkedin": "https://www.linkedin.com/in/ashkan-ghafari/",
+      "research_gate": "https://www.researchgate.net/profile/Ashkan-Ghafari",
+      "google_scholar": "https://scholar.google.com/citations?user=qxUeJzAAAAAJ&hl=en",
+      "youtube": "https://www.youtube.com/@CFDCollege",
+      "duration": "Jan 2023 - Present"
+  
+    },
+
+    {
+      "name": "Sobhan Ghorbani",
+      "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+      "email": "Sobhan.Ghorbaninohooji@mail.concordia.ca ",
+      "research_summary": "Sobhan travaille sur l'étude expérimentale et numérique de l'accrétion de glace sur des surfaces superhydrophobes et la prédiction de la puissance requise pour les systèmes de dégivrage. Sobhan a obtenu son diplôme de maîtrise en génie aérospatial de l'Université de technologie de Sharif (SUT). En dehors de ses recherches, Sobhan aime jouer au football et au volleyball.",
+      "picture": "sobhan-ghorbani.png",
+      "linkedin": "https://www.linkedin.com/in/sobhan-ghorbani-nohooji-3b2984241/",
+      "research_gate": "https://www.researchgate.net/profile/Sobhan-Ghorbani-3",
+      "google_scholar": "https://scholar.google.com/citations?user=61XhlW4AAAAJ",
+      "duration": "Jan 2024 - Present"
+      
+    },
+
+    
+   {
+      "name": "Jian Jiao",
+      "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+      "email": "jian.jiao@mail.concordia.ca ",
+      "research_summary": "Jian commence ses travaux sur un modèle basé sur l'entropie pour la distribution de la taille des gouttelettes de pulvérisation. Jian a terminé son baccalauréat en génie aérospatial en 2024 et a été sélectionné pour une entrée directe au programme de doctorat.",
+      "picture": "jian-jiao.jpg",
+      "duration": "(September 2024 - Present)"
+  
+  },
+
+  {
+      "name": "Murilo Sergio Lamana",
+      "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+      "email": "murilo.lamana@mail.concordia.ca",
+      "research_summary": "Ingénieur mécanique avec un diplôme de maîtrise en génie mécanique avec une spécialisation en matériaux et procédés de fabrication. Six ans d'expérience dans le traitement et la caractérisation des matériaux, les techniques de soudage et spécialisé dans la projection thermique et la caractérisation des revêtements. Actuellement, il travaille sur le dépôt ID-HVAF de couches de liaison pour les revêtements de barrière thermique dans l'industrie aérospatiale. Désireux d'apprendre différentes méthodes et techniques. Poursuit l'efficacité, la distinction et une carrière dans la recherche.",
+      "picture": "murilo-lamana.png",
+      "linkedin": "https://www.linkedin.com/in/murilo-lamana-077759a6/",
+      "research_gate": "https://www.researchgate.net/profile/Murilo-Lamana-2",
+      "google_scholar": "https://scholar.google.ca/citations?hl=en&user=jbWYBpcAAAAJ",
+      "duration": "2021 - Present"
+      
+    },
+   {
+      "name": "Marie-Laurence Cliche",
+      "occupation": "Doctorante, Département de génie mécanique, industriel et aérospatial",
+      "email": "marielaurence.cliche@concordia.ca",
+      "research_summary": "Marie-Laurence Cliche est doctorante au Département de génie mécanique, industriel et aérospatial (MIAE) de l'Université Concordia, où elle est supervisée par le Dr Pantcho Stoyanov. Elle détient un baccalauréat en génie aérospatial et une maîtrise en sciences appliquées de la même université. Ses recherches actuelles de doctorat portent sur le développement, la fabrication et l'optimisation d'un composite à matrice céramique (CMC), ainsi que sur son évaluation de performance et tribologique dans des environnements difficiles. Les recherches et projets de Marie-Laurence sont soutenus par MITACS et des leaders de l'industrie tels que Boston Materials. Ses intérêts de recherche englobent la tribologie, la caractérisation des surfaces, les composites et le développement de solutions matérielles pour des environnements exigeants.",
+      "picture": "marie-laurence-cliche.jpg",
+      "linkedin": "https://ca.linkedin.com/in/marie-laurence-cliche-0087361a4",
+      "research_gate": "https://www.researchgate.net/profile/Marie-Laurence-Cliche",
+      "duration": "2022-Present"
+      
+    },
+   {
+      "name": "Andre R. Mayer",
+      "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+      "email": " andre.mayer@mail.concordia.ca",
+      "research_summary": "Andre est ingénieur mécanique avec une maîtrise en sciences de l'Université fédérale de technologie – Parana (UTFPR) et poursuit actuellement un doctorat au Département de génie mécanique, industriel et aérospatial (MIAE) de l'Université Concordia. Avec une vaste expérience dans la recherche axée sur l'industrie, Andre a commencé sa carrière en tant que stagiaire chez LACTEC, se concentrant sur le développement de solutions de projection thermique et résistantes à l'usure pour les centrales hydroélectriques. Sa recherche de maîtrise, menée en collaboration avec des entreprises telles que Renault, Villares Metals et Stihl, a été financée par l'initiative Route 2030 pour développer des surfaces pour la fabrication de moulage sous pression à haute pression. Actuellement, en tant que candidat au doctorat à temps plein sous la supervision du Dr Pantcho Stoyanov, la recherche d'Andre se concentre sur le développement de solutions de surface pour des températures extrêmes, avec des applications potentielles dans les moteurs de turbines à gaz et d'autres environnements exigeants. Son travail est soutenu par le projet NOVA, financé par le CRSNG. De plus, Andre est engagé dans des projets avec Pratt & Whitney Canada dans le cadre du programme MITACS, ainsi que dans des recherches privées avec Pratt & Whitney USA et Radian Thermal Products.",
+      "picture": "andre-mayer.jpg",
+      "linkedin": "https://www.linkedin.com/in/andrermayer/",
+      "google_scholar": "https://scholar.google.ca/citations?hl=en&user=nue_T8oAAAAJ",
+      "duration": "2022-Present"
+      
+    },
+    
+{
+  "name": "Ritam Vajpeyi ",
+  "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+  "email": " andre.mayer@mail.concordia.ca",
+  "research_summary": "Ritam poursuit actuellement son doctorat en génie mécanique à l'Université Concordia à Montréal, Canada. Il détient une maîtrise en génie mécanique de l'Université Concordia (janvier 2023 – juin 2024), où il s'est concentré sur la tribologie, le revêtement et l'ingénierie de surface, les matériaux à haute résistance, la fabrication de composites et les essais non destructifs (END). Avant cela, Ritam a obtenu son baccalauréat en technologie en génie mécanique de l'Université Amity, en Inde, en 2021, avec mention Première Division et a reçu le prix de la Meilleure Capacité d'Organisation. Pendant ses études de premier cycle, il a mené des recherches en tant que stagiaire de recherche étudiant au Département de génie mécanique, se concentrant sur l'inspection END des aubes de turbine de moteur à réaction. En plus de ses activités académiques, Ritam a cofondé et a été le responsable de l'ingénierie et de la sensibilisation numérique de la Société des Machines Robotiques à l'Université Amity. Il a joué un rôle clé dans le mentorat des membres de la société et dans la promotion de l'innovation en robotique grâce à l'intégration des technologies numériques. Il est également membre de la prestigieuse Golden Key International Honour Society, ayant été reconnu pour se classer parmi les 15 % les plus performants de sa faculté académique à l'Université Concordia. Il est également membre de la Vertical Flight Society, reflétant son intérêt pour l'avancement des technologies de rotorcraft et d'atterrissage (eVTOL).",
+  "picture": "ritam-vajpeyi.jpg",
+  "publications": "Predicting the dimensional variation of geometries produced through FDM 3D printing employing supervised machine learning.\nhttps://doi.org/10.1016/j.sintl.2022.100194\n• Analyzing the impact of print parameters on dimensional variation of ABS specimens printed using fused deposition modelling (FDM).\nhttps://doi.org/10.1016/j.sintl.2021.100149\n• Prediction of printing parameters for minimal dimensional variation in 3D printed parts by using Artificial Intelligence.\nhttps://doi.org/10.1109/spin52536.2021.9566052\n• Utilizing Machine Learning to Predict the Dimensional Variation of Shafts Printed using Fused Deposition Modelling. Trends in Mechanical Engineering & Technology, 11(2, 2021), 41–46\n",
+  "duration": "Sept 2024 - Present"
+},
+{
+  "name": "Francisco Rene Rivadeneira",
+  "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+  "email": "francisco.rivadeneira@concordia.ca",
+  "research_summary": "Je suis doctorant spécialisé en turbomachines, avec un accent particulier sur les matériaux de dégagement et tribologiques. Mes recherches portent sur le développement et les tests de matériaux de nouvelle génération pour les composants de moteur, dans le but d'améliorer les performances et la durée de vie des moteurs. En utilisant des géométries qui ressemblent étroitement aux conceptions réelles des moteurs et en reproduisant des conditions de fonctionnement extrêmes, je vise à améliorer l'efficacité et la durabilité des moteurs à turbine à gaz. En dehors de mes recherches, j'ai une passion pour la musique et j'aime jouer de la guitare.",
+  "picture": "francisco-rivadeneira.jpg",
+  "linkedin": "www.linkedin.com/in/francisco-rivadeneira-729432333",
+  "duration": "2025- Present"
+  
+},
+{
+  "name": "Dara Samii",
+  "occupation": "Étudiant à la maîtrise en sciences appliquées, Département de génie mécanique, industriel et aérospatial",
+  "email": "dara.rahmatsamii@mail.concordia.ca",
+  "research_summary": "Dara travaille sur l'application de la dynamique des fluides computationnelle (CFD) et de l'intelligence artificielle (IA) pour accélérer la simulation des projections thermiques. Dara a obtenu son baccalauréat en génie chimique à l'Université des sciences et technologies d'Iran (IUST) en 2022 et son intérêt pour la simulation, la modélisation et la dynamique des fluides l'a conduit à poursuivre une maîtrise en génie mécanique à l'Université Concordia. En plus de ses recherches, Dara est un amateur de musique et joue et improvise des morceaux de jazz, de blues et de boogie-woogie au piano.",
+  "picture": "dara-samii.jpg",
+  "linkedin": "https://www.linkedin.com/in/dara-samii/",
+  "google_scholar": ": https://scholar.google.com/citations?user=n3bdfeUAAAAJ&hl=en",
+  "research_gate": "https://www.researchgate.net/profile/Dara-Rahmat-Samii",
+  "duration": "Sept 2023 - Present"
+},
+{
+"name": "Hossein Shahbazi",
+"occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+"email": "hossein.shahbazi@mail.concordia.ca\n Hossein.shahbazi9192@gmail.com",
+"research_summary": "Je suis doctorant au Département de génie mécanique, industriel et aérospatial de l'Université Concordia, spécialisé dans les revêtements par projection thermique dans le cadre d'un projet collaboratif avec le groupe SurfTec du CNRC Canada, sous la supervision du Dr Christian Moreau, du Dr Pantcho Stoyanov et du Dr Rogerio S. Lima. Mon travail se concentre sur le groupe Aérospatial/Projection Thermique, où je travaille sur la prédiction et l'application de matériaux à haute entropie, d'alliages à haute entropie, de céramiques avancées et d'autres domaines dans le secteur aérospatial, en particulier l'ingénierie des surfaces et les revêtements pour turbines. Mon expertise repose sur une solide formation en sciences physiques et des matériaux, avec des compétences en synthèse, gel-casting, slip-casting, frittage de poudres, conception de configurations expérimentales et projection thermique d'alliages, en particulier les alliages à haute entropie dans les systèmes de barrière thermique.",
+"picture": "hossein-shahbazi.jpg",
+"linkedin": "https://www.linkedin.com/in/hossein-shahbazi-4498a3aa/",
+"research_gate": "https://www.researchgate.net/profile/Hossein-Shahbazi-2",
+"google_scholar": "https://scholar.google.ca/citations?user=FHUGiyYAAAAJ&hl=en",
+"duration": "2022 - Present"
+
+},
+{
+"name": "Aravind Kumar Thoutam",
+"occupation": "Doctorant en génie mécanique – Département de génie mécanique, industriel et aérospatial (MIAE)",
+"email": "aravindkumar.thoutam@mail.concordia.ca",
+"research_summary": "Aravind poursuit un doctorat en génie mécanique sous la supervision du Prof. Christian Moreau et du Prof. Ali Dolatabadi (UoT). La recherche d'Aravind se concentre sur l'optimisation des couches de liaison pour les revêtements de barrière thermique (TBC) par des techniques HVAF, visant à améliorer l'efficacité des moteurs à turbine à gaz et à réduire les émissions de gaz à effet de serre. Ses recherches sont menées en collaboration avec l'Université Concordia, l'Université McGill et soutenues par CRIAQ, Tecnar, Pratt & Whitney Canada et USA. Aravind détient un baccalauréat de JNTUH, Inde et une double maîtrise de l'Université West, Suède. Son expérience est profondément ancrée dans l'ingénierie de la projection thermique, la fabrication additive métallique et leurs applications. En dehors du travail, il aime découvrir de nouveaux cafés, restaurants, bars, se plonger dans les films et retrouver des amis lors de voyages !",
+"picture": "aravindkumar-thoutam.jpg",
+"linkedin": "https://www.linkedin.com/in/aravind-kumar-thoutam-3b39aab3/",
+"research_gate": ": https://www.researchgate.net/profile/Aravind-Thoutam",
+"google_scholar": "https://scholar.google.com/citations?user=lxpO98MAAAAJ&hl=en",
+"duration": "2021 - Present"
+
+},
+{
+"name": "Victor Vaurek Dimbarre",
+"occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
+"email": "victor.vaurekdimbarre@mail.concordia.ca",
+"research_summary": "Il est doctorant au Département de génie mécanique, industriel et aérospatial de l'Université Concordia, spécialisé dans les matériaux avancés et les systèmes tribologiques pour les moteurs à turbine à gaz, avec un accent sur la fiabilité opérationnelle des turbomachines. Ses recherches visent à contribuer aux avancées en ingénierie aérospatiale et mécanique grâce à des collaborations avec Pratt & Whitney Canada, CRIAQ et le programme MITACS sous la supervision du Dr Pantcho Stoyanov. Il détient une maîtrise en génie mécanique, avec une concentration sur les sciences thermiques et les fluides, avec des recherches sur le transfert de chaleur, les échangeurs de chaleur et l'efficacité thermique à l'Université fédérale de technologie – Paraná. Il possède également un MBA en gestion de projet stratégique et méthodologies agiles, ainsi qu'un diplôme en génie mécanique de l'Université fédérale de technologie – Paraná (UTFPR). Avec plus de deux ans d'expérience industrielle en tant que responsable du développement, de la conception et de la production d'équipements de laboratoire, il maintient un fort intérêt pour la fiabilité opérationnelle, contribuant aux avancées en ingénierie aérospatiale et mécanique.",
+"picture": "victor-vaurekdimbarr.jpg",
+"linkedin": "https://www.linkedin.com/in/victordimbarre/",
+"research_gate": "https://www.researchgate.net/profile/Victor-Vaurek-Dimbarre",
+"google_scholar": "https://scholar.google.ca/citations?user=S0vkLQ4AAAAJ",
+"duration": "2024 - Present"
+}
+  ]
+
+    
+  
+  }
+  

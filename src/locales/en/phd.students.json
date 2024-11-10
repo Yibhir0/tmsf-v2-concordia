@@ -1,0 +1,177 @@
+
+{
+
+  "phdstudents": "Ph.D. Students",
+
+  "phd_students":
+  [
+{
+      "name": "Kaue Bertuol",
+      "occupation": "Ph.D. Student, Mechanical, Industrial and Aerospace Engineering Department",
+      "email": "kaue.bertuol@mail.concordia.ca; kauebertuol@gmail.com ",
+      "research_summary": "Ph.D. in Mechanical Engineering, specializing in Thermal Spray Coatings and Tribology, focusing on abradable seals for aerospace technology. Most of Kaue’s research and projects, under the supervision of Prof. Pantcho Stoyanov and Prof. Christian Moreau, were supported by MITACS, CRIAQ, NSERC, and industry leaders like Pratt & Whitney. With over six years of industrial experience as a Project and Production Manager in machinery production, Kaue has demonstrated strong leadership skills. Academically, he has earned multiple awards and honours, including fully funded programs at RMIT (Australia), UTFPR (Brazil), and Concordia (Canada), recognizing his excellent commitment to engineering technology.",
+      "picture": "bertuol_kaue.jpg" ,
+      "linkedin": "www.linkedin.com/in/kauebertuol",
+      "google_scholar": "https://scholar.google.ca/citations?hl=en&user=u5-Ft-oAAAAJ",
+      "research_gate": "https://www.researchgate.net/profile/Kaue-Bertuol/research",
+      "duration": "2022 - Present"
+  },
+
+   {
+      "name": "Hamideh Vakilifard",
+      "occupation": "PhD Candidate, in mechanical, industrial, and aerospace engineering (MIAE) department",
+      "email": "hamideh.vakilifard@concordia.ca",
+      "research_summary": "Hamideh is investigating advanced ceramics for topcoats of thermal barrier coating (TBC) using the SPS method. Her studies aim to enhance the durability and efficiency of TBCs, improve the performance of gas turbines, and drive advancements in energy efficiency and materials science. She holds a master's degree in material engineering from Iran, focusing on optimizing functionally graded TBCs. Her extensive decade of experience in the gas turbine design and manufacturing industry represents a significant skill set. Beyond research, she enjoys nurturing various plants, hiking through nature, and reconnecting with the outdoors.",
+      "picture": "vakilifard_hamideh.jpg",
+      "linkedin": "www.linkedin.com/in/hamidehvf-13660heo",
+      "research_gate": "https://www.researchgate.net/profile/Hamideh-Vakilifard",
+      "duration": "2022 – Present"
+      
+  },
+ {
+    "name": "Parastoo Fallah",
+    "occupation": "PhD Candidate, Department of Chemical and Materials Engineering (CME)",
+    "email": "Parastoo.fallah@concordia.ca",
+    "research_summary": "Parastoo is a Ph.D. student at Concordia University, where she is researching the tribological behavior of eco-friendly MoS2-based solid lubricants commonly used in the aerospace industry. She is under the supervision of Prof. Pantcho Stoyanov and Prof. Rolf Wuthrich. Parastoo holds a master's degree in Materials Engineering, specializing in the casting and directional solidification of Nickel-based superalloys used in the hot sections of gas turbines. Additionally, she has over five years of industrial experience as a project manager in the mining and steelmaking sectors.",
+    "picture": "parastoo-fallah.png",
+    "linkedin": "www.linkedin.com/in/parastoo-fallah-9b8699101",
+    "google_scholar": "https://scholar.google.com/citations?user=eczQhmIAAAAJ&hl=en&oi=ao",
+    "duration": "2023 - Present"
+    
+  },
+  
+  {
+    "name": "Ashkan Ghafari",
+    "occupation": "PhD Student, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
+    "email": "ashkan.ghafari@mail.concoridia.ca",
+    "research_summary": "Ashkan is currently engaged in research on numerical simulations of Axial Suspension Plasma Spraying process, focusing on the production of TBCs (Thermal Barrier Coatings) to enhance the efficiency and durability of turbine engines. He earned both his M.Sc. and B.Sc. in Mechanical Engineering from Isfahan University of Technology, Iran, where he specialized in experimental techniques such as Particle Image Velocimetry (PIV) and Shadowgraph methods, alongside Computational Fluid Dynamics (CFD) simulations. With over a decade of experience in CFD, Ashkan founded CFD College, an innovative online platform dedicated to teaching CFD software and mentoring students and researchers in the field, providing him with a comprehensive understanding of various mechanical engineering disciplines. Outside of his professional pursuits, he enjoys immersing himself in movies and series, and he has a passion for football.",
+    "picture": "ashkan-ghafari.png",
+    "linkedin": "https://www.linkedin.com/in/ashkan-ghafari/",
+    "research_gate": "https://www.researchgate.net/profile/Ashkan-Ghafari",
+    "google_scholar": "https://scholar.google.com/citations?user=qxUeJzAAAAAJ&hl=en",
+    "youtube": "https://www.youtube.com/@CFDCollege",
+    "duration": "Jan 2023 - Present"
+    
+  },
+
+  {
+    "name": "Sobhan Ghorbani",
+    "occupation": "PhD Student, Mechanical, Industrial and Aerospace Engineering Department",
+    "email": "Sobhan.Ghorbaninohooji@mail.concordia.ca ",
+    "research_summary": "Sobhan is working on the experimental and numerical study of ice accretion on superhydrophobic surfaces and predicting the power required for deicing systems. Sobhan received his master's degree in aerospace engineering from the Sharif University of Technology (SUT). Besides his research, Sobhan enjoys playing football and volleyball.",
+    "picture": "sobhan-ghorbani.png",
+    "linkedin": "https://www.linkedin.com/in/sobhan-ghorbani-nohooji-3b2984241/",
+    "research_gate": "https://www.researchgate.net/profile/Sobhan-Ghorbani-3",
+    "google_scholar": "https://scholar.google.com/citations?user=61XhlW4AAAAJ",
+    "duration": "Jan 2024 - Present"
+    
+  },
+
+  {
+    "name": "Jian Jiao",
+    "occupation": "PhD Student in Mechanical, Industrial and Aerospace Engineering Department",
+    "email": "jian.jiao@mail.concordia.ca ",
+    "research_summary": "Jian is starting his work on an entropy-based model for spray droplet size distribution. Jian finished his bachelor’s degree in aerospace engineering in 2024 and is selected for direct entry for PhD program. ",
+    "picture": "jian-jiao.jpg",
+    "duration": "(September 2024 - Present)"
+    
+  },
+  {
+    "name": "Murilo Sergio Lamana",
+    "occupation": "PhD Student in Department of Mechanical, Industrial and Aerospace Engineering (MIAE)",
+    "email": "murilo.lamana@mail.concordia.ca",
+    "research_summary": "Mechanical Engineer with M.Sc. degree in Mechanical Engineering with emphasis in Materials and Manufacturing Processes. Six years of experience with material processing and characterization, welding techniques and specialized in thermal spray and coatings characterization. Currently working on ID-HVAF deposition of bond coats for thermal barrier coatings in the aerospace industry. Eager to learn different methods and techniques. Pursues efficiency, distinction and a career in research.",
+    "picture": "murilo-lamana.png",
+    "linkedin": "https://www.linkedin.com/in/murilo-lamana-077759a6/",
+    "research_gate": "https://www.researchgate.net/profile/Murilo-Lamana-2",
+    "google_scholar": "https://scholar.google.ca/citations?hl=en&user=jbWYBpcAAAAJ",
+    "duration": "2021 - Present"
+    
+  },
+ {
+    "name": "Marie-Laurence Cliche",
+    "occupation": "PhD Student, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
+    "email": "marielaurence.cliche@concordia.ca",
+    "research_summary": "Marie-Laurence Cliche is a Ph.D. student in the Department of Mechanical, Industrial & Aerospace Engineering (MIAE) at Concordia University, where she is being supervised by Dr. Pantcho Stoyanov. She holds a bachelor’s degree in aerospace engineering and a master's degree in applied science from the same university. Her current Ph.D. research focuses on the development, manufacturing, and optimization of a ceramic matrix composite (CMC), as well as its performance and tribological evaluation in harsh environments. Marie-Laurence’s research and projects receive support from MITACS and industry leaders such as Boston Materials. Her research interests encompass tribology, surface characterization, composites, and the development of material solutions for demanding environments.",
+    "picture": "marie-laurence-cliche.jpg",
+    "linkedin": "https://ca.linkedin.com/in/marie-laurence-cliche-0087361a4",
+    "research_gate": "https://www.researchgate.net/profile/Marie-Laurence-Cliche",
+    "duration": "2022-Present"
+    
+  },
+  {
+    "name": "Andre R. Mayer",
+    "occupation": "PhD Student, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
+    "email": " andre.mayer@mail.concordia.ca",
+    "research_summary": "Andre is a Mechanical Engineer with a Master of Science from the Federal University of Technology – Parana (UTFPR) and is currently pursuing a Ph.D. in the Department of Mechanical, Industrial, and Aerospace Engineering (MIAE) at Concordia University. With extensive experience in industry-driven research, Andre began his career as an intern at LACTEC, focusing on developing thermally sprayed and wear-resistant solutions for hydroelectric power plants. His Master's research, conducted in collaboration with companies such as Renault, Villares Metals, and Stihl, was funded by the 2030 Route initiative to develop surfaces for high-pressure die-casting manufacturing. Currently, as a full-time Ph.D. candidate under Dr. Pantcho Stoyanov's supervision, Andre's research focuses on developing surface solutions for extreme temperatures, with potential applications in gas turbine engines and other demanding environments. His work is supported by the NOVA project, funded by NSERC. Additionally, Andre is engaged in projects with Pratt & Whitney Canada under the MITACS program, as well as private research with Pratt & Whitney USA and Radian Thermal Products.",
+    "picture": "andre-mayer.jpg",
+    "linkedin": "https://www.linkedin.com/in/andrermayer/",
+    "google_scholar": "https://scholar.google.ca/citations?hl=en&user=nue_T8oAAAAJ",
+    "duration": "2022-Present"
+    
+  },
+
+ {
+    "name": "Ritam Vajpeyi ",
+    "occupation": "PhD Student, Department of Mechanical, Industrial & Aerospace Engineering (MIAE) ",
+    "email": " andre.mayer@mail.concordia.ca",
+    "research_summary": "Ritam is currently pursuing his PhD in Mechanical Engineering at Concordia University in Montreal, Canada. He holds a Master of Engineering in Mechanical Engineering from Concordia University (Jan 2023 – June 2024), where he has focused on Tribology, Coating & Surface Engineering  high-strength materials, composite manufacturing, tribology, non-destructive testing NDT . Prior to this, Ritam earned his Bachelor of Technology in Mechanical Engineering from Amity University, India, in 2021, graduating with First Division honors and receiving the Best in Organizing Ability award. During his undergraduate studies, he conducted research as a Student Research Intern in the Department of Mechanical Engineering, focusing on NDT inspection of jet engine turbine blades. In addition to his academic pursuits, Ritam has co-founded and served as the Engineering & Digital Outreach Head of the Society of Robotic Machines at Amity University. He played a key role in mentoring society members and driving innovation in robotics through the integration of digital technologies. He is also a member of the prestigious Golden Key International Honour Society, having been recognized for ranking among the top 15% of his academic faculty at Concordia University. He’s also a member of  Vertical Flight Society, reflecting his interest in the advancement of rotorcraft and landing (eVTOL) technologies.",
+    "picture": "ritam-vajpeyi.jpg",
+    "publications": "Predicting the dimensional variation of geometries produced through FDM 3D printing employing supervised machine learning.\nhttps://doi.org/10.1016/j.sintl.2022.100194\n• Analyzing the impact of print parameters on dimensional variation of ABS specimens printed using fused deposition modelling (FDM).\nhttps://doi.org/10.1016/j.sintl.2021.100149\n• Prediction of printing parameters for minimal dimensional variation in 3D printed parts by using Artificial Intelligence.\nhttps://doi.org/10.1109/spin52536.2021.9566052\n• Utilizing Machine Learning to Predict the Dimensional Variation of Shafts Printed using Fused Deposition Modelling. Trends in Mechanical Engineering & Technology, 11(2, 2021), 41–46\n",
+    "duration": "Sept 2024 - Present"
+  },
+
+  {
+    "name": "Francisco Rene Rivadeneira",
+    "occupation": ": PhD Student, Department of Mechanical, Industrial and Aerospace Engineering (MIAE)",
+    "email": "francisco.rivadeneira@concordia.ca",
+    "research_summary": "I am a PhD student specializing in turbomachinery, with a particular focus on Clearance & Tribological Materials. My research revolves around developing and testing next-generation materials for engine components, with the goal of improving engine performance and lifespan. By using geometries that closely resemble actual engine designs and replicating extreme operating conditions, I aim to enhance the efficiency and durability of gas turbine engines. Outside of my research, I have a passion for music and enjoy playing the guitar. ",
+    "picture": "francisco-rivadeneira.jpg",
+    "linkedin": "www.linkedin.com/in/francisco-rivadeneira-729432333",
+    "duration": "2025- Present"
+    
+  },
+  {
+    "name": "Hossein Shahbazi",
+    "occupation": "PhD Candidate, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
+    "email": "hossein.shahbazi@mail.concordia.ca\n Hossein.shahbazi9192@gmail.com",
+    "research_summary": "I am a PhD candidate at Concordia University’s Department of Mechanical, Industrial & Aerospace Engineering, specializing in Thermal Spray coatings as part of a collaborative project with NRC Canada’s SurfTec group, under the supervision of Dr. Christian Moreau, Dr. Pantcho Stoyanov, and Dr. Rogerio S. Lima. My focus lies within the Aerospace/Thermal Spray Group, where I work on the prediction and application of High Entropy Materials, High Entropy Alloys, Advanced Ceramics, and other areas in the aerospace field, particularly surface engineering and coatings for turbines. My expertise is built on a strong foundation in physical and materials science, with skills in synthesis, gel-casting, slip-casting, sintering powders, designing experimental setups, and thermally spraying alloys, especially High Entropy Alloys in TBC systems. ",
+    "picture": "hossein-shahbazi.jpg",
+    "linkedin": "https://www.linkedin.com/in/hossein-shahbazi-4498a3aa/",
+    "research_gate": "https://www.researchgate.net/profile/Hossein-Shahbazi-2",
+    "google_scholar": "https://scholar.google.ca/citations?user=FHUGiyYAAAAJ&hl=en",
+    "duration": "2022 - Present"
+    
+  },
+  {
+    "name": "Aravind Kumar Thoutam",
+    "occupation": "PhD student in Mechanical Engineering – Mechanical Aerospace and Industrial Engineering Department, Industrial & Aerospace Engineering (MIAE)",
+    "email": "aravindkumar.thoutam@mail.concordia.ca",
+    "research_summary": "Aravind is pursuing a Ph.D. in Mechanical Engineering under supervision of Prof. Christian Moreau, and Prof. Ali Dolatabadi (UoT). Aravind’s research focuses on optimizing bond coats for thermal barrier coatings (TBCs) through HVAF techniques, aimed at enhancing gas turbine engine efficiency and reducing greenhouse emissions. His research is in collaboration with Concordia University, McGill University, and supported by CRIAQ, Tecnar, Pratt & Whitney Canada and USA. Aravind holds a Bachelor's degree from JNTUH, India and Dual Masters from University West, Sweden. His experience dwells deep in Thermal Spray Engineering, Metal Additive Manufacturing and their applications. Outside of work, he enjoys discovering new cafes, restaurants, bars, indulging in movies, and catching up with friends on trips!",
+    "picture": "aravindkumar-thoutam.jpg",
+    "linkedin": "https://www.linkedin.com/in/aravind-kumar-thoutam-3b39aab3/",
+    "research_gate": ": https://www.researchgate.net/profile/Aravind-Thoutam",
+    "google_scholar": "https://scholar.google.com/citations?user=lxpO98MAAAAJ&hl=en",
+    "duration": "2021 - Present"
+    
+  },
+  {
+    "name": "Victor Vaurek Dimbarre",
+    "occupation": "PhD Student at Mechanical, Industrial and Aerospace Engineering Program",
+    "email": "victor.vaurekdimbarre@mail.concordia.ca",
+    "research_summary": "He is a PhD candidate at Concordia University’s Department of Mechanical, Industrial & Aerospace Engineering, specializing in advanced materials and tribological systems for gas turbine engines, with a focus on the operational reliability of turbomachinery. His research aims to contribute to advancements in aerospace and mechanical engineering through collaborations with Pratt & Whitney Canada, CRIAQ, and the MITACS program under the supervision of Dr. Pantcho Stoyanov. He holds a master’s degree in Mechanical Engineering, concentrating on Thermal Sciences and Fluids, with research in heat transfer, heat exchangers, and thermal efficiency at the Federal University of Technology – Paraná. He also has an MBA in Strategic Project Management and Agile Methodologies, and a degree in Mechanical Engineering from the Federal University of Technology – Paraná (UTFPR). With over two years of industrial experience as head of development, design, and production of laboratory equipment, he maintains a strong interest in operational reliability, contributing to advancements in aerospace and mechanical engineering.",
+    "picture": "victor-vaurekdimbarr.jpg",
+    "linkedin": "https://www.linkedin.com/in/victordimbarre/",
+    "research_gate": "https://www.researchgate.net/profile/Victor-Vaurek-Dimbarre",
+    "google_scholar": "https://scholar.google.ca/citations?user=S0vkLQ4AAAAJ",
+    "duration": "2024 - Present"
+    
+  }
+
+  ]
+
+  
+
+
+
+}

@@ -1,25 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-
-import PersonnelBox from "../components/Elements/PersonnelBox";
-
-import { usePeople } from "../hooks/usePeople";
-
-import { useLabMangers } from "../hooks/useLabMangers";
-
-
-import { useResearchAssociates } from "../hooks/useResearchAssociates";
-
+import ProfileList from "../components/Sections/ProfileList";
 
 import { useTranslation } from "react-i18next";
 
 export default function PeopleScreen() {
-
-  const people = usePeople();
-
-  const labMangers = useLabMangers();
-
-  const associates = useResearchAssociates();
 
   const { t } = useTranslation();
 
@@ -35,74 +20,36 @@ export default function PeopleScreen() {
             {t("professors")}
           </HeaderP>
 
-          <div className="row textCenter flexCenter">
-            {people.map((person, index) => (
-              <div
-                className={`col-xs-12 col-sm-4 col-md-4 col-lg-4 ${index === 3 ? 'center-item' : ''}`}
-                key={index}
-              >
-                <PersonnelBox
-                  img={person.img}
-                  name={person.name}
-                  bio={person.bio}
-                  email={person.email}
-                  action={() => alert("clicked")}
-                />
-              </div>
-            ))}
-          </div>
-
-
-          {/* lab mangers */}
+          <ProfileList category="department_professors" />
 
           <HeaderP className="font30 regular">
             {t("labManagers")}
           </HeaderP>
 
-          <div className="row textCenter flexCenter">
-            {labMangers.map((m, index) => (
-              <div
-                className={`col-xs-12 col-sm-4 col-md-4 col-lg-4 ${index === 3 ? 'center-item' : ''}`}
-                key={index}
-              >
-                <PersonnelBox
-                  img={m.img}
-                  name={m.name}
-                  bio={m.bio}
-                  email={m.email}
-                  action={() => alert("clicked")}
-                />
-              </div>
-            ))}
-          </div>
 
+          <ProfileList category="lab_managers" />
 
-          {/* Reasearch Associates*/}
 
           <HeaderP className="font30 regular">
             {t("researchAssociates")}
           </HeaderP>
 
-          <div className="row textCenter flexCenter">
-            {associates.map((m, index) => (
-              <div
-                className={`col-xs-12 col-sm-4 col-md-4 col-lg-4 ${index === 3 ? 'center-item' : ''}`}
-                key={index}
-              >
-                <PersonnelBox
-                  img={m.img}
-                  name={m.name}
-                  bio={m.bio}
-                  email={m.email}
-                  action={() => alert("clicked")}
-                />
-              </div>
-            ))}
-          </div>
+
+          <ProfileList category="research_associate" />
+
+          <HeaderP className="font30 regular">
+            {t("phdstudents")}
+          </HeaderP>
 
 
+          <ProfileList category="phd_students" />
+
+          <HeaderP className="font30 regular">
+            {t("mascstudents")}
+          </HeaderP>
 
 
+          <ProfileList category="masc_students" />
 
         </div>
       </TopSide>

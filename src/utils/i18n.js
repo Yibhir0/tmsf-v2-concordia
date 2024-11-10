@@ -35,6 +35,36 @@ import LabManagersFr from '../locales/fr/labManagers.json';
 
 import ResearchAssociatesEn from '../locales/en/ResearchAssociates.json';
 import ResearchAssociatesFr from '../locales/fr/researchAssociates.json';
+
+
+
+// staff
+
+import LabManagerEn from "../locales/en/lab.managers.json";
+import LabManagerFr from "../locales/fr/lab.managers.json";
+
+// MAsc Students
+
+import MAscStudentsEn from "../locales/en/masc.students.json";
+import MAscStudentsFr from "../locales/fr/masc.students.json";
+
+// PhD Students
+
+import PhDStudentsEn from "../locales/en/phd.students.json";
+import PhDStudentsFr from "../locales/fr/phd.students.json";
+
+// Research Associates  
+
+import ResearchAssociateEn from "../locales/en/reasearch.associate.json";
+import ResearchAssociateFr from "../locales/fr/reasearch.associate.json";
+
+// Professors
+
+import ProfessorsEn from "../locales/en/department.professors.json";
+import ProfessorsFr from "../locales/fr/department.professors.json";
+
+
+
 const resources = {
     en: {
         translation: {
@@ -51,7 +81,13 @@ const resources = {
             ...facilitiesEN,
             ...AboutEn,
             ...LabManagersEn,
-            ...ResearchAssociatesEn
+            ...ResearchAssociatesEn,
+            ...LabManagerEn,
+            ...MAscStudentsEn,
+            ...PhDStudentsEn,
+            ...ResearchAssociateEn,
+            ...ProfessorsEn
+
 
         }
     },
@@ -70,7 +106,12 @@ const resources = {
             ...facilitiesFR,
             ...AboutFr,
             ...LabManagersFr,
-            ...ResearchAssociatesFr
+            ...ResearchAssociatesFr,
+            ...LabManagerFr,
+            ...MAscStudentsFr,
+            ...PhDStudentsFr,
+            ...ResearchAssociateFr,
+            ...ProfessorsFr
 
         }
     }

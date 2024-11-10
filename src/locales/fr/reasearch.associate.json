@@ -1,0 +1,21 @@
+
+{
+
+    "researchassociate": "Associé de recherche",
+    "research_associate":
+    [
+        {
+            "name": "Dr. Reza Attarzadeh",
+            "occupation": "Associé de recherche, Département de génie mécanique, industriel et aérospatial (MIAE)",
+            "email": "reza.attarzadeh@concordia.ca",
+            "research_summary": "Dr. Reza Attarzadeh est un associé de recherche au Département de génie mécanique, industriel et aérospatial de l'Université Concordia. Auparavant, il était chercheur postdoctoral au Département des sciences de l'ingénierie de l'Université de Toronto (UofT) et chercheur postdoctoral au LinneFlow Center du Département de mécanique des fluides de l'Institut royal de technologie KTH, en Suède. Il a obtenu son B.Sc. (2009) et son M.Sc. (2011) en génie mécanique, suivi de son Ph.D. (2017) en génie mécanique et aérospatial de l'Université Concordia. Dr. Attarzadeh a travaillé en tant que chercheur invité au Laboratoire de gravité zéro de l'Université métropolitaine de Toronto et au Centre de multi-échelle et multi-physique de l'Université nationale de Pusan, en Corée du Sud. Il a également travaillé chez Pratt & Whitney Canada et Siemens en tant que spécialiste CFD et ingénieur et analyste de performance des turbines à gaz avant de prendre le rôle de scientifique principal des données/ingénieur en apprentissage automatique chez Simscale GmbH à Munich, en Allemagne. Ses intérêts de recherche incluent la modélisation computationnelle des systèmes fluides et thermiques, les écoulements de pulvérisation et multiphasiques, la dynamique des gouttelettes, la modélisation basée sur les données, l'optimisation des systèmes complexes et l'application de l'IA dans les sciences de l'ingénierie.",
+            "picture": "reza-attarzadeh.jpg",
+            "linkedin": "https://www.linkedin.com/in/rezatta/",
+            "google_scholar": "https://scholar.google.com/citations?user=cXAjmsIAAAAJ&hl=en&oi=ao",
+            "duration": "2023 - Present"
+        
+        }
+    ]
+
+
+}

@@ -38,7 +38,7 @@ export const people = [
     //     name: "ettouil.name",
     //     occupation: "ettouil.occupation",
     //     department: "ettouil.department",
-    //     bio : "ettouil.bio",
+    //     bio: "ettouil.bio",
     //     img: peopleImages[3],
     //     email: "fadhel.benettouil@concordia.ca"
 
