@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tmsf-v2-concordia/static/css/main.1c477f24.css",
-    "main.js": "/tmsf-v2-concordia/static/js/main.ca3b70b4.js",
+    "main.js": "/tmsf-v2-concordia/static/js/main.c44e2490.js",
     "reactPlayerYouTube.js": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js",
     "reactPlayerSoundCloud.js": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js",
     "reactPlayerVimeo.js": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js",
@@ -52,7 +52,6 @@
     "static/media/murilo-lamana.png": "/tmsf-v2-concordia/static/media/murilo-lamana.0e377d9d580e5986761a.png",
     "static/media/ritam-vajpeyi.jpg": "/tmsf-v2-concordia/static/media/ritam-vajpeyi.406c786733f9c0079441.jpg",
     "static/media/07.jpg": "/tmsf-v2-concordia/static/media/07.5bf15e49cc81f417ca46.jpg",
-    "static/media/christian-moreau-new.jpg": "/tmsf-v2-concordia/static/media/christian-moreau-new.009bf5359e57d20d1f4f.jpg",
     "static/media/christian-moreau.jpg": "/tmsf-v2-concordia/static/media/christian-moreau.009bf5359e57d20d1f4f.jpg",
     "static/media/hossein-shahbazi.jpg": "/tmsf-v2-concordia/static/media/hossein-shahbazi.51c6b12f5344cf2d0012.jpg",
     "static/media/francisco-rivadeneira.jpg": "/tmsf-v2-concordia/static/media/francisco-rivadeneira.0e54f8435f98bcd4cfc4.jpg",
@@ -70,11 +69,9 @@
     "static/media/Bombardier.jpg": "/tmsf-v2-concordia/static/media/Bombardier.7fd338ca4aa9511f6012.jpg",
     "static/media/dasilvapinto-matheus.jpg": "/tmsf-v2-concordia/static/media/dasilvapinto-matheus.f4b099d6de0d9ccefbbd.jpg",
     "static/media/vakilifard_hamideh.jpg": "/tmsf-v2-concordia/static/media/vakilifard_hamideh.a1ff43b176088ab394ef.jpg",
-    "static/media/Moussa-tembely.jpg": "/tmsf-v2-concordia/static/media/Moussa-tembely.4b6905582b95ff224eb9.jpg",
-    "static/media/moussa-tembely.jpg": "/tmsf-v2-concordia/static/media/moussa-tembely.4b6905582b95ff224eb9.jpg",
+    "static/media/tembely-moussa.jpg": "/tmsf-v2-concordia/static/media/tembely-moussa.4b6905582b95ff224eb9.jpg",
     "static/media/victor-vaurekdimbarr.jpg": "/tmsf-v2-concordia/static/media/victor-vaurekdimbarr.790d676537b01f8ad5e1.jpg",
     "static/media/bertuol_kaue.jpg": "/tmsf-v2-concordia/static/media/bertuol_kaue.85bd72cb0963eb29ac6b.jpg",
-    "static/media/pantch-p-stoyanov.jpg": "/tmsf-v2-concordia/static/media/pantch-p-stoyanov.4348ec44f62479294acd.jpg",
     "static/media/pantcho-stoyanov.jpg": "/tmsf-v2-concordia/static/media/pantcho-stoyanov.4348ec44f62479294acd.jpg",
     "static/media/slick.svg": "/tmsf-v2-concordia/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/tmsf-v2-concordia/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -82,7 +79,7 @@
     "static/media/slick.woff": "/tmsf-v2-concordia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tmsf-v2-concordia/index.html",
     "main.1c477f24.css.map": "/tmsf-v2-concordia/static/css/main.1c477f24.css.map",
-    "main.ca3b70b4.js.map": "/tmsf-v2-concordia/static/js/main.ca3b70b4.js.map",
+    "main.c44e2490.js.map": "/tmsf-v2-concordia/static/js/main.c44e2490.js.map",
     "reactPlayerYouTube.deab9314.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js.map",
     "reactPlayerSoundCloud.0e4ba1bb.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js.map",
     "reactPlayerVimeo.2b7c4767.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js.map",
@@ -101,6 +98,6 @@
   },
   "entrypoints": [
     "static/css/main.1c477f24.css",
-    "static/js/main.ca3b70b4.js"
+    "static/js/main.c44e2490.js"
   ]
 }
