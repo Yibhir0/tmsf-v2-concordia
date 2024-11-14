@@ -1,16 +1,112 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import styled from "styled-components";
 import { useLocation } from "react-router-dom";
+
+import { useTranslation } from 'react-i18next';
+
+import TestimonialBox from "../components/Elements/TestimonialBox";
+
+
+
+
 const Profile = () => {
 
+    const { t } = useTranslation();
     const location = useLocation();
-    const { profile } = location.state || {};
+
+    const [prof, setProf] = useState({});
+
+    useEffect(() => {
+        const { profile, category } = location.state || {};
+
+        const profiles = t(category, { returnObjects: true }) || [];
+
+        const prf = profiles.find(p => p.email === profile.email);
+
+        setProf(prf);
+    }, [location.state, t]);
+
+
+
+    let profileImage = null;
+
+
+    try {
+        profileImage = require(`../assets/img/people_images/${prof.picture}`);
+        console.log("profileImage", profileImage);
+    } catch (error) {
+        console.error("Error loading image:", error);
+
+    }
     return (
-        <div>
-            <h1>{profile.name}</h1>
-            <p>{profile.email}</p>
-            <p>{profile.research_summary}</p>
-        </div>
+        <Wrapper className="container flexNullCenter flexColumn">
+
+            <Wrapper className="container flexNullCenter flexRow">
+
+
+                <LeftSide className="container flexNullCenter flexColumn"  >
+
+                    <img className="radius8" src={profileImage} alt="project"></img>
+
+                    <HeaderInfo>
+                        <h1 className="semiBold font30">{prof.name}</h1>
+
+                    </HeaderInfo>
+
+                </LeftSide>
+
+                <RightSide >
+                    <TestimonialBox text={prof.research_summary} author={prof.name} email={prof.email} scholarLink={prof.google_scholar} linkedin={prof.linkedin} occupation={prof.occupation} />
+
+                </RightSide>
+
+
+            </Wrapper>
+
+        </Wrapper>
     );
-};
+}
 
 export default Profile;
+
+
+const Wrapper = styled.section`
+  padding-top: 60px;
+  display: flex;
+ 
+  @media (max-width: 960px) {
+
+    flex-direction: column;
+  }
+`;
+const LeftSide = styled.div`
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  @media (max-width: 960px) {
+    width: 100%;
+    text-align: center;
+  }
+
+`;
+const RightSide = styled.div`
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  @media (max-width: 960px) {
+    width: 100%;
+    margin-top: 50px;
+    order:1;
+  }
+// `;
+
+const HeaderInfo = styled.div`
+
+    
+
+  @media (max-width: 860px) {
+    text-align: center;
+  }
+`;

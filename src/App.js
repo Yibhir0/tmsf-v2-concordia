@@ -11,6 +11,8 @@ import GalleryScreen from "./screens/GalleryScreen.jsx";
 import PublicationScreen from "./screens/PublicationScreen.jsx";
 import FacilitiesScreen from "./screens/FacilitiesScreen.jsx";
 
+import Footer from "./components/Sections/Footer.jsx";
+
 import Profile from "./screens/Profile.jsx";
 
 
@@ -30,7 +32,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
-          <Route path="/" element={<Landing />} />
           <Route path="/people" element={<PeopleScreen />} />
           <Route path="/research" element={<ResearchScreen />} />
           <Route path="/gallery" element={<GalleryScreen />} />
@@ -39,7 +40,7 @@ export default function App() {
           <Route path="/profile" element={<Profile />} />
         </Routes>
 
-
+        <Footer />
       </HashRouter>
     </>
   );

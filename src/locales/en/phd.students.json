@@ -8,10 +8,10 @@
 {
       "name": "Kaue Bertuol",
       "occupation": "Ph.D. Student, Mechanical, Industrial and Aerospace Engineering Department",
-      "email": "kaue.bertuol@mail.concordia.ca; kauebertuol@gmail.com ",
+      "email": "kaue.bertuol@mail.concordia.ca",
       "research_summary": "Ph.D. in Mechanical Engineering, specializing in Thermal Spray Coatings and Tribology, focusing on abradable seals for aerospace technology. Most of Kaue’s research and projects, under the supervision of Prof. Pantcho Stoyanov and Prof. Christian Moreau, were supported by MITACS, CRIAQ, NSERC, and industry leaders like Pratt & Whitney. With over six years of industrial experience as a Project and Production Manager in machinery production, Kaue has demonstrated strong leadership skills. Academically, he has earned multiple awards and honours, including fully funded programs at RMIT (Australia), UTFPR (Brazil), and Concordia (Canada), recognizing his excellent commitment to engineering technology.",
       "picture": "bertuol_kaue.jpg" ,
-      "linkedin": "www.linkedin.com/in/kauebertuol",
+      "linkedin": "https://linkedin.com/in/kauebertuol",
       "google_scholar": "https://scholar.google.ca/citations?hl=en&user=u5-Ft-oAAAAJ",
       "research_gate": "https://www.researchgate.net/profile/Kaue-Bertuol/research",
       "duration": "2022 - Present"
@@ -23,7 +23,7 @@
       "email": "hamideh.vakilifard@concordia.ca",
       "research_summary": "Hamideh is investigating advanced ceramics for topcoats of thermal barrier coating (TBC) using the SPS method. Her studies aim to enhance the durability and efficiency of TBCs, improve the performance of gas turbines, and drive advancements in energy efficiency and materials science. She holds a master's degree in material engineering from Iran, focusing on optimizing functionally graded TBCs. Her extensive decade of experience in the gas turbine design and manufacturing industry represents a significant skill set. Beyond research, she enjoys nurturing various plants, hiking through nature, and reconnecting with the outdoors.",
       "picture": "vakilifard_hamideh.jpg",
-      "linkedin": "www.linkedin.com/in/hamidehvf-13660heo",
+      "linkedin": "https://linkedin.com/in/hamidehvf-13660heo",
       "research_gate": "https://www.researchgate.net/profile/Hamideh-Vakilifard",
       "duration": "2022 – Present"
       
@@ -34,7 +34,7 @@
     "email": "Parastoo.fallah@concordia.ca",
     "research_summary": "Parastoo is a Ph.D. student at Concordia University, where she is researching the tribological behavior of eco-friendly MoS2-based solid lubricants commonly used in the aerospace industry. She is under the supervision of Prof. Pantcho Stoyanov and Prof. Rolf Wuthrich. Parastoo holds a master's degree in Materials Engineering, specializing in the casting and directional solidification of Nickel-based superalloys used in the hot sections of gas turbines. Additionally, she has over five years of industrial experience as a project manager in the mining and steelmaking sectors.",
     "picture": "parastoo-fallah.png",
-    "linkedin": "www.linkedin.com/in/parastoo-fallah-9b8699101",
+    "linkedin": "https://linkedin.com/in/parastoo-fallah-9b8699101",
     "google_scholar": "https://scholar.google.com/citations?user=eczQhmIAAAAJ&hl=en&oi=ao",
     "duration": "2023 - Present"
     
@@ -123,18 +123,18 @@
 
   {
     "name": "Francisco Rene Rivadeneira",
-    "occupation": ": PhD Student, Department of Mechanical, Industrial and Aerospace Engineering (MIAE)",
+    "occupation": "PhD Student, Department of Mechanical, Industrial and Aerospace Engineering (MIAE)",
     "email": "francisco.rivadeneira@concordia.ca",
     "research_summary": "I am a PhD student specializing in turbomachinery, with a particular focus on Clearance & Tribological Materials. My research revolves around developing and testing next-generation materials for engine components, with the goal of improving engine performance and lifespan. By using geometries that closely resemble actual engine designs and replicating extreme operating conditions, I aim to enhance the efficiency and durability of gas turbine engines. Outside of my research, I have a passion for music and enjoy playing the guitar. ",
     "picture": "francisco-rivadeneira.jpg",
-    "linkedin": "www.linkedin.com/in/francisco-rivadeneira-729432333",
+    "linkedin": "https://linkedin.com/in/francisco-rivadeneira-729432333",
     "duration": "2025- Present"
     
   },
   {
     "name": "Hossein Shahbazi",
     "occupation": "PhD Candidate, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
-    "email": "hossein.shahbazi@mail.concordia.ca\n Hossein.shahbazi9192@gmail.com",
+    "email": "hossein.shahbazi@mail.concordia.ca",
     "research_summary": "I am a PhD candidate at Concordia University’s Department of Mechanical, Industrial & Aerospace Engineering, specializing in Thermal Spray coatings as part of a collaborative project with NRC Canada’s SurfTec group, under the supervision of Dr. Christian Moreau, Dr. Pantcho Stoyanov, and Dr. Rogerio S. Lima. My focus lies within the Aerospace/Thermal Spray Group, where I work on the prediction and application of High Entropy Materials, High Entropy Alloys, Advanced Ceramics, and other areas in the aerospace field, particularly surface engineering and coatings for turbines. My expertise is built on a strong foundation in physical and materials science, with skills in synthesis, gel-casting, slip-casting, sintering powders, designing experimental setups, and thermally spraying alloys, especially High Entropy Alloys in TBC systems. ",
     "picture": "hossein-shahbazi.jpg",
     "linkedin": "https://www.linkedin.com/in/hossein-shahbazi-4498a3aa/",
@@ -145,12 +145,12 @@
   },
   {
     "name": "Aravind Kumar Thoutam",
-    "occupation": "PhD student in Mechanical Engineering – Mechanical Aerospace and Industrial Engineering Department, Industrial & Aerospace Engineering (MIAE)",
+    "occupation": "PhD student in Mechanical Engineering – Mechanical Aerospace and Industrial Engineering Department.",
     "email": "aravindkumar.thoutam@mail.concordia.ca",
     "research_summary": "Aravind is pursuing a Ph.D. in Mechanical Engineering under supervision of Prof. Christian Moreau, and Prof. Ali Dolatabadi (UoT). Aravind’s research focuses on optimizing bond coats for thermal barrier coatings (TBCs) through HVAF techniques, aimed at enhancing gas turbine engine efficiency and reducing greenhouse emissions. His research is in collaboration with Concordia University, McGill University, and supported by CRIAQ, Tecnar, Pratt & Whitney Canada and USA. Aravind holds a Bachelor's degree from JNTUH, India and Dual Masters from University West, Sweden. His experience dwells deep in Thermal Spray Engineering, Metal Additive Manufacturing and their applications. Outside of work, he enjoys discovering new cafes, restaurants, bars, indulging in movies, and catching up with friends on trips!",
     "picture": "aravindkumar-thoutam.jpg",
     "linkedin": "https://www.linkedin.com/in/aravind-kumar-thoutam-3b39aab3/",
-    "research_gate": ": https://www.researchgate.net/profile/Aravind-Thoutam",
+    "research_gate": "https://www.researchgate.net/profile/Aravind-Thoutam",
     "google_scholar": "https://scholar.google.com/citations?user=lxpO98MAAAAJ&hl=en",
     "duration": "2021 - Present"
     

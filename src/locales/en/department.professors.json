@@ -7,32 +7,33 @@
             "name": "Christian Moreau, PhD, FASM ",
             "occupation": "Professor & Thermal Spray Director. Mechanical, Industrial and Aerospace Engineering ",
             "email":  "christian.moreau@concordia.ca",
+            "department": "Mechanical, Industrial and Aerospace Engineering ",
             "research_summary": "Dr. Christian Moreau is a Professor in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. He is the Director of the Thermal Spray Laboratory and the Director of the Centre for Advanced Coating Technologies. He is a Fellow of the American Society for Materials (ASM) and a member of the ASM Thermal Spray Society. He is also a member of the International Thermal Spray Association (ITSA) and the International Institute of Welding (IIW). He is the author of more than 200 scientific papers and has supervised more than 50 graduate students. He is the recipient of the 2016 ASM Thermal Spray Society Award.",
             "picture": "christian-moreau.jpg",
-            "linkedin": "https://www.linkedin.com/in/fadhel-ben-ettouil/" ,
-            "google_scholar": "https://scholar.google.com/citations?user=j1xHDZ8AAAAJ&hl",
-            "research_gate": "https://www.researchgate.net/profile/Fadhel-Ben-Ettouil/research"
+            "linkedin": "https://www.linkedin.com/in/christianmoreau1/?originalSubdomain=ca" ,
+            "google_scholar": "https://scholar.google.ca/citations?user=GgDkBHsAAAAJ&hl=en"
+    
         },
 
         {
             "name": "Moussa Tembely, PhD",
             "occupation": "Assistant Professor & Lab Director . Mechanical, Industrial and Aerospace Engineering ",
-            "email":  "christian.moreau@concordia.ca. ",
+            "email":  "moussa.tembely@concordia.ca ",
+            "department": "Mechanical, Industrial and Aerospace Engineering ",
             "research_summary": "Dr. Moussa Tembely is an Assistant Professor in the Department of Mechanical, Industrial and Aerospace Engineering at Concordia University. He is the Director of the Advanced Manufacturing Laboratory. He is a member of the American Society of Mechanical Engineers (ASME) and the Canadian Society for Mechanical Engineering (CSME). He is the author of more than 50 scientific papers and has supervised more than 10 graduate students. His research interests include advanced manufacturing, additive manufacturing, and materials processing.",
-            "picture": "moussa-tembely.jpg",
-            "linkedin": "https://www.linkedin.com/in/fadhel-ben-ettouil/" ,
-            "google_scholar": "https://scholar.google.com/citations?user=j1xHDZ8AAAAJ&hl",
-            "research_gate": "https://www.researchgate.net/profile/Fadhel-Ben-Ettouil/research"
+            "picture": "tembely-moussa.jpg",
+            "linkedin": "https://www.linkedin.com/in/moussa-tembely-84965b65/" ,
+            "google_scholar": "https://scholar.google.ca/citations?hl=en&user=XMJxuz8AAAAJ&view_op=list_works&sortby=pubdate"
         },
         {
             "name": " Pantcho P. Stoyanov, PhD",
             "occupation": "Associate Professor & Tribology Lab Director. Chemical and Materials Engineering ",
-            "email":  "christian.moreau@concordia.ca. ",
+            "email":  "pantcho.stoyanov@concordia.ca",
+            "department": "Chemical and Materials Engineering ",
             "research_summary": " Dr. Pantcho P. Stoyanov is an Associate Professor in the Department of Chemical and Materials Engineering at Concordia University. He is the Director of the Tribology Laboratory. He is a member of the Society of Tribologists and Lubrication Engineers (STLE) and the Canadian Society for Mechanical Engineering (CSME). He is the author of more than 100 scientific papers and has supervised more than 30 graduate students. His research interests include tribology, surface engineering, and advanced materials. He is the recipient of the 2016 CSME Tribology Medal.",
             "picture": "pantcho-stoyanov.jpg",
-            "linkedin": "https://www.linkedin.com/in/fadhel-ben-ettouil/" ,
-            "google_scholar": "https://scholar.google.com/citations?user=j1xHDZ8AAAAJ&hl",
-            "research_gate": "https://www.researchgate.net/profile/Fadhel-Ben-Ettouil/research"
+            "linkedin": "https://www.linkedin.com/in/pantchostoyanov/" ,
+            "google_scholar": "https://scholar.google.com/citations?hl=en&user=EKIun-gAAAAJ&view_op=list_works&sortby=pubdate"
         }
     ]
    

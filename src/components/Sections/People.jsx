@@ -4,21 +4,25 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 
-import { usePeople } from "../../hooks/usePeople";
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from "react-router-dom";
 
+import { useProfilesData } from "../../hooks/useProfilesData";
+
 export default function People() {
 
-  const people = usePeople();
+  const people = useProfilesData("department_professors");
 
   const { t } = useTranslation();
   const navigate = useNavigate();
 
-
   const goToPeoplePage = () => {
     navigate('/people');
   };
+
+  const goToprofile = (profile, category) => {
+    navigate("/profile", { state: { profile, category } });
+  }
   return (
     <Wrapper id="people">
       <div className="whiteBg">
@@ -38,12 +42,12 @@ export default function People() {
                 key={index}
               >
                 <ProjectBox
-                  img={person.img}
+                  img={person.picture}
                   name={person.name}
                   occupation={person.occupation}
                   department={person.department}
                   email={person.email}
-                  action={() => alert("clicked")}
+                  action={() => goToprofile(person, "department_professors")}
                 />
               </div>
             ))}

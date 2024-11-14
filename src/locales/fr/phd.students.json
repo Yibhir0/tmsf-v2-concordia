@@ -8,10 +8,10 @@
     {
       "name": "Kaue Bertuol",
       "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
-      "email": "kaue.bertuol@mail.concordia.ca; kauebertuol@gmail.com ",
+      "email": "kaue.bertuol@mail.concordia.ca ",
       "research_summary": "Doctorat en génie mécanique, spécialisé dans les revêtements par projection thermique et la tribologie, avec un accent sur les joints abradables pour la technologie aérospatiale. La plupart des recherches et projets de Kaue, sous la supervision du Prof. Pantcho Stoyanov et du Prof. Christian Moreau, ont été soutenus par MITACS, CRIAQ, CRSNG et des leaders de l'industrie comme Pratt & Whitney. Avec plus de six ans d'expérience industrielle en tant que chef de projet et responsable de production dans la production de machines, Kaue a démontré de solides compétences en leadership. Sur le plan académique, il a reçu de nombreux prix et distinctions, y compris des programmes entièrement financés à RMIT (Australie), UTFPR (Brésil) et Concordia (Canada), reconnaissant son excellent engagement envers la technologie de l'ingénierie.",
       "picture": "bertuol_kaue.jpg" ,
-      "linkedin": "www.linkedin.com/in/kauebertuol",
+      "linkedin": "https://linkedin.com/in/kauebertuol",
       "google_scholar": "https://scholar.google.ca/citations?hl=en&user=u5-Ft-oAAAAJ",
       "research_gate": "https://www.researchgate.net/profile/Kaue-Bertuol/research",
       "duration": "2022 - Present"
@@ -22,7 +22,7 @@
       "email": "hamideh.vakilifard@concordia.ca",
       "research_summary": "Hamideh étudie les céramiques avancées pour les couches de finition des revêtements de barrière thermique (TBC) en utilisant la méthode SPS. Ses études visent à améliorer la durabilité et l'efficacité des TBC, à améliorer les performances des turbines à gaz et à favoriser les avancées en matière d'efficacité énergétique et de science des matériaux. Elle détient une maîtrise en ingénierie des matériaux d'Iran, se concentrant sur l'optimisation des TBC à gradient fonctionnel. Son expérience de dix ans dans l'industrie de la conception et de la fabrication de turbines à gaz représente un ensemble de compétences significatif. En dehors de la recherche, elle aime cultiver diverses plantes, faire des randonnées dans la nature et se reconnecter avec l'extérieur.",
       "picture": "vakilifard_hamideh.jpg",
-      "linkedin": "www.linkedin.com/in/hamidehvf-13660heo",
+      "linkedin": "https://linkedin.com/in/hamidehvf-13660heo",
       "research_gate": "https://www.researchgate.net/profile/Hamideh-Vakilifard",
       "duration": "2022 – Present"
       
@@ -33,7 +33,7 @@
       "email": "Parastoo.fallah@concordia.ca",
       "research_summary": "Parastoo est doctorante à l'Université Concordia, où elle recherche le comportement tribologique des lubrifiants solides écologiques à base de MoS2 couramment utilisés dans l'industrie aérospatiale. Elle est sous la supervision du Prof. Pantcho Stoyanov et du Prof. Rolf Wuthrich. Parastoo détient une maîtrise en génie des matériaux, spécialisée dans la coulée et la solidification directionnelle des superalliages à base de nickel utilisés dans les sections chaudes des turbines à gaz. De plus, elle possède plus de cinq ans d'expérience industrielle en tant que chef de projet dans les secteurs minier et sidérurgique.",
       "picture": "parastoo-fallah.png",
-      "linkedin": "www.linkedin.com/in/parastoo-fallah-9b8699101",
+      "linkedin": "https://linkedin.com/in/parastoo-fallah-9b8699101",
       "google_scholar": "https://scholar.google.com/citations?user=eczQhmIAAAAJ&hl=en&oi=ao",
       "duration": "2023 - Present"
   },
@@ -125,25 +125,25 @@
   "email": "francisco.rivadeneira@concordia.ca",
   "research_summary": "Je suis doctorant spécialisé en turbomachines, avec un accent particulier sur les matériaux de dégagement et tribologiques. Mes recherches portent sur le développement et les tests de matériaux de nouvelle génération pour les composants de moteur, dans le but d'améliorer les performances et la durée de vie des moteurs. En utilisant des géométries qui ressemblent étroitement aux conceptions réelles des moteurs et en reproduisant des conditions de fonctionnement extrêmes, je vise à améliorer l'efficacité et la durabilité des moteurs à turbine à gaz. En dehors de mes recherches, j'ai une passion pour la musique et j'aime jouer de la guitare.",
   "picture": "francisco-rivadeneira.jpg",
-  "linkedin": "www.linkedin.com/in/francisco-rivadeneira-729432333",
+  "linkedin": "https://linkedin.com/in/francisco-rivadeneira-729432333",
   "duration": "2025- Present"
   
 },
 {
   "name": "Dara Samii",
-  "occupation": "Étudiant à la maîtrise en sciences appliquées, Département de génie mécanique, industriel et aérospatial",
+  "occupation": "Étudiant à la maîtrise. Département de génie mécanique, industriel et aérospatial",
   "email": "dara.rahmatsamii@mail.concordia.ca",
   "research_summary": "Dara travaille sur l'application de la dynamique des fluides computationnelle (CFD) et de l'intelligence artificielle (IA) pour accélérer la simulation des projections thermiques. Dara a obtenu son baccalauréat en génie chimique à l'Université des sciences et technologies d'Iran (IUST) en 2022 et son intérêt pour la simulation, la modélisation et la dynamique des fluides l'a conduit à poursuivre une maîtrise en génie mécanique à l'Université Concordia. En plus de ses recherches, Dara est un amateur de musique et joue et improvise des morceaux de jazz, de blues et de boogie-woogie au piano.",
   "picture": "dara-samii.jpg",
   "linkedin": "https://www.linkedin.com/in/dara-samii/",
-  "google_scholar": ": https://scholar.google.com/citations?user=n3bdfeUAAAAJ&hl=en",
+  "google_scholar": "https://scholar.google.com/citations?user=n3bdfeUAAAAJ&hl=en",
   "research_gate": "https://www.researchgate.net/profile/Dara-Rahmat-Samii",
   "duration": "Sept 2023 - Present"
 },
 {
 "name": "Hossein Shahbazi",
 "occupation": "Doctorant, Département de génie mécanique, industriel et aérospatial",
-"email": "hossein.shahbazi@mail.concordia.ca\n Hossein.shahbazi9192@gmail.com",
+"email": "hossein.shahbazi@mail.concordia.ca",
 "research_summary": "Je suis doctorant au Département de génie mécanique, industriel et aérospatial de l'Université Concordia, spécialisé dans les revêtements par projection thermique dans le cadre d'un projet collaboratif avec le groupe SurfTec du CNRC Canada, sous la supervision du Dr Christian Moreau, du Dr Pantcho Stoyanov et du Dr Rogerio S. Lima. Mon travail se concentre sur le groupe Aérospatial/Projection Thermique, où je travaille sur la prédiction et l'application de matériaux à haute entropie, d'alliages à haute entropie, de céramiques avancées et d'autres domaines dans le secteur aérospatial, en particulier l'ingénierie des surfaces et les revêtements pour turbines. Mon expertise repose sur une solide formation en sciences physiques et des matériaux, avec des compétences en synthèse, gel-casting, slip-casting, frittage de poudres, conception de configurations expérimentales et projection thermique d'alliages, en particulier les alliages à haute entropie dans les systèmes de barrière thermique.",
 "picture": "hossein-shahbazi.jpg",
 "linkedin": "https://www.linkedin.com/in/hossein-shahbazi-4498a3aa/",
@@ -159,7 +159,7 @@
 "research_summary": "Aravind poursuit un doctorat en génie mécanique sous la supervision du Prof. Christian Moreau et du Prof. Ali Dolatabadi (UoT). La recherche d'Aravind se concentre sur l'optimisation des couches de liaison pour les revêtements de barrière thermique (TBC) par des techniques HVAF, visant à améliorer l'efficacité des moteurs à turbine à gaz et à réduire les émissions de gaz à effet de serre. Ses recherches sont menées en collaboration avec l'Université Concordia, l'Université McGill et soutenues par CRIAQ, Tecnar, Pratt & Whitney Canada et USA. Aravind détient un baccalauréat de JNTUH, Inde et une double maîtrise de l'Université West, Suède. Son expérience est profondément ancrée dans l'ingénierie de la projection thermique, la fabrication additive métallique et leurs applications. En dehors du travail, il aime découvrir de nouveaux cafés, restaurants, bars, se plonger dans les films et retrouver des amis lors de voyages !",
 "picture": "aravindkumar-thoutam.jpg",
 "linkedin": "https://www.linkedin.com/in/aravind-kumar-thoutam-3b39aab3/",
-"research_gate": ": https://www.researchgate.net/profile/Aravind-Thoutam",
+"research_gate": "https://www.researchgate.net/profile/Aravind-Thoutam",
 "google_scholar": "https://scholar.google.com/citations?user=lxpO98MAAAAJ&hl=en",
 "duration": "2021 - Present"
 

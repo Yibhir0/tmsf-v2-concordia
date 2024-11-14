@@ -1,39 +1,6 @@
 
 {
 
-    "moreau":{
-        "name": "Christian Moreau, Doctorat, FASM ",
-        "occupation": "Professeur & Directeur de la Pulvérisation Thermique",
-        "department": "Génie mécanique, Industriel et Aérospatial ",
-        "bio" : "Dr. Christian Moreau est professeur au département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est le directeur du laboratoire de pulvérisation thermique et le directeur du Centre de technologies de revêtement avancées. Il est membre de la Société américaine des matériaux (ASM) et membre de la Société de pulvérisation thermique de l'ASM. Il est également membre de l'Association internationale de pulvérisation thermique (ITSA) et de l'Institut international de soudage (IIW). Il est l'auteur de plus de 200 articles scientifiques et a supervisé plus de 50 étudiants diplômés. Il est le récipiendaire du prix 2016 de la Société de pulvérisation thermique de l'ASM."
-   
-        
-    },
-    
-    "stoyanov":{
-        "name": "Pantcho P. Stoyanov, Doctorat ",
-        "occupation": "Professeur &  Directeur du Laboratoire de Tribologie",
-        "department": "Génie Chimique et des Matériaux",
-        "bio": " Dr. Pantcho P. Stoyanov est professeur au département de génie chimique et des matériaux de l'Université Concordia. Il est le directeur du laboratoire de tribologie. Il est membre de la Society of Tribologists and Lubrication Engineers (STLE) et de la Société canadienne de génie mécanique (CSME). Il est l'auteur de plus de 100 articles scientifiques et a supervisé plus de 30 étudiants diplômés. Ses intérêts de recherche incluent la tribologie, l'ingénierie de surface et les matériaux avancés. Il est le récipiendaire de la médaille de tribologie 2016 de la CSME." 
-
-
-    },
-    "tembely":{
-        "name": "Moussa Tembely, Doctorat ",
-        "occupation": "Professeur & Directeur du Laboratoire ",
-        "department": "Génie Mécanique, Industriel et Aérospatial ",
-        "bio": " Dr. Moussa Tembely est professeur au département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est le directeur du laboratoire de fabrication avancée. Il est membre de l'American Society of Mechanical Engineers (ASME) et de la Société canadienne de génie mécanique (CSME). Il est l'auteur de plus de 50 articles scientifiques et a supervisé plus de 10 étudiants diplômés. Ses intérêts de recherche incluent la fabrication avancée, la fabrication additive et le traitement des matériaux."
-   
-
-    },
-    "ettouil":{
-        "name": "Fadhel Ben Ettouil, Doctorat ",
-        "occupation": "Associé de Recherche et Responsable de Laboratoire",
-        "department": "Génie Mécanique, Industriel et Aérospatial",
-        "bio" : " Dr. Fadhel Ben Ettouil est un associé de recherche au département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est le gestionnaire du laboratoire de pulvérisation thermique. Il est membre de l'American Society of Mechanical Engineers (ASME) et de la Société canadienne de génie mécanique (CSME). Il est l'auteur de plus de 20 articles scientifiques et a supervisé plus de 5 étudiants diplômés. Ses intérêts de recherche incluent les revêtements de pulvérisation thermique, l'ingénierie de surface et la caractérisation des matériaux."
-
-
-    },
 
     "peopleHeader":"Notre Formidable Équipe",
     "seeMore":"Voir Plus",

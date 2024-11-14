@@ -4,15 +4,24 @@ import styled from "styled-components";
 export default function ProjectBox({ img, name, occupation, department, email, action }) {
 
 
+  let profileImage = null;
+  try {
+    profileImage = require(`../../assets/img/people_images/${img}`);
+
+  } catch (error) {
+    console.error("Error loading image:", error);
+
+  }
   return (
     <Wrapper>
       <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
-        <img className="radius8" src={img} alt="project"></img>
+        <img className="radius8" src={profileImage} alt="project"></img>
       </ImgBtn>
       <h3 className="font20 extraBold">{name}</h3>
       <p className="font15">{occupation}</p>
       <p className="font15">{department}</p>
-      <p className="font13">{email}</p>
+      <a href={`mailto:${email}`} className="read-link semiBold" style={{ color: "#800000" }} >{email}</a>
+
 
     </Wrapper>
   );

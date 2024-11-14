@@ -3,19 +3,26 @@ import React from 'react';
 import styled from "styled-components";
 
 import { useNavigate } from "react-router-dom";
-const ProfileCard = ({ profile, action }) => {
+
+
+
+
+
+const ProfileCard = ({ profile, category }) => {
 
     const navigate = useNavigate();
 
-    let profileImage = null;
+
+
+
 
     const goToprofile = () => {
-        navigate("/profile", { state: { profile } });
+        navigate("/profile", { state: { profile, category } });
     }
-
+    let profileImage = null;
     try {
-        // Use `require()` to dynamically load the image
         profileImage = require(`../../assets/img/people_images/${profile.picture}`);
+
     } catch (error) {
         console.error("Error loading image:", error);
 
@@ -31,10 +38,10 @@ const ProfileCard = ({ profile, action }) => {
 
             </ImgBtn>
             <h3 className="font20 extraBold">{profile.name}</h3>
+            <p className="font15">{profile.occupation}</p>
+            <a href={`mailto:${profile.email}`} className="read-link semiBold" style={{ color: "#800000" }} >{profile.email}</a>
 
-            <p className="font13">{profile.email}</p>
-
-        </Wrapper>
+        </Wrapper >
     );
 }
 

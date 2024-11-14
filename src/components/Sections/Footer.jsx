@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
 // Assets
 import LogoImg from "../../assets/logos/Logo";
 import { GoMoveToTop } from "react-icons/go";
@@ -32,16 +33,16 @@ export default function Contact() {
               © {getCurrentYear()} - <span className="font13">Concordia University</span>
             </StyleP>
 
-            <Link
+            <HashLink
               className="myColor animate pointer font13 flexColumn flexNullCenter"
-              to="home"
+              to="/#"
               smooth={true}
               offset={-80}
-              title="Back to top"
+              title="Back to Home"
             >
               <GoMoveToTop size={24} />
               <span>{t("backToTopBtn")}</span>
-            </Link>
+            </HashLink>
           </InnerWrapper>
         </div>
       </div>

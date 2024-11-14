@@ -7,7 +7,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 import GoogleScholar from "../../assets/svg/GoogleScholar";
 
-export default function TestimonialBox({ text, author, email, scholarLink, linkedin }) {
+export default function TestimonialBox({ text, author, email, scholarLink, linkedin, occupation }) {
   return (
     <Wrapper className="darkBg radius8 flexNullCenter flexColumn">
 
@@ -15,21 +15,30 @@ export default function TestimonialBox({ text, author, email, scholarLink, linke
         <QuoteIcon />
       </QuoteWrapper>
 
-      <p className="whiteColor font13" style={{ paddingBottom: "30px" }}>
+      <p className="orangeColor font16" style={{ alignSelf: 'flex-end', paddingBottom: "30px" }}>
+        <em>{occupation}</em>
+      </p>
+
+      <p className="whiteColor font16" style={{ paddingBottom: "30px" }}>
         {text}
       </p>
-      <p className="orangeColor font13" style={{ alignSelf: 'flex-end' }}>
+
+      <p className="orangeColor font14" style={{ alignSelf: 'flex-end' }}>
         <em>{author}</em>
       </p>
-      <p className="orangeColor font13" style={{ alignSelf: 'flex-end' }}><em>{email}</em></p>
-      <div className="flexSpaceNull" style={{ alignSelf: 'flex-end' }}>
+
+      <a className="orangeColor font14 read-link" href={`mailto:${email}`} style={{ alignSelf: 'flex-end' }}><em>{email}</em></a>
+      <div className="flexSpaceNull" style={{ alignSelf: 'flex-end', paddingTop: "30px" }}>
         <a href={scholarLink} target="_blank" rel="noopener noreferrer" aria-label="Scholar" className="social-icon"><GoogleScholar height={30} width={30} /></a>
         <a href={linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon"><FaLinkedinIn /></a>
       </div>
 
 
 
-    </Wrapper>
+
+
+
+    </Wrapper >
   );
 }
 
