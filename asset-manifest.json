@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tmsf-v2-concordia/static/css/main.1c477f24.css",
-    "main.js": "/tmsf-v2-concordia/static/js/main.168cd6ea.js",
+    "main.css": "/tmsf-v2-concordia/static/css/main.13874549.css",
+    "main.js": "/tmsf-v2-concordia/static/js/main.5dc49fee.js",
     "reactPlayerYouTube.js": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js",
     "reactPlayerSoundCloud.js": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js",
     "reactPlayerVimeo.js": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js",
@@ -17,32 +17,22 @@
     "reactPlayerFilePlayer.js": "/tmsf-v2-concordia/static/js/reactPlayerFilePlayer.5dd9d3d2.chunk.js",
     "reactPlayerPreview.js": "/tmsf-v2-concordia/static/js/reactPlayerPreview.3eb67a05.chunk.js",
     "static/js/453.e714295e.chunk.js": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js",
-    "static/media/TSL8.jpg": "/tmsf-v2-concordia/static/media/TSL8.1c9534ff8168ab9fbf0d.jpg",
     "static/media/thermal-spraying-8554417542-dbeb8ddcb3-o-2.jpg": "/tmsf-v2-concordia/static/media/thermal-spraying-8554417542-dbeb8ddcb3-o-2.436df0c672daa98e48a7.jpg",
     "static/media/05.jpg": "/tmsf-v2-concordia/static/media/05.97785a31c410d5e24f65.jpg",
     "static/media/golnoush-asadin.png": "/tmsf-v2-concordia/static/media/golnoush-asadin.367850b6fd5ba320d80a.png",
-    "static/media/TSL6.JPG": "/tmsf-v2-concordia/static/media/TSL6.648fb5c4dfe2ecdde94f.JPG",
-    "static/media/TSL1.JPG": "/tmsf-v2-concordia/static/media/TSL1.b1482d00f5eebf4b69a7.JPG",
     "static/media/parastoo-fallah.png": "/tmsf-v2-concordia/static/media/parastoo-fallah.f0160369556965122080.png",
     "static/media/Fadhel-Ben-Ettouil1.png": "/tmsf-v2-concordia/static/media/Fadhel-Ben-Ettouil1.ffb68bf6fb98d7b56893.png",
     "static/media/CNRC.jpeg": "/tmsf-v2-concordia/static/media/CNRC.a296047c100acc7cdc27.jpeg",
-    "static/media/TSL2.JPG": "/tmsf-v2-concordia/static/media/TSL2.d03029182bd494e7fc0c.JPG",
-    "static/media/TSL3.JPG": "/tmsf-v2-concordia/static/media/TSL3.efc2d48f06cc94010f4d.JPG",
     "static/media/sobhan-ghorbani.png": "/tmsf-v2-concordia/static/media/sobhan-ghorbani.a1f5b14880423a22efc5.png",
-    "static/media/TSL4.JPG": "/tmsf-v2-concordia/static/media/TSL4.b78d6defb84d9c39fc8c.JPG",
     "static/media/ashkan-ghafari.png": "/tmsf-v2-concordia/static/media/ashkan-ghafari.c1fe466b184eef07a791.png",
-    "static/media/TSL5.JPG": "/tmsf-v2-concordia/static/media/TSL5.d677e74f4a9d83c6a961.JPG",
     "static/media/02.jpg": "/tmsf-v2-concordia/static/media/02.2876146004293541cf70.jpg",
     "static/media/01.jpg": "/tmsf-v2-concordia/static/media/01.f5163565f6b0df6e191a.jpg",
     "static/media/brodeur-thermal-spray-coating-expertise.jpg": "/tmsf-v2-concordia/static/media/brodeur-thermal-spray-coating-expertise.0a40c1360a922dc44a4b.jpg",
     "static/media/thermalLogo.png": "/tmsf-v2-concordia/static/media/thermalLogo.0ff1eecffa14dc488ad1.png",
     "static/media/03.jpg": "/tmsf-v2-concordia/static/media/03.0624956079978ba78249.jpg",
-    "static/media/TSL10.jpg": "/tmsf-v2-concordia/static/media/TSL10.fd2481297a10348982a1.jpg",
-    "static/media/TSL9.jpg": "/tmsf-v2-concordia/static/media/TSL9.964435c5e79c3e5eb78f.jpg",
     "static/media/04.jpg": "/tmsf-v2-concordia/static/media/04.46c870a5740eeeae60d3.jpg",
     "static/media/VPS.jpg": "/tmsf-v2-concordia/static/media/VPS.64427dbb46bd4cfeea62.jpg",
     "static/media/CRIAQ.jpg": "/tmsf-v2-concordia/static/media/CRIAQ.f7a914d609e64fcbfc5d.jpg",
-    "static/media/MPF4.jpg": "/tmsf-v2-concordia/static/media/MPF4.d40edf7507f3395f70fd.jpg",
     "static/media/UA.png": "/tmsf-v2-concordia/static/media/UA.d793facb2bfb9959b75f.png",
     "static/media/siemens.jpg": "/tmsf-v2-concordia/static/media/siemens.27c1d11f93312900d81f.jpg",
     "static/media/simulent.jpg": "/tmsf-v2-concordia/static/media/simulent.f5719e699090d47a71d6.jpg",
@@ -78,8 +68,8 @@
     "static/media/slick.ttf": "/tmsf-v2-concordia/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tmsf-v2-concordia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tmsf-v2-concordia/index.html",
-    "main.1c477f24.css.map": "/tmsf-v2-concordia/static/css/main.1c477f24.css.map",
-    "main.168cd6ea.js.map": "/tmsf-v2-concordia/static/js/main.168cd6ea.js.map",
+    "main.13874549.css.map": "/tmsf-v2-concordia/static/css/main.13874549.css.map",
+    "main.5dc49fee.js.map": "/tmsf-v2-concordia/static/js/main.5dc49fee.js.map",
     "reactPlayerYouTube.deab9314.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js.map",
     "reactPlayerSoundCloud.0e4ba1bb.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js.map",
     "reactPlayerVimeo.2b7c4767.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js.map",
@@ -97,7 +87,7 @@
     "453.e714295e.chunk.js.map": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c477f24.css",
-    "static/js/main.168cd6ea.js"
+    "static/css/main.13874549.css",
+    "static/js/main.5dc49fee.js"
   ]
 }
