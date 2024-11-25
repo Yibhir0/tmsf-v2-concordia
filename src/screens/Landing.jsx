@@ -11,6 +11,7 @@ import Contact from "../components/Sections/Contact";
 import Facilities from "../components/Sections/Facilities";
 import Gallery from "../components/Sections/Gallery";
 
+
 import Stats from "../components/Sections/Stats";
 
 export default function Landing() {

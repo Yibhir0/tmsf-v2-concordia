@@ -5,9 +5,11 @@ import QuoteIcon from "../../assets/svg/Quotes";
 
 import { FaLinkedinIn } from 'react-icons/fa';
 
+import { SiResearchgate } from "react-icons/si";
+
 import GoogleScholar from "../../assets/svg/GoogleScholar";
 
-export default function TestimonialBox({ text, author, email, scholarLink, linkedin, occupation }) {
+export default function TestimonialBox({ text, author, email, scholarLink, linkedin, occupation, gateLink }) {
   return (
     <Wrapper className="darkBg radius8 flexNullCenter flexColumn">
 
@@ -31,6 +33,7 @@ export default function TestimonialBox({ text, author, email, scholarLink, linke
       <div className="flexSpaceNull" style={{ alignSelf: 'flex-end', paddingTop: "30px" }}>
         <a href={scholarLink} target="_blank" rel="noopener noreferrer" aria-label="Scholar" className="social-icon"><GoogleScholar height={30} width={30} /></a>
         <a href={linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon"><FaLinkedinIn /></a>
+        <a href={gateLink} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-icon"><SiResearchgate /></a>
       </div>
 
 

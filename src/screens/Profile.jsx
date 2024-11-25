@@ -11,60 +11,60 @@ import TestimonialBox from "../components/Elements/TestimonialBox";
 
 const Profile = () => {
 
-    const { t } = useTranslation();
-    const location = useLocation();
+  const { t } = useTranslation();
+  const location = useLocation();
 
-    const [prof, setProf] = useState({});
+  const [prof, setProf] = useState({});
 
-    useEffect(() => {
-        const { profile, category } = location.state || {};
+  useEffect(() => {
+    const { profile, category } = location.state || {};
 
-        const profiles = t(category, { returnObjects: true }) || [];
+    const profiles = t(category, { returnObjects: true }) || [];
 
-        const prf = profiles.find(p => p.email === profile.email);
+    const prf = profiles.find(p => p.email === profile.email);
 
-        setProf(prf);
-    }, [location.state, t]);
-
-
-
-    let profileImage = null;
+    setProf(prf);
+  }, [location.state, t]);
 
 
-    try {
-        profileImage = require(`../assets/img/people_images/${prof.picture}`);
-        console.log("profileImage", profileImage);
-    } catch (error) {
-        console.error("Error loading image:", error);
 
-    }
-    return (
-        <Wrapper className="container flexNullCenter flexColumn">
-
-            <Wrapper className="container flexNullCenter flexRow">
+  let profileImage = null;
 
 
-                <LeftSide className="container flexNullCenter flexColumn"  >
+  try {
+    profileImage = require(`../assets/img/people_images/${prof.picture}`);
+    console.log("profileImage", profileImage);
+  } catch (error) {
+    console.error("Error loading image:", error);
 
-                    <img className="radius8" src={profileImage} alt="project"></img>
+  }
+  return (
+    <Wrapper className="container flexNullCenter flexColumn">
 
-                    <HeaderInfo>
-                        <h1 className="semiBold font30">{prof.name}</h1>
-
-                    </HeaderInfo>
-
-                </LeftSide>
-
-                <RightSide >
-                    <TestimonialBox text={prof.research_summary} author={prof.name} email={prof.email} scholarLink={prof.google_scholar} linkedin={prof.linkedin} occupation={prof.occupation} />
-
-                </RightSide>
+      <Wrapper className="container flexNullCenter flexRow">
 
 
-            </Wrapper>
+        <LeftSide className="container flexNullCenter flexColumn"  >
 
-        </Wrapper>
-    );
+          <HeaderInfo>
+            <h1 className="semiBold font30">{prof.name}</h1>
+
+          </HeaderInfo>
+
+          <img className="radius8" src={profileImage} alt="project"></img>
+
+        </LeftSide>
+
+        <RightSide >
+          <TestimonialBox text={prof.research_summary} author={prof.name} email={prof.email} gateLink={prof.research_gate} scholarLink={prof.google_scholar} linkedin={prof.linkedin} occupation={prof.occupation} />
+
+        </RightSide>
+
+
+      </Wrapper>
+
+    </Wrapper>
+  );
 }
 
 export default Profile;

@@ -8,7 +8,7 @@ function ImageSlider() {
   return (
     <div className="box">
       <Carousel useKeyboardArrows={true} showArrows={true} autoPlay={true}
-        interval={2000}
+        interval={1500}
         infiniteLoop={true}
         showThumbs={false}  >
         {sliderImages.map((URL, index) => (

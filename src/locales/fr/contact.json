@@ -7,5 +7,7 @@
     "sendMessage":"Envoyer un Message",
     "officeAddress":"Adresse du Bureau",
     "callUs":"Appelez-Nous",
-    "sendEmail": "Envoyer un E-mail"
+    "sendEmail": "Envoyer un E-mail",
+     "contactDescription": "Nous serions ravis d'avoir de vos nouvelles ! Contactez-nous pour toute question, collaboration ou retour.",
+  "contactSubDescription": "Notre équipe est toujours prête à échanger et à vous répondre."
 }

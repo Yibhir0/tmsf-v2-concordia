@@ -23,9 +23,6 @@ export default function Header() {
         <div>
 
           <h1 className="extraBold font40">{t('first')}</h1>
-          {/* <HeaderP className="font20 extraBold myColor">
-            {t('second')}
-          </HeaderP> */}
 
           <BtnWrapper>
             <FullButton title={t('learn')} action={goToAboutPage} />

@@ -24,10 +24,11 @@ export default function Publications() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">{t('publicationsHeader')}</h1>
-            <p className="font15">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            <p className="font20">
+              {t('publicationDescription')}
+
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              {t('publicationSubDescription')}
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">

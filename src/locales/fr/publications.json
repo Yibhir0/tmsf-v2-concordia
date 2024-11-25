@@ -1,6 +1,8 @@
 
 {
     "publicationsHeader":  "Consultez Nos Publications",
-    "publicationsDescription":  "Liste des publications de recherche récentes de notre université."
+    "publicationsDescription":  "Liste des publications de recherche récentes de notre université.",
+     "publicationDescription": "Parcourez notre collection de publications inspirantes, mettant en lumière des recherches novatrices, ",
+     "publicationSubDescription": " des idées créatives et des découvertes marquantes."
     
 }

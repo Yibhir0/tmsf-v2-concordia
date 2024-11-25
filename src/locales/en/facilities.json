@@ -23,7 +23,9 @@
     },
 
     "facilitiesHeader":"Our Facilities",
-    "seeMore":"See More"
+    "seeMore":"See More",
+    "facilitiesDescription": "Explore our state-of-the-art facilities that support cutting-edge research and foster innovation across various disciplines.",
+     "facilitiesSubDescription": "From advanced laboratories to collaborative workspaces, our facilities are designed to inspire creativity and facilitate groundbreaking discoveries."
 
 }
     

@@ -1,6 +1,8 @@
 
 {
     "publicationsHeader":  "Check Our Publications",
-     "publicationsDescription":  "List of recent research publications from our university."
+     "publicationsDescription":  "List of recent research publications from our university.",
+     "publicationDescription": "Browse through our collection of insightful publications, showcasing groundbreaking research, ",
+     "publicationSubDescription": " innovative ideas, and impactful discoveries."
     
 }

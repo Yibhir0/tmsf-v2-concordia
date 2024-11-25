@@ -27,7 +27,9 @@
       
       },
       "researchHeader":"Nos Recherches",
-    "seeMore":"Voir Plus"
+      "seeMore":"Voir Plus",
+      "researchDescription":"Découvrez nos travaux de recherche qui stimulent l'innovation, relèvent des défis complexes et ",
+      "researchSubDescription":"contribuent aux avancées dans divers domaines."
 
 }
 

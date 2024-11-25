@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import ImageGallery from "../sliders/ImageGallery";
+// import ImageGallery from "../sliders/ImageGallery";
 import FullButton from "../Buttons/FullButton";
 
 import Video from "../Elements/Video"
@@ -26,16 +26,16 @@ export default function Gallery() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">{t('galleryHeader')}</h1>
-            <p className="font15">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            <p className="font20">
+              {t('galleryDescription')}
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              {t('gallerySubDescription')}
             </p>
           </HeaderInfo>
 
           <div >
             <Video url='https://vimeo.com/975637287' />
-            <ImageGallery />
+            {/* <ImageGallery /> */}
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>

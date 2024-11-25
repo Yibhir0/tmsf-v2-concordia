@@ -8,7 +8,7 @@ import { GoMoveToTop } from "react-icons/go";
 
 import { useTranslation } from 'react-i18next';
 
-export default function Contact() {
+export default function Footer() {
 
   const { t } = useTranslation();
   const getCurrentYear = () => {
@@ -19,18 +19,20 @@ export default function Contact() {
     <Wrapper className="animate whiteBg">
       <div>
         <div className="container">
-          <InnerWrapper className="flexSpaceCenter" style={{ padding: "20px 0" }}>
+          <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />
-              {/* <h1 className="font15 extraBold myColor" style={{ marginLeft: "15px" }}>
-                TSMF
-              </h1> */}
             </Link>
             <StyleP
-              className="semiBold font15 pointer"
-              title="Concordia site"
+              className="semiBold font20 pointer"
             >
-              © {getCurrentYear()} - <span className="font13">Concordia University</span>
+
+
+              <span>
+                Multiphase Flow and Thermal Spray Laboratory <br />
+                Gina Cody School of Engineering and Computer Science <br />
+                © {getCurrentYear()} - Concordia University
+              </span>
             </StyleP>
 
             <HashLink
@@ -52,7 +54,8 @@ export default function Contact() {
 
 const Wrapper = styled.div`
   width: 100%;
-  padding:  0; /* Reduced padding */
+  padding: 0;
+  background-color: #f8f8f8;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
 `;
 
@@ -63,7 +66,13 @@ const InnerWrapper = styled.div`
 `;
 
 const StyleP = styled.p`
+  padding: 10px 0; 
+  span {
+    display: inline-block;
+    line-height: 1.5; 
+  }
   @media (max-width: 550px) {
     margin: 20px 0;
+    text-align: center;
   }
 `;
