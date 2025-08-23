@@ -27,5 +27,9 @@ const Wrapper = styled.button`
     border: 1px solid "#912338";
     color: ${(props) => (props.border ? "#F2B300" : "#F2B300")};
   }
+  @media (max-width: 768px) {
+    padding: 12px 10px;
+    font-size: 16px;
+  }
 `;
 
