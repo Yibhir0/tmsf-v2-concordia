@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tmsf-v2-concordia/static/css/main.b1a7633c.css",
-    "main.js": "/tmsf-v2-concordia/static/js/main.2a1b6436.js",
+    "main.js": "/tmsf-v2-concordia/static/js/main.d402d0f3.js",
     "reactPlayerYouTube.js": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js",
     "reactPlayerSoundCloud.js": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js",
     "reactPlayerVimeo.js": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js",
@@ -70,7 +70,7 @@
     "static/media/slick.woff": "/tmsf-v2-concordia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tmsf-v2-concordia/index.html",
     "main.b1a7633c.css.map": "/tmsf-v2-concordia/static/css/main.b1a7633c.css.map",
-    "main.2a1b6436.js.map": "/tmsf-v2-concordia/static/js/main.2a1b6436.js.map",
+    "main.d402d0f3.js.map": "/tmsf-v2-concordia/static/js/main.d402d0f3.js.map",
     "reactPlayerYouTube.deab9314.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js.map",
     "reactPlayerSoundCloud.0e4ba1bb.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js.map",
     "reactPlayerVimeo.2b7c4767.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js.map",
@@ -89,6 +89,6 @@
   },
   "entrypoints": [
     "static/css/main.b1a7633c.css",
-    "static/js/main.2a1b6436.js"
+    "static/js/main.d402d0f3.js"
   ]
 }
