@@ -58,8 +58,7 @@ export default function Footer() {
 const Wrapper = styled.div`
   width: 100%;
   padding: 0;
-  background-color: #f8f8f8;
-  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  background-color: #e5e9ed;
   bottom: 0;
 
 `;

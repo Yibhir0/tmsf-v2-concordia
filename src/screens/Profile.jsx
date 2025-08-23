@@ -100,7 +100,7 @@ const RightSide = styled.div`
   height: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
-  @media (max-width: 960px) {
+  @media (max-width: 768px) {
     width: 100%;
     margin-top: 50px;
     order:1;
@@ -111,7 +111,8 @@ const HeaderInfo = styled.div`
 
     
 
-  @media (max-width: 860px) {
+  @media (max-width: 768px) {
     text-align: center;
+    font-size: 1.2rem;
   }
 `;

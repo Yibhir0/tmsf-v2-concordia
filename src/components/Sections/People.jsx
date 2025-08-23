@@ -1,13 +1,13 @@
 
 import styled from "styled-components";
 
-import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from "react-router-dom";
 
 import { useProfilesData } from "../../hooks/useProfilesData";
+import ProfileCard from "../Elements/ProfileCard";
 
 export default function People() {
 
@@ -20,9 +20,7 @@ export default function People() {
     navigate('/people');
   };
 
-  const goToprofile = (profile, category) => {
-    navigate("/profile", { state: { profile, category } });
-  }
+
   return (
     <Wrapper id="people">
       <div >
@@ -40,14 +38,7 @@ export default function People() {
                 className={`col-xs-12 col-sm-4 col-md-4 col-lg-4 ${index === 3 ? 'center-item' : ''}`}
                 key={index}
               >
-                <ProjectBox
-                  img={person.picture}
-                  name={person.name}
-                  occupation={person.occupation}
-                  department={person.department}
-                  email={person.email}
-                  action={() => goToprofile(person, "department_professors")}
-                />
+                <ProfileCard profile={person} category="department_professors" />
               </div>
             ))}
           </div>
