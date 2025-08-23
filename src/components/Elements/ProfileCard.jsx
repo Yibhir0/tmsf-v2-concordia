@@ -25,7 +25,7 @@ const ProfileCard = ({ profile, category }) => {
         <Wrapper>
             <ImgBtn className="aniamte pointer" onClick={goToprofile}>
                 {profileImage ? (
-                    <img className="radius8" src={profileImage} alt="project"></img>
+                    <img className="radius8" src={profileImage} alt="profile"></img>
                 ) : (
                     <img className="radius8" src={require('../../assets/img/people_images/default-profile.png')} alt="default profile" />
                 )}
@@ -55,6 +55,14 @@ const Wrapper = styled.div`
       h3 {
         padding-bottom: 10px;
       }
+    @media (max-width: 768px) {
+      img {
+        width: 60%;
+    
+      }
+        
+    }
+   
     `;
 const ImgBtn = styled.button`
       background-color: transparent;

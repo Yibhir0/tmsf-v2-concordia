@@ -68,6 +68,9 @@ const LeftSide = styled.div`
     margin-top: 0;
     text-align: center;
     order:2;
+     h1{
+      font-size: 2rem;
+    }
   }
 
 `;

@@ -28,6 +28,13 @@ export default function Collaborators() {
 
 const Wrapper = styled.section`
   width: 100%;
+  @media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  
+}
   
 `;
 
@@ -53,5 +60,8 @@ const HeaderInfo = styled.div`
 
   @media (max-width: 860px) {
     text-align: center;
+    h1{
+    font-size: 2rem;
+    }
   }
 `;

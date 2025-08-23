@@ -93,6 +93,9 @@ const HeaderInfo = styled.div`
 
   @media (max-width: 860px) {
     text-align: center;
+     h1{
+      font-size: 2rem;
+    }
   }
 `;
 
