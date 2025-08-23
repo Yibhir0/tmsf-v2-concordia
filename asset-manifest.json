@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tmsf-v2-concordia/static/css/main.b1a7633c.css",
-    "main.js": "/tmsf-v2-concordia/static/js/main.d402d0f3.js",
+    "main.css": "/tmsf-v2-concordia/static/css/main.3f63483f.css",
+    "main.js": "/tmsf-v2-concordia/static/js/main.f7cc473f.js",
     "reactPlayerYouTube.js": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js",
     "reactPlayerSoundCloud.js": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js",
     "reactPlayerVimeo.js": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js",
@@ -69,8 +69,8 @@
     "static/media/slick.ttf": "/tmsf-v2-concordia/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tmsf-v2-concordia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tmsf-v2-concordia/index.html",
-    "main.b1a7633c.css.map": "/tmsf-v2-concordia/static/css/main.b1a7633c.css.map",
-    "main.d402d0f3.js.map": "/tmsf-v2-concordia/static/js/main.d402d0f3.js.map",
+    "main.3f63483f.css.map": "/tmsf-v2-concordia/static/css/main.3f63483f.css.map",
+    "main.f7cc473f.js.map": "/tmsf-v2-concordia/static/js/main.f7cc473f.js.map",
     "reactPlayerYouTube.deab9314.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js.map",
     "reactPlayerSoundCloud.0e4ba1bb.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js.map",
     "reactPlayerVimeo.2b7c4767.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js.map",
@@ -88,7 +88,7 @@
     "453.e714295e.chunk.js.map": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1a7633c.css",
-    "static/js/main.d402d0f3.js"
+    "static/css/main.3f63483f.css",
+    "static/js/main.f7cc473f.js"
   ]
 }
