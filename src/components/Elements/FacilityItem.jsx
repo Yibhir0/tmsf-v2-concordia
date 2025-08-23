@@ -37,6 +37,11 @@ const FacilityWrapper = styled.div`
   p {
     margin: 10px 0;
   }
+  @media (max-width: 768px) {
+    img {
+      width: 80%;
+    }
+  }
 `;
 
 const ImgBtn = styled.button`

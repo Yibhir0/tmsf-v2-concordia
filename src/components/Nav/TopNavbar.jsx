@@ -21,16 +21,11 @@ export default function TopNavbar() {
   const navLinks = useNavLinks()
   const { t } = useTranslation();
 
-
-
-
-
-
   return (
     <>
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-      <Wrapper className="flexCenter animate lightBg" style={{ height: "100px" }}>
+      <Wrapper className="flexCenter animate lightBg" style={{ height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
           <HashLink className="pointer flexNullCenter " to="/#home" smooth={true}>
             <LogoIcon />
