@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tmsf-v2-concordia/static/css/main.13874549.css",
-    "main.js": "/tmsf-v2-concordia/static/js/main.a1af3f66.js",
+    "main.css": "/tmsf-v2-concordia/static/css/main.b1a7633c.css",
+    "main.js": "/tmsf-v2-concordia/static/js/main.7dd8551e.js",
     "reactPlayerYouTube.js": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js",
     "reactPlayerSoundCloud.js": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js",
     "reactPlayerVimeo.js": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js",
@@ -17,7 +17,7 @@
     "reactPlayerFilePlayer.js": "/tmsf-v2-concordia/static/js/reactPlayerFilePlayer.5dd9d3d2.chunk.js",
     "reactPlayerPreview.js": "/tmsf-v2-concordia/static/js/reactPlayerPreview.3eb67a05.chunk.js",
     "static/js/453.e714295e.chunk.js": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js",
-    "static/media/thermal-spraying-8554417542-dbeb8ddcb3-o-2.jpg": "/tmsf-v2-concordia/static/media/thermal-spraying-8554417542-dbeb8ddcb3-o-2.436df0c672daa98e48a7.jpg",
+    "static/media/facility2.jpg": "/tmsf-v2-concordia/static/media/facility2.436df0c672daa98e48a7.jpg",
     "static/media/05.jpg": "/tmsf-v2-concordia/static/media/05.97785a31c410d5e24f65.jpg",
     "static/media/golnoush-asadin.png": "/tmsf-v2-concordia/static/media/golnoush-asadin.367850b6fd5ba320d80a.png",
     "static/media/parastoo-fallah.png": "/tmsf-v2-concordia/static/media/parastoo-fallah.f0160369556965122080.png",
@@ -27,11 +27,12 @@
     "static/media/ashkan-ghafari.png": "/tmsf-v2-concordia/static/media/ashkan-ghafari.c1fe466b184eef07a791.png",
     "static/media/02.jpg": "/tmsf-v2-concordia/static/media/02.2876146004293541cf70.jpg",
     "static/media/01.jpg": "/tmsf-v2-concordia/static/media/01.f5163565f6b0df6e191a.jpg",
-    "static/media/brodeur-thermal-spray-coating-expertise.jpg": "/tmsf-v2-concordia/static/media/brodeur-thermal-spray-coating-expertise.0a40c1360a922dc44a4b.jpg",
+    "static/media/Fadhel-Ben-Ettouil.png": "/tmsf-v2-concordia/static/media/Fadhel-Ben-Ettouil.59e047d6a9787633aaf6.png",
+    "static/media/facility1.jpg": "/tmsf-v2-concordia/static/media/facility1.0a40c1360a922dc44a4b.jpg",
     "static/media/thermalLogo.png": "/tmsf-v2-concordia/static/media/thermalLogo.0ff1eecffa14dc488ad1.png",
     "static/media/03.jpg": "/tmsf-v2-concordia/static/media/03.0624956079978ba78249.jpg",
     "static/media/04.jpg": "/tmsf-v2-concordia/static/media/04.46c870a5740eeeae60d3.jpg",
-    "static/media/VPS.jpg": "/tmsf-v2-concordia/static/media/VPS.64427dbb46bd4cfeea62.jpg",
+    "static/media/facility3.jpg": "/tmsf-v2-concordia/static/media/facility3.64427dbb46bd4cfeea62.jpg",
     "static/media/CRIAQ.jpg": "/tmsf-v2-concordia/static/media/CRIAQ.f7a914d609e64fcbfc5d.jpg",
     "static/media/UA.png": "/tmsf-v2-concordia/static/media/UA.d793facb2bfb9959b75f.png",
     "static/media/siemens.jpg": "/tmsf-v2-concordia/static/media/siemens.27c1d11f93312900d81f.jpg",
@@ -68,8 +69,8 @@
     "static/media/slick.ttf": "/tmsf-v2-concordia/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tmsf-v2-concordia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tmsf-v2-concordia/index.html",
-    "main.13874549.css.map": "/tmsf-v2-concordia/static/css/main.13874549.css.map",
-    "main.a1af3f66.js.map": "/tmsf-v2-concordia/static/js/main.a1af3f66.js.map",
+    "main.b1a7633c.css.map": "/tmsf-v2-concordia/static/css/main.b1a7633c.css.map",
+    "main.7dd8551e.js.map": "/tmsf-v2-concordia/static/js/main.7dd8551e.js.map",
     "reactPlayerYouTube.deab9314.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerYouTube.deab9314.chunk.js.map",
     "reactPlayerSoundCloud.0e4ba1bb.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerSoundCloud.0e4ba1bb.chunk.js.map",
     "reactPlayerVimeo.2b7c4767.chunk.js.map": "/tmsf-v2-concordia/static/js/reactPlayerVimeo.2b7c4767.chunk.js.map",
@@ -87,7 +88,7 @@
     "453.e714295e.chunk.js.map": "/tmsf-v2-concordia/static/js/453.e714295e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13874549.css",
-    "static/js/main.a1af3f66.js"
+    "static/css/main.b1a7633c.css",
+    "static/js/main.7dd8551e.js"
   ]
 }
