@@ -41,7 +41,7 @@ const Stats = () => {
       <div>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">{t('statsHeader')}</h1>
+            <h1 className="extraBold">{t('statsHeader')}</h1>
             <p className="font20">
               {t('statsDescription')} <br />
               {t('statsSubDescription')}
@@ -88,7 +88,6 @@ const Wrapper = styled.section`
 const StatsWrapper = styled.section`
   padding: 40px 20px;
   width: 100%;
-  
   text-align: center;
  
 `;
@@ -117,9 +116,9 @@ const HeaderInfo = styled.div`
 
     @media (max-width: 768px) {
       font-size: 28px;
-       h1{
+      h1{
       font-size: 2rem;
-    }
+      }
     }
 
     @media (max-width: 480px) {

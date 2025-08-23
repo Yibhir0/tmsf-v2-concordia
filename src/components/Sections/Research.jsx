@@ -25,7 +25,7 @@ export default function Research() {
       <div >
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">{t('researchHeader')}</h1>
+            <h1 className=" extraBold">{t('researchHeader')}</h1>
             <p className="font20">
               {t('researchDescription')}
               <br />

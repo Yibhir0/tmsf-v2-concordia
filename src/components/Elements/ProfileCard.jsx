@@ -1,5 +1,4 @@
 
-
 import styled from "styled-components";
 
 import { useNavigate } from "react-router-dom";
@@ -32,11 +31,16 @@ const ProfileCard = ({ profile, category }) => {
 
 
             </ImgBtn>
-            <h3 className="font20 extraBold">{profile.name}</h3>
 
-            <p className="font15">{profile.occupation}</p>
-            <p className="font15">{profile.department}</p>
-            <a href={`mailto:${profile.email}`} className="read-link semiBold" style={{ color: "#800000" }} >{profile.email}</a>
+            <InnerWrapper>
+
+                <h3 className="font25 extraBold">{profile.name}</h3>
+
+                <p className="font20">{profile.occupation}</p>
+                <p className="font20">{profile.department}</p>
+                <a href={`mailto:${profile.email}`} className="read-link semiBold font20" style={{ color: "#800000" }} >{profile.email}</a>
+
+            </InnerWrapper>
 
         </Wrapper >
     );
@@ -47,6 +51,13 @@ export default ProfileCard;
 const Wrapper = styled.div`
       width: 100%;
       margin-top: 30px;
+ 
+      text-align: center;
+      padding: 0 10px 20px 10px;
+     display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
       img {
         width: 100%;
         height: auto;
@@ -56,8 +67,9 @@ const Wrapper = styled.div`
         padding-bottom: 10px;
       }
     @media (max-width: 768px) {
+    flex-direction: column;
       img {
-        width: 60%;
+        width: 80%;
     
       }
         
@@ -73,4 +85,18 @@ const ImgBtn = styled.button`
       :hover > img {
         opacity: 0.5;
       }
+    `;
+
+const InnerWrapper = styled.div`
+
+    @media (max-width: 768px) {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+        a {
+            font-size: 16px;
+        }
     `;

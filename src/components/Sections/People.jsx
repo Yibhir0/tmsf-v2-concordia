@@ -26,7 +26,7 @@ export default function People() {
       <div >
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">{t('peopleHeader')}</h1>
+            <h1 className="extraBold">{t('peopleHeader')}</h1>
             <p className="font20">
               {t('peopleDescription')} <br />
               {t('peopleSubDescription')}
