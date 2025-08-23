@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 import TestimonialBox from "../components/Elements/TestimonialBox";
+import ProfileCard from "../components/Elements/ProfileCard";
 
 
 
@@ -15,11 +16,11 @@ const Profile = () => {
   const location = useLocation();
 
   const [prof, setProf] = useState({});
+  const [category, setCategory] = useState("");
 
   useEffect(() => {
     const { profile, category } = location.state || {};
-
-
+    setCategory(category);
     const profiles = t(category, { returnObjects: true }) || [];
 
 
@@ -31,15 +32,15 @@ const Profile = () => {
 
 
 
-  let profileImage = null;
+  // let profileImage = null;
 
 
-  try {
-    profileImage = require(`../assets/img/people_images/${prof.picture}`);
-  } catch (error) {
-    console.error("Error loading image:", error);
+  // try {
+  //   profileImage = require(`../assets/img/people_images/${prof.picture}`);
+  // } catch (error) {
+  //   console.error("Error loading image:", error);
 
-  }
+  // }
   return (
     <Wrapper >
 
@@ -48,12 +49,13 @@ const Profile = () => {
 
         <LeftSide className="container flexNullCenter flexColumn"  >
 
-          <HeaderInfo>
+          {/* <HeaderInfo>
             <h1 className="semiBold font30">{prof.name}</h1>
 
           </HeaderInfo>
 
-          <img className="radius8" src={profileImage} alt="project"></img>
+          <img className="radius8" src={profileImage} alt="project"></img> */}
+          <ProfileCard profile={prof} category={category} />
 
         </LeftSide>
 
@@ -107,12 +109,12 @@ const RightSide = styled.div`
   }
 // `;
 
-const HeaderInfo = styled.div`
+// const HeaderInfo = styled.div`
 
     
 
-  @media (max-width: 768px) {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-`;
+//   @media (max-width: 768px) {
+//     text-align: center;
+//     font-size: 1.2rem;
+//   }
+// `;
