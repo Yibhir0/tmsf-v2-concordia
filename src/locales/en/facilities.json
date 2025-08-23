@@ -1,26 +1,29 @@
 
 {
-   "t1":
-    {
-        "name": "Vacuum Plasma Spray System",
-        "description": "The vacuum plasma spray system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites. "
-    
+   "facility_list": [
+       {
+           "name": "Vacuum Plasma Spray System",
+           "description": "The vacuum plasma spray system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites. ",
+           "img": "facility1.jpg"
+
     },
   
-    "t2":
+    
     {
         "name": "Bordeur Thermal Spray Coating System",
-        "description": "The Bordeur thermal spray coating system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites."
-    
-    
+        "description": "The Bordeur thermal spray coating system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites.",
+        "img": "facility2.jpg"
+
     },
-    "t3":
+    
     {
         "name": "Thermal Spraying",
-        "description": "Thermal spraying is a coating process that uses a heat source to melt a material and propel it onto a substrate. The material is melted in the form of a powder, wire, or rod, and is then sprayed onto the substrate using a high-velocity gas stream. The material solidifies on the substrate to form a coating. "
+        "description": "Thermal spraying is a coating process that uses a heat source to melt a material and propel it onto a substrate. The material is melted in the form of a powder, wire, or rod, and is then sprayed onto the substrate using a high-velocity gas stream. The material solidifies on the substrate to form a coating. ",
+        "img": "facility3.jpg"
     
     
-    },
+    }
+   ],
 
     "facilitiesHeader":"Our Facilities",
     "seeMore":"See More",

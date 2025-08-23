@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ProfileCard from '../Elements/ProfileCard';
 import { useProfilesData } from '../../hooks/useProfilesData';
 

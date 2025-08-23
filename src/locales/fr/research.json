@@ -1,6 +1,7 @@
 {
 
-    "flow":
+    "research_list":[
+
     {
     "title": "Flux multiphasique",
     "text": "Pulvérisation et atomisation Impact de gouttelettes et transfert de chaleur Rivulet et couche mince liquide Microfluidique numérique-Electromouillage Instabilité des jets de liquide elliptiques.",
@@ -9,7 +10,7 @@
     
     },
   
-    "thermal":
+    
     {
     "title": "Projection thermique",
     "text": "La projection thermique représente un groupe de procédés dans lesquels des matériaux métalliques et non métalliques finement divisés sont déposés à l'état fondu ou semi-fondu sur une surface préparée..",
@@ -17,7 +18,7 @@
     "author":"Département de génie mécanique et industriel"
     
     },
-    "tribology":
+    
 
     {
       "title": "Projection thermique",
@@ -25,7 +26,10 @@
       "tag": "Apprendre plus",
       "author":"Département de génie mécanique et industriel"
       
-      },
+      }
+    ]
+      
+      ,
       "researchHeader":"Nos Recherches",
       "seeMore":"Voir Plus",
       "researchDescription":"Découvrez nos travaux de recherche qui stimulent l'innovation, relèvent des défis complexes et ",

@@ -1,5 +1,4 @@
 
-import React from "react";
 import styled from "styled-components";
 import emailjs from 'emailjs-com';
 import { useTranslation } from 'react-i18next';
@@ -40,7 +39,7 @@ export default function Contact() {
 
   return (
     <Wrapper id="contact">
-      <div className="lightBg">
+      <div >
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold"> {t('contactHeader')}</h1>
@@ -54,13 +53,13 @@ export default function Contact() {
             <div className="col-xs-10 col-sm-10 col-md-5 col-lg-5">
               <Form onSubmit={handleOnSubmit}>
                 <label className="font13">{t('fName')}</label>
-                <input type="text" id="fname" name="fname" className="font20 extraBold" />
+                <input type="text" id="fname" name="fname" className="font20" />
                 <label className="font13">{t('contactEmail')}</label>
-                <input type="text" id="email" name="email" className="font20 extraBold" />
+                <input type="text" id="email" name="email" className="font20 " />
                 <label className="font13">{t('subject')}</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold" />
+                <input type="text" id="subject" name="subject" className="font20 " />
                 <label className="font13">{t('message')}</label>
-                <textarea rows="3" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+                <textarea rows="3" cols="50" type="text" id="message" name="message" className="font20 " />
 
                 <SumbitWrapper className="flex">
 
@@ -89,6 +88,24 @@ const Wrapper = styled.section`
 
 const HeaderInfo = styled.div`
   padding: 70px 0 30px 0;
+    h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+
+}
+
   @media (max-width: 860px) {
     text-align: center;
   }
@@ -143,7 +160,7 @@ const ContentWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 50px;
+
   align-items: center;
   @media (max-width: 860px) {
     flex-direction: column;

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import CountUp from 'react-countup';
 import styled from 'styled-components';
 import { useStats } from '../../hooks/useStats';
@@ -38,7 +38,7 @@ const Stats = () => {
 
   return (
     <Wrapper ref={statsRef}>
-      <div className="whiteBg">
+      <div>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">{t('statsHeader')}</h1>
@@ -78,7 +78,8 @@ export default Stats;
 
 const Wrapper = styled.section`
   width: 100%;
-  padding-bottom: 50px;
+  
+
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -86,13 +87,43 @@ const Wrapper = styled.section`
 
 const StatsWrapper = styled.section`
   padding: 40px 20px;
-  background: #f9f9f9;
+  width: 100%;
+  
   text-align: center;
-  margin: 0;
+ 
 `;
 
 const HeaderInfo = styled.div`
-  margin-bottom: 30px;
+
+  h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+
+}
+
+    
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 24px;
+    }
+  }
+
   @media (max-width: 860px) {
     text-align: center;
   }
@@ -112,6 +143,10 @@ const StatsSection = styled.div`
 const StatCard = styled.div`
   margin: 10px 20px;
   text-align: center;
+  border: 1px solid #eee;
+  padding: 40px;
+  border-radius: 50%;
+  background: #f9f9f9;
 
   h4 {
     font-size: 48px;

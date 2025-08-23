@@ -1,15 +1,14 @@
 {
 
-    "flow":
+    "research_list":[
     {
-    "title": "Multiphase Flow",
-    "text": "Spray and atomization Droplet impact & heat transfer Rivulet & liquid thin film Digital Microfluidics-Electrowetting Instability of elliptic liquid jets.",
-    "tag": "Learn More",
-    "author":"Department of Mechanical and Industrial Engineering"
-    
+        "title": "Multiphase Flow",
+        "text": "Spray and atomization Droplet impact & heat transfer Rivulet & liquid thin film Digital Microfluidics-Electrowetting Instability of elliptic liquid jets.",
+        "tag": "Learn More",
+        "author":"Department of Mechanical and Industrial Engineering"
+        
     },
-  
-    "thermal":
+    
     {
     "title": "Thermal spray",
     "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
@@ -17,14 +16,18 @@
     "author":"Department of Mechanical and Industrial Engineering"
     
     },
-    "tribology":
+    
     {
     "title": "Tribology",
     "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
     "tag": "Learn More",
     "author":"Department of Mechanical and Industrial Engineering"
     
-    },
+    }
+
+    ]
+  
+  ,
     "researchHeader":"Our Research",
     "seeMore":"See More",
     "researchDescription":"Dive into our research efforts that drive innovation, solve complex challenges, ",

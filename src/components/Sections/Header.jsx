@@ -1,6 +1,6 @@
-import React from "react";
+
 import styled from "styled-components";
-// Components
+
 import FullButton from "../Buttons/FullButton";
 
 import ImageSlider from "../sliders/ImageSlider";
@@ -17,24 +17,32 @@ export default function Header() {
     navigate('/about');
   };
   return (
-    <Wrapper id="home" className="container flexNullCenter flexColumn">
+    <Wrapper id="home" >
 
-      <LeftSide >
-        <div>
+      <div >
 
-          <h1 className="extraBold font40">{t('first')}</h1>
+        <div className="container flexNullCenter flexColumn">
+          <LeftSide >
+            <div>
 
-          <BtnWrapper>
-            <FullButton title={t('learn')} action={goToAboutPage} />
-          </BtnWrapper>
+              <h1 className="extraBold font40">{t('first')}</h1>
+
+              <BtnWrapper>
+                <FullButton title={t('learn')} action={goToAboutPage} />
+              </BtnWrapper>
+            </div>
+          </LeftSide>
+          <RightSide >
+            <ImageWrapper>
+              <ImageSlider />
+            </ImageWrapper>
+
+          </RightSide>
+
         </div>
-      </LeftSide>
-      <RightSide >
-        <ImageWrapper>
-          <ImageSlider />
-        </ImageWrapper>
 
-      </RightSide>
+      </div>
+
 
     </Wrapper>
   );
@@ -42,7 +50,7 @@ export default function Header() {
 
 
 const Wrapper = styled.section`
-  padding-top: 60px;
+  padding-top: 100px;
   width: 100%;
   min-height: 600px;
   @media (max-width: 960px) {
@@ -73,16 +81,7 @@ const RightSide = styled.div`
     order:1;
   }
 // `;
-// const HeaderP = styled.div`
-//   max-width: 470px;
-//   padding: 15px 0 50px 0;
-//   line-height: 1.5rem;
-//   @media (max-width: 960px) {
-//     padding: 15px 0 50px 0;
-//     text-align: center;
-//     max-width: 100%;
-//   }
-// `;
+
 const BtnWrapper = styled.div`
   max-width: 190px;
   @media (max-width: 960px) {

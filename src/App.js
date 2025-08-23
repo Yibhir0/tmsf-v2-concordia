@@ -14,13 +14,12 @@ import FacilitiesScreen from "./screens/FacilitiesScreen.jsx";
 import Footer from "./components/Sections/Footer.jsx";
 
 import Profile from "./screens/Profile.jsx";
-
-
+import "./style/app.css"
 
 export default function App() {
 
   return (
-    <>
+    <div className="App">
       <HashRouter>
         <TopNavbar />
 
@@ -42,7 +41,7 @@ export default function App() {
 
         <Footer />
       </HashRouter>
-    </>
+    </div>
   );
 }
 

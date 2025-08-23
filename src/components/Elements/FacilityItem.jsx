@@ -2,15 +2,23 @@ import React from "react";
 import styled from "styled-components";
 
 export default function FacilityItem({ img, name, description, action }) {
-    return (
-        <FacilityWrapper>
-            <ImgBtn className="animate pointer" onClick={action ? () => action() : null}>
-                <img className="radius8" src={img} alt="facility" />
-            </ImgBtn>
-            <h3 className="font20 extraBold">{name}</h3>
-            <p className="font15">{description}</p>
-        </FacilityWrapper>
-    );
+
+  let facilityImage = null;
+  try {
+    facilityImage = require(`../../assets/img/facilities/${img}`);
+  } catch (error) {
+    console.error("Error loading image:", error);
+  }
+
+  return (
+    <FacilityWrapper>
+      <ImgBtn className="animate pointer" onClick={action ? () => action() : null}>
+        <img className="radius8" src={facilityImage} alt="facility" />
+      </ImgBtn>
+      <h3 className="font20 extraBold">{name}</h3>
+      <p className="font15">{description}</p>
+    </FacilityWrapper>
+  );
 }
 
 const FacilityWrapper = styled.div`

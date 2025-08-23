@@ -1,4 +1,4 @@
-import React from "react";
+
 import styled from "styled-components";
 import { Link } from "react-scroll";
 import { HashLink } from "react-router-hash-link";
@@ -16,39 +16,42 @@ export default function Footer() {
   }
 
   return (
-    <Wrapper className="animate whiteBg">
-      <div>
-        <div className="container">
-          <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
-            <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
-              <LogoImg />
-            </Link>
-            <StyleP
-              className="semiBold font20 pointer"
-            >
+
+    <footer>
+      <Wrapper className="animate whiteBg">
+        <div>
+          <div className="container">
+            <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
+              <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
+                <LogoImg />
+              </Link>
+              <StyleP
+                className="semiBold font20 pointer"
+              >
 
 
-              <span>
-                Multiphase Flow and Thermal Spray Laboratory <br />
-                Gina Cody School of Engineering and Computer Science <br />
-                © {getCurrentYear()} - Concordia University
-              </span>
-            </StyleP>
+                <span>
+                  Multiphase Flow and Thermal Spray Laboratory <br />
+                  Gina Cody School of Engineering and Computer Science <br />
+                  © {getCurrentYear()} - Concordia University
+                </span>
+              </StyleP>
 
-            <HashLink
-              className="myColor animate pointer font13 flexColumn flexNullCenter"
-              to="/#"
-              smooth={true}
-              offset={-80}
-              title="Back to Home"
-            >
-              <GoMoveToTop size={24} />
-              <span>{t("backToTopBtn")}</span>
-            </HashLink>
-          </InnerWrapper>
+              <HashLink
+                className="myColor animate pointer font13 flexColumn flexNullCenter"
+                to="/#"
+                smooth={true}
+                offset={-80}
+                title="Back to Home"
+              >
+                <GoMoveToTop size={24} />
+                <span>{t("backToTopBtn")}</span>
+              </HashLink>
+            </InnerWrapper>
+          </div>
         </div>
-      </div>
-    </Wrapper>
+      </Wrapper>
+    </footer>
   );
 }
 
@@ -57,6 +60,8 @@ const Wrapper = styled.div`
   padding: 0;
   background-color: #f8f8f8;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  bottom: 0;
+
 `;
 
 const InnerWrapper = styled.div`

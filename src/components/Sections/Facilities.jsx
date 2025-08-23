@@ -1,12 +1,11 @@
-import React from "react";
+
 import styled from "styled-components";
-// Components
+
 
 import FullButton from "../Buttons/FullButton";
 
 import FacilityItem from "../Elements/FacilityItem";
 
-// import TestimonialSlider from "../Elements/TestimonialSlider";
 
 import { useFacilities } from "../../hooks/useFacilities";
 
@@ -28,7 +27,7 @@ export default function Facilities() {
   };
   return (
     <Wrapper id="facilities">
-      <div className="whiteBg">
+      <div >
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">{t('facilitiesHeader')}</h1>
@@ -39,7 +38,7 @@ export default function Facilities() {
             </p>
           </HeaderInfo>
 
-          {/* <TestimonialSlider /> */}
+
 
 
           <div className="row textCenter flexCenter">
@@ -58,7 +57,7 @@ export default function Facilities() {
             ))}
           </div>
           <div className="row flexCenter">
-            <div style={{ margin: "50px 0", width: "200px" }}>
+            <div style={{ marginTop: "50px", width: "200px" }}>
               <FullButton title={t('seeMore')} action={goToFacilitiesPage} />
             </div>
           </div>
@@ -75,6 +74,25 @@ const Wrapper = styled.section`
 `;
 
 const HeaderInfo = styled.div`
+  margin-bottom: 30px;
+    h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+
+}
+
   @media (max-width: 860px) {
     text-align: center;
   }

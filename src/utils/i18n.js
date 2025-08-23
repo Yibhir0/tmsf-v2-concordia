@@ -30,11 +30,6 @@ import FooterFr from '../locales/fr/footer.json';
 import AboutEn from '../locales/en/about.json';
 import AboutFr from '../locales/fr/about.json';
 
-import LabManagersEn from '../locales/en/labManagers.json';
-import LabManagersFr from '../locales/fr/labManagers.json';
-
-import ResearchAssociatesEn from '../locales/en/ResearchAssociates.json';
-import ResearchAssociatesFr from '../locales/fr/researchAssociates.json';
 
 
 
@@ -80,8 +75,6 @@ const resources = {
             ...FooterEn,
             ...facilitiesEN,
             ...AboutEn,
-            ...LabManagersEn,
-            ...ResearchAssociatesEn,
             ...LabManagerEn,
             ...MAscStudentsEn,
             ...PhDStudentsEn,
@@ -105,8 +98,6 @@ const resources = {
             ...FooterFr,
             ...facilitiesFR,
             ...AboutFr,
-            ...LabManagersFr,
-            ...ResearchAssociatesFr,
             ...LabManagerFr,
             ...MAscStudentsFr,
             ...PhDStudentsFr,

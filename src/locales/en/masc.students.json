@@ -7,7 +7,8 @@
     [
         {
         "name": "Golnoush Asadian",
-        "occupation": "M.Sc. Student, Mechanical, Industrial and Aerospace Engineering Department (MIAE)",
+        "occupation": "M.Sc. Student",
+        "department": " Mechanical, Industrial and Aerospace Engineering",
         "email": "golnoush.asadiankouhidehkordi@mail.concordia.ca",
         "research_summary": "Master’s in mechanical engineering, applied science working on a research project focuses on enhancing the properties of metals such as copper using spray deposition techniques like Thermal Spray and Cold Spray. By reducing the oxide layer around the metallic particles and preventing them from further oxidation, this work aims to improve metallic coatings’ performance in industrial applications, including corrosion resistance and electrical conductivity. This research has the potential to lead to more durable and efficient coatings for manufacturing and repair processes, reducing maintenance costs and extending the lifespan of components. Aside from the work, being in nature not only fuels her creativity but also offers a refreshing break from research, inspiring new ideas.",
         "picture": "golnoush-asadin.png",
@@ -17,7 +18,8 @@
 
         {
         "name": "Matheus da Silva Pinto",
-        "occupation": "MASc Student in Department of Mechanical, Industrial and Aerospace Engineering (MIAE) ",
+        "occupation": "MASc Student",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
         "email": "matheus.dasilvapinto@mail.concordia.ca",
         "research_summary": "Master’s student in Mechanical Engineering at Concordia University, specializing in the tribological evaluation of materials for applications in the aerospace industry under extreme conditions. Currently working on examining material behavior under high temperatures and aggressive environments, focusing on understanding wear mechanisms and providing insights into material suitability for next-generation gas turbine engine applications. Holds a degree in Mechanical Engineering from the Federal University of Technology – Paraná (UTFPR) in Brazil and has six years of industry experience in equipment maintenance and inspection.",
         "picture": "dasilvapinto-matheus.jpg",
@@ -28,7 +30,8 @@
 
     {
         "name": "Mostafa Fotoohi",
-        "occupation": "MSc Student, Mechanical, Industrial and Aerospace Engineering",
+        "occupation": "MSc Student",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
         "email": "mostafa.fotoohinezhadkhales@mail.concordia.ca",
         "research_summary": "Mostafa holds a Master's degree in Materials Engineering from Ferdowsi University of Mashhad, Iran, and is currently pursuing a master's in mechanical engineering at Concordia University, with a focus on tribology and surface characteristics of coatings produced through various techniques, including HVOF, HVAF M3, HVAF I7, and APS. Additionally, he is working on the development of Liquid Cold Spray, a novel technique offering potential environmental and economic advantages. His research seeks to enhance the durability and performance of industrial coatings by examining their wear and friction behaviors. Outside of research, Mostafa enjoys playing hockey and pool, as well as listening to podcasts.",
         "picture": "fottohi-mostafa.jpg",
@@ -39,7 +42,8 @@
     },
    {
         "name": "Dilkaram S. Ghuman",
-        "occupation": "MASc Graduate Student, Mechanical, Industrial and Aerospace Engineering Department",
+        "occupation": "MASc Graduate Student",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
         "email": "d_ghuman@live.concordia.ca",
         "research_summary": "I am currently working on developing and characterizing normal orientation metal matrix composites (MMCs) and exploring the deposition and analysis of thermally sprayed metallic coatings on polymer-reinforced carbon fiber composites. My research aims to improve the mechanical properties and durability of these materials, which can be applied in industries such as aerospace, automobile and electronics. By enhancing wear resistance and thermal properties, this work contributes to the advancement of lightweight, high-performance materials. The results could lead to more efficient components in critical applications. Outside of research, I enjoy hiking and exploring nature, as well as reading about new technological advancements.",
         "picture": "ghuman-dilkaram.jpg",
@@ -51,6 +55,7 @@
     {
         "name": "ARINDAM MOR",
         "occupation": "MASc Student, Research Assistant, Teaching Assistant, Marker",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
         "email": "arindam.mor@concordia.ca",
         "research_summary": "My research deals with numerical modelling of the coating buildup in Suspension Plasma Spraying to optimize the output characteristics of resultant coats. Check a video on my youtube channel  explaining my research in greater detail in three minutes",
         "picture": "arindam-mor.jpg",
@@ -61,7 +66,8 @@
 
    {
         "name": " Dharshaanan Pushpakaran (Jacob)",
-        "occupation": " MASc Student, Department of Chemical and Materials Engineering",
+        "occupation": " MASc Student",
+        "department": "Chemical and Materials Engineering",
         "email": "dharshaanan.pushpakaran@mail.concordia.ca",
         "research_summary": "Pursuing my graduate studies in Master of Applied Science (Nanoscience and Nanotechnology) from the Department of Chemical and Materials Engineering with supervision from Prof.Pantcho Stoyanov and Prof.Gilles Peslherbe. Dharshaanan holds a bachelor's degree in aerospace engineering from Swansea University, United Kingdom. His thesis's main objective is to critically evaluate the nano-scale interfacial processes in tribological systems such as wear, friction, and lubrication within gas turbine engines. The experimental methodologies developed will be combined with molecular dynamics simulations to investigate e.g., cobalt and nickel–based systems under extreme conditions. The atomistic insights gained will help to develop next generation aerospace materials capable of working effectively in harsh environments. This research will help overcome many of the aerospace challenges ranging from improving durability of the aircraft and premature failure of the components to developing novel gas turbine engines. In addition to my academic adventures, I enjoy most of my recreational time outdoors embracing nature with activities such as hiking in the summer and snowboarding in the winter. My leisure pursuit includes reading and being an excellent professional choreographer/dancer.",
         "picture": "dharshaanan-pushpakaran.jpg",
@@ -70,7 +76,8 @@
     },
     {
         "name": " Istiak Mahmud Saikat",
-        "occupation": "MASc Student in Department of Mechanical, Industrial and Aerospace Engineering (MIAE)  ",
+        "occupation": "MASc Student  ",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
         "email": "i.m.saikat@outlook.com",
         "research_summary": "Currently pursuing a Master’s degree with a focus on tribology, specializing in the study of the Effect of Water Vapor on Tribological Performance of Inconel 718 at Different Conditions for Next-Generation Gas Turbine Engines and Effect of Hydrogen Exposure (Hydrogen Embrittlement) on Tribological Performance of Inconel 718. My research aims to enhance the performance and durability of materials used in advanced gas turbine engines. I hold a Bachelor’s degree in Mechanical Engineering from Ahsanullah University of Science and Technology and bring over 8 years of professional experience across the manufacturing, oil & gas lubricants, and construction equipment industries. This diverse background enables me to apply practical insights to cutting-edge research in the field of materials science and tribology",
         "picture": "istiak-saikat.jpg",
@@ -80,7 +87,8 @@
 
    {
         "name": "Dara Samii",
-        "occupation": "Master of Applied Science Student and Mechanical, Industrial and Aerospace Engineering Department",
+        "occupation": "Master of Applied Science Student",
+        "department": "Mechanical, Industrial and Aerospace Engineering",
         "email": "dara.rahmatsamii@mail.concordia.ca",
         "research_summary": "Dara is working on application of Computational Fluid Dynamics (CFD) and Artificial Intelligence (AI) in accelerating simulation of thermal sprays. Dara received his bachelor's of science degree in chemical engineering at Iran University of Science and Technology (IUST) in 2022 and his interest in Simulation, modeling and fluid dynamics lead him to pursuing MAsc. In Mechanical Engineering at Concordia University. Dara, besides his research, is a music lover and plays and improvises jazz, blues and boogie woogie songs on piano.",
         "picture": "dara-samii.jpg",
@@ -92,12 +100,5 @@
 
 
     ]
-
-    
-
-
-
-
-
 
 }

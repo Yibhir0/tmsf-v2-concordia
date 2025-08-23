@@ -1,12 +1,16 @@
 {
-    "home": "Accueil",
-    "people": "Personnes",
-    "research": "Recherche",
-    "teaching": "Enseignement",
-    "publications": "Publications",
-    "collaborators": "Collaborateurs",
-    "gallery": "Galerie",
-    "facilities": "Installations",
+    "nav_links":
+    [
+        { "id": "home", "title": "Accueil" },
+        { "id": "people", "title": "Personnes" },
+        { "id": "research", "title": "Recherche" },
+        { "id": "publications", "title": "Publications" },
+        { "id": "collaborators", "title": "Collaborateurs" },
+        { "id": "gallery", "title": "Galerie" },
+        { "id": "facilities", "title": "Installations" }
+       
+    ],
+
     "contact": "Contact"
 }
   

@@ -1,11 +1,12 @@
 
 {
-    "researchassociate": "Research Associate",
+    "researchAssociates": "Research Associate",
     "research_associate":
     [
         {
             "name": "Dr. Reza Attarzadeh",
-            "occupation": "Research Associate, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
+            "occupation": "Research Associate",
+            "department": "Mechanical, Industrial and Aerospace Engineering",
             "email": "reza.attarzadeh@concordia.ca",
             "research_summary": "Dr. Reza Attarzadeh is a Research Associate in the Department of Mechanical, Industrial, and Aerospace Engineering at Concordia University. Previously, he was a Postdoctoral Fellow in the Department of Engineering Science at the University of Toronto (UofT) and a Postdoctoral Fellow at the LinneFlow Center in the Department of Engineering Mechanics at KTH Royal Institute of Technology, Sweden. He earned his B.Sc. (2009) and M.Sc. (2011) in Mechanical Engineering, followed by his Ph.D. (2017) in Mechanical and Aerospace Engineering from Concordia University. Dr. Attarzadeh has worked as a visiting researcher at the Zero-Gravity Laboratory at Toronto Metropolitan University and the Center of Multi-Scale and Multi-Physics at Pusan National University, in South Korea. He also worked at Pratt & Whitney Canada and Siemens as a CFD Specialist and Gas Turbine Performance engineer and analyst before taking on the role of Senior Data Scientist/ Machine Learning Engineer at Simscale GmbH in Munich, Germany. His research interests include computational modeling of fluid and thermal systems, spray and multiphase flows, droplet dynamics, data-driven modeling, optimization of complex systems, and the application of AI in engineering science. ",
             "picture": "reza-attarzadeh.jpg",
@@ -13,29 +14,8 @@
             "google_scholar": "https://scholar.google.com/citations?user=cXAjmsIAAAAJ&hl=en&oi=ao",
             "duration": "2023 - Present"
         
-        },
-        {
-            "name": "Dr. Reza Attarzadeh",
-            "occupation": "Research Associate, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
-            "email": "reza.attarzadeh@concordia.ca",
-            "research_summary": "Dr. Reza Attarzadeh is a Research Associate in the Department of Mechanical, Industrial, and Aerospace Engineering at Concordia University. Previously, he was a Postdoctoral Fellow in the Department of Engineering Science at the University of Toronto (UofT) and a Postdoctoral Fellow at the LinneFlow Center in the Department of Engineering Mechanics at KTH Royal Institute of Technology, Sweden. He earned his B.Sc. (2009) and M.Sc. (2011) in Mechanical Engineering, followed by his Ph.D. (2017) in Mechanical and Aerospace Engineering from Concordia University. Dr. Attarzadeh has worked as a visiting researcher at the Zero-Gravity Laboratory at Toronto Metropolitan University and the Center of Multi-Scale and Multi-Physics at Pusan National University, in South Korea. He also worked at Pratt & Whitney Canada and Siemens as a CFD Specialist and Gas Turbine Performance engineer and analyst before taking on the role of Senior Data Scientist/ Machine Learning Engineer at Simscale GmbH in Munich, Germany. His research interests include computational modeling of fluid and thermal systems, spray and multiphase flows, droplet dynamics, data-driven modeling, optimization of complex systems, and the application of AI in engineering science. ",
-            "picture": "/images/reza-attarzadeh.jpg",
-            "linkedin": "https://www.linkedin.com/in/rezatta/",
-            "google_scholar": "https://scholar.google.com/citations?user=cXAjmsIAAAAJ&hl=en&oi=ao",
-            "duration": "2023 - Present"
-        
-        },
-        {
-            "name": "Dr. Reza Attarzadeh",
-            "occupation": "Research Associate, Department of Mechanical, Industrial & Aerospace Engineering (MIAE)",
-            "email": "reza.attarzadeh@concordia.ca",
-            "research_summary": "Dr. Reza Attarzadeh is a Research Associate in the Department of Mechanical, Industrial, and Aerospace Engineering at Concordia University. Previously, he was a Postdoctoral Fellow in the Department of Engineering Science at the University of Toronto (UofT) and a Postdoctoral Fellow at the LinneFlow Center in the Department of Engineering Mechanics at KTH Royal Institute of Technology, Sweden. He earned his B.Sc. (2009) and M.Sc. (2011) in Mechanical Engineering, followed by his Ph.D. (2017) in Mechanical and Aerospace Engineering from Concordia University. Dr. Attarzadeh has worked as a visiting researcher at the Zero-Gravity Laboratory at Toronto Metropolitan University and the Center of Multi-Scale and Multi-Physics at Pusan National University, in South Korea. He also worked at Pratt & Whitney Canada and Siemens as a CFD Specialist and Gas Turbine Performance engineer and analyst before taking on the role of Senior Data Scientist/ Machine Learning Engineer at Simscale GmbH in Munich, Germany. His research interests include computational modeling of fluid and thermal systems, spray and multiphase flows, droplet dynamics, data-driven modeling, optimization of complex systems, and the application of AI in engineering science. ",
-            "picture": "/images/reza-attarzadeh.jpg",
-            "linkedin": "https://www.linkedin.com/in/rezatta/",
-            "google_scholar": "https://scholar.google.com/citations?user=cXAjmsIAAAAJ&hl=en&oi=ao",
-            "duration": "2023 - Present"
-        
         }
+       
     ]
   
 

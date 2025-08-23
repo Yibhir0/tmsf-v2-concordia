@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
-// import { Link } from "react-scroll";
-// Components
+
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 
@@ -16,25 +15,22 @@ import { useNavLinks } from '../../hooks/useNavLinks';
 import { useTranslation } from 'react-i18next';
 
 export default function TopNavbar() {
-  const [y, setY] = useState(window.scrollY);
+  // const [y, setY] = useState(window.scrollY);
   const [sidebarOpen, toggleSidebar] = useState(false);
 
   const navLinks = useNavLinks()
   const { t } = useTranslation();
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => setY(window.scrollY));
-    return () => {
-      window.removeEventListener("scroll", () => setY(window.scrollY));
-    };
-  }, [y]);
+
+
+
 
 
   return (
     <>
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-      <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
+      <Wrapper className="flexCenter animate lightBg" style={{ height: "100px" }}>
         <NavInner className="container flexSpaceCenter">
           <HashLink className="pointer flexNullCenter " to="/#home" smooth={true}>
             <LogoIcon />
@@ -74,7 +70,7 @@ export default function TopNavbar() {
             </li>
           </UlWrapperRight>
         </NavInner>
-      </Wrapper>
+      </Wrapper >
     </>
   );
 }
@@ -85,7 +81,7 @@ const Wrapper = styled.nav`
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #fff; /* Very light grey, almost white */
+
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 

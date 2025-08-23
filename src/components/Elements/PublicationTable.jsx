@@ -1,15 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
+import { useTranslation } from "react-i18next";
+
 import GoogleScholar from "../../assets/svg/GoogleScholar"; // Assuming you have an icon for publications
 
 export default function PublicationTable({ icon, title, description, publications, scholarLink, action }) {
 
-
-
-
-
-
+  const { t } = useTranslation();
   let getIcon;
 
   switch (icon) {
@@ -38,9 +36,9 @@ export default function PublicationTable({ icon, title, description, publication
               <h4 className="font20 extraBold">{publication.title}</h4>
               {/* <p className="font13">Authors: {publication.authors}</p> */}
               {/* <p className="font13">Journal: {publication.journal}</p> */}
-              <p className="font13">Year: {publication.year}</p>
+              <p className="font13">{t('year')}: {publication.year}</p>
               <a className="read-link font13 semiBold" style={{ color: "#800000" }} href={publication.link} target="_blank" rel="noopener noreferrer" >
-                Read More
+                {t('readMore')}
               </a>
             </PublicationItem>
           ))

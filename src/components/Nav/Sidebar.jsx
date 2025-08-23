@@ -1,12 +1,12 @@
-import React from "react";
+
 import styled from "styled-components";
-// import { Link } from "react-scroll";
+
 import { HashLink } from "react-router-hash-link";
 
 import CloseIcon from "../../assets/svg/CloseIcon";
 
 import LogoIcon from "../../assets/logos/Logo";
-// import { navLinks } from "../../constants/navLinks";
+
 import LanguageBtn from "./LanguageBtn";
 
 import { useNavLinks } from '../../hooks/useNavLinks';
@@ -34,18 +34,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           navLinks.map((link, i) => (
 
             <li className="semiBold font18 pointer" key={i}>
-              {/* <Link
-                onClick={() => toggleSidebar(!sidebarOpen)}
 
-                className="whiteColor nav-link"
-                style={{ padding: "10px 15px" }}
-                to={link.id}
-                spy={true}
-                smooth={true}
-                offset={-60}
-              >
-                {link.title}
-              </Link> */}
               < HashLink onClick={() => toggleSidebar(!sidebarOpen)}
 
                 className="whiteColor nav-link"
@@ -62,21 +51,9 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       <UlStyle className="flexSpaceCenter">
         <li className="semiBold font18 pointer">
           < LanguageBtn s={"whiteColor nav-link"} />
-          {/* <a href="/" style={{ padding: "10px 30px 10px 0" }}
-            className="whiteColor nav-link">
-            FR
-          </a> */}
         </li>
         <li className="semiBold font18 pointer flexCenter">
 
-          {/* <Link style={{ padding: "10px 15px" }} className="radius8 orangeBg" to="contact"
-            onClick={() => toggleSidebar(!sidebarOpen)}
-            spy={true}
-            smooth={true}
-            offset={-60}
-          >
-            {t('contact')}
-          </Link> */}
           <HashLink style={{ padding: "10px 18px" }} className="radius8 whiteColor nav-link" to="/#contact"
             onClick={() => toggleSidebar(!sidebarOpen)}
             spy={true}

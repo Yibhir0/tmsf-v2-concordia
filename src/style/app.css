@@ -1,0 +1,51 @@
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+section:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+section:nth-child(odd) {
+  background-color: #e5e9ed;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+}

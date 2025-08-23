@@ -1,12 +1,20 @@
 {
-    "home": "Home",
-    "people": "People",
-    "research": "Research",
-    "teaching": "Teaching",
-    "publications": "Publications",
-    "collaborators": "Collaborators",
-    "gallery": "Gallery",
-    "facilities": "Facilities",
+    "nav_links": [
+
+
+    { "id": "home", "title": "Home" },
+    { "id": "people", "title": "People" },
+    { "id": "research", "title": "Research" },
+    { "id": "publications", "title": "Publications" },
+    { "id": "collaborators", "title": "Collaborators" },
+    { "id": "gallery", "title": "Gallery" },
+    { "id": "facilities", "title": "Facilities" }
+
+    ],
+
+    
     "contact": "Contact"
+    
+  
 }
   

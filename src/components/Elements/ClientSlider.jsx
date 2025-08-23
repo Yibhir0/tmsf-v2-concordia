@@ -17,6 +17,7 @@ export default function ClientSlider() {
     cssEase: "linear",
 
 
+
     responsive: [
       {
         breakpoint: 1024,
@@ -42,8 +43,8 @@ export default function ClientSlider() {
     ],
   };
   return (
-    <div>
 
+    <Wrapper>
       <Slider {...settings}>
         {collaboratorsImages.map((URL, index) => (
           <LogoWrapper className="flexCenter" key={index}>
@@ -51,18 +52,32 @@ export default function ClientSlider() {
           </LogoWrapper>
         ))}
       </Slider>
-    </div>
+
+
+
+    </Wrapper>
+
   );
 }
 
+const Wrapper = styled.div`
+  
+`;
+
 const LogoWrapper = styled.div`
   width: 100%;
-  height: 100px;
+  height: 150px;
+  
   cursor: pointer;
   :focus-visible {
     outline: none;
     border: 0px;
   }
+  
+  @media (max-width: 860px) {
+    height: 80px;
+  }
+
 `;
 const ImgStyle = styled.img`
   width: 100%;

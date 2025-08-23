@@ -1,14 +1,13 @@
-
 {
-    "contactHeader":  "Let's get in touch",
-    "fName": "First name:",
-    "contactEmail": "Email:",
-    "subject": "Subject:",
-    "message": "Message:",
-    "sendMessage":"Send Message",
-    "officeAddress":"Office Address",
-    "callUs":"Call Us",
-    "sendEmail": "Send an E-mail",
-    "contactDescription": "We’d love to hear from you! Reach out to us for any inquiries, collaborations, or feedback.",
+  "contactHeader": "Let's get in touch",
+  "fName": "First name:",
+  "contactEmail": "Email:",
+  "subject": "Subject:",
+  "message": "Message:",
+  "sendMessage": "Send Message",
+  "officeAddress": "Office Address",
+  "callUs": "Call Us",
+  "sendEmail": "Send an E-mail",
+  "contactDescription": "We’d love to hear from you! Reach out to us for any inquiries, collaborations, or feedback.",
   "contactSubDescription": "Our team is always ready to connect and engage."
 }

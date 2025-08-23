@@ -1,26 +1,20 @@
-import React from 'react';
+
 
 import styled from "styled-components";
 
 import { useNavigate } from "react-router-dom";
 
 
-
-
-
 const ProfileCard = ({ profile, category }) => {
 
     const navigate = useNavigate();
-
-
-
-
 
     const goToprofile = () => {
         navigate("/profile", { state: { profile, category } });
     }
     let profileImage = null;
     try {
+
         profileImage = require(`../../assets/img/people_images/${profile.picture}`);
 
     } catch (error) {
@@ -36,9 +30,12 @@ const ProfileCard = ({ profile, category }) => {
                     <img className="radius8" src={require('../../assets/img/people_images/default-profile.png')} alt="default profile" />
                 )}
 
+
             </ImgBtn>
             <h3 className="font20 extraBold">{profile.name}</h3>
+
             <p className="font15">{profile.occupation}</p>
+            <p className="font15">{profile.department}</p>
             <a href={`mailto:${profile.email}`} className="read-link semiBold" style={{ color: "#800000" }} >{profile.email}</a>
 
         </Wrapper >

@@ -19,7 +19,10 @@ const Profile = () => {
   useEffect(() => {
     const { profile, category } = location.state || {};
 
+
     const profiles = t(category, { returnObjects: true }) || [];
+
+
 
     const prf = profiles.find(p => p.email === profile.email);
 
@@ -33,13 +36,12 @@ const Profile = () => {
 
   try {
     profileImage = require(`../assets/img/people_images/${prof.picture}`);
-    console.log("profileImage", profileImage);
   } catch (error) {
     console.error("Error loading image:", error);
 
   }
   return (
-    <Wrapper className="container flexNullCenter flexColumn">
+    <Wrapper >
 
       <Wrapper className="container flexNullCenter flexRow">
 
@@ -71,9 +73,12 @@ export default Profile;
 
 
 const Wrapper = styled.section`
-  padding-top: 60px;
+  
+  width: 100%;
+  min-height: 70vh;
   display: flex;
- 
+  align-items: center;
+
   @media (max-width: 960px) {
 
     flex-direction: column;

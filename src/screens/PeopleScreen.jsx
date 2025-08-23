@@ -1,12 +1,18 @@
-import React from "react";
+
+import { useEffect } from "react";
 import styled from "styled-components";
 import ProfileList from "../components/Sections/ProfileList";
+
 
 import { useTranslation } from "react-i18next";
 
 export default function PeopleScreen() {
 
   const { t } = useTranslation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <Wrapper id="peopleDetail" className="container flexNullCenter flexColumn">

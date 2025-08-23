@@ -74,7 +74,7 @@ const LeftSide = styled.div`
   margin-top: 50px;
   @media (max-width: 960px) {
    
-     width: 100%;
+    width: 100%;
     margin-top: 50px;
     text-align: center;
     order:2;
