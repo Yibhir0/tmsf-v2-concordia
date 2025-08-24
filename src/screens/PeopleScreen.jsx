@@ -15,49 +15,49 @@ export default function PeopleScreen() {
   }, []);
 
   return (
-    <Wrapper id="peopleDetail" className="container flexNullCenter flexColumn">
+    <Wrapper>
 
-      <TopSide >
-        <div>
-
-          <h1 className="extraBold font40 textCenter " >{t("peopleHeader")}</h1>
-
-          <HeaderP className="font30 regular">
-            {t("professors")}
-          </HeaderP>
-
-          <ProfileList category="department_professors" />
-
-          <HeaderP className="font30 regular">
-            {t("labManagers")}
-          </HeaderP>
+      <TopSide className="container" >
 
 
-          <ProfileList category="lab_managers" />
+        <h1 className="extraBold font40 textCenter " >{t("peopleHeader")}</h1>
+
+        <HeaderP className="font30 regular">
+          {t("professors")}
+        </HeaderP>
+
+        <ProfileList category="department_professors" />
+
+        <HeaderP className="font30 regular">
+          {t("labManagers")}
+        </HeaderP>
 
 
-          <HeaderP className="font30 regular">
-            {t("researchAssociates")}
-          </HeaderP>
+        <ProfileList category="lab_managers" />
 
 
-          <ProfileList category="research_associate" />
-
-          <HeaderP className="font30 regular">
-            {t("phdstudents")}
-          </HeaderP>
+        <HeaderP className="font30 regular">
+          {t("researchAssociates")}
+        </HeaderP>
 
 
-          <ProfileList category="phd_students" />
+        <ProfileList category="research_associate" />
 
-          <HeaderP className="font30 regular">
-            {t("mascstudents")}
-          </HeaderP>
+        <HeaderP className="font30 regular">
+          {t("phdstudents")}
+        </HeaderP>
 
 
-          <ProfileList category="masc_students" />
+        <ProfileList category="phd_students" />
 
-        </div>
+        <HeaderP className="font30 regular">
+          {t("mascstudents")}
+        </HeaderP>
+
+
+        <ProfileList category="masc_students" />
+
+
       </TopSide>
 
     </Wrapper >
@@ -67,8 +67,8 @@ export default function PeopleScreen() {
 
 const Wrapper = styled.section`
   padding-top: 60px;
+
   width: 100%;
-  min-height: 600px;
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -78,10 +78,26 @@ const TopSide = styled.div`
   height: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
+   h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+
+}
+
   @media (max-width: 960px) {
    
-     width: 100%;
-    margin-top: 50px;
     text-align: center;
     order:2;
   }

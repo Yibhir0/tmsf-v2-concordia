@@ -1,28 +1,27 @@
-import React from "react";
+import { useEffect } from "react";
 import styled from "styled-components";
 
-
+import { useTranslation } from "react-i18next";
 
 export default function GalleryScreen() {
 
+  const { t } = useTranslation();
 
-    return (
-        <Wrapper id="peopleDetail" className="container flexNullCenter flexColumn">
-
-            <TopSide >
-                <div>
-
-                    <h1 className="extraBold font40">Gallery</h1>
-                    <HeaderP className="font20 extraBold myColor">
-                        Photos and Videos
-                    </HeaderP>
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
-                </div>
-            </TopSide>
+  return (
+    <Wrapper  >
 
-        </Wrapper>
-    );
+      <TopSide className="container" >
+        <h1 className="extraBold font40">{t('galleryHeader')}</h1>
+
+      </TopSide>
+
+    </Wrapper>
+  );
 }
 
 
@@ -39,6 +38,23 @@ const TopSide = styled.div`
   height: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
+    h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+
+}
   @media (max-width: 960px) {
    
      width: 100%;
@@ -49,16 +65,6 @@ const TopSide = styled.div`
 
 `;
 
-const HeaderP = styled.div`
-  max-width: 470px;
-  padding: 15px 0 50px 0;
-  line-height: 1.5rem;
-  @media (max-width: 960px) {
-    padding: 15px 0 50px 0;
-    text-align: center;
-    max-width: 100%;
-  }
-`;
 
 
 

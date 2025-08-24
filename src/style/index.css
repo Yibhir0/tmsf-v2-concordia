@@ -168,6 +168,11 @@
     display: flex;
     justify-content: space-between;
   }
+  .flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
   /* FONT SIZES */
   .font11 {

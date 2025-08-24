@@ -32,8 +32,6 @@ const Wrapper = styled.section`
   .container {
     padding: 0 15px;
   }
-  
-  
 }
   
 `;

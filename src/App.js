@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 // Screens
-import Landing from "./screens/Landing.jsx";
-import About from "./screens/About.jsx";
+import LandingScreen from "./screens/LandingScreen.jsx";
+import AboutScreen from "./screens/AboutScreen.jsx";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import TopNavbar from "./components/Nav/TopNavbar.jsx";
 import PeopleScreen from "./screens/PeopleScreen.jsx";
@@ -12,8 +12,9 @@ import PublicationScreen from "./screens/PublicationScreen.jsx";
 import FacilitiesScreen from "./screens/FacilitiesScreen.jsx";
 
 import Footer from "./components/Sections/Footer.jsx";
+import Contact from "./components/Sections/Contact.jsx";
 
-import Profile from "./screens/Profile.jsx";
+import ProfileScreen from "./screens/ProfileScreen.jsx";
 import "./style/app.css"
 
 export default function App() {
@@ -29,16 +30,16 @@ export default function App() {
           <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;600;800&display=swap" rel="stylesheet" />
         </Helmet>
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<LandingScreen />} />
+          <Route path="/about" element={<AboutScreen />} />
           <Route path="/people" element={<PeopleScreen />} />
           <Route path="/research" element={<ResearchScreen />} />
           <Route path="/gallery" element={<GalleryScreen />} />
           <Route path="/publications" element={<PublicationScreen />} />
           <Route path="/facilities" element={<FacilitiesScreen />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile" element={<ProfileScreen />} />
         </Routes>
-
+        <Contact />
         <Footer />
       </HashRouter>
     </div>

@@ -22,22 +22,21 @@ export default function PublicationTable({ icon, title, description, publication
   return (
 
     <Wrapper className="grayBg radius8 shadow" >
-      <div className="flexSpaceCenter">
-        <a href={scholarLink} target="_blank" rel="noreferrer" title={title}>{getIcon}</a>
-      </div>
-      <div style={{ margin: "30px 0" }}>
-        {/* <h4 className="font30 extraBold">{title}</h4> */}
+      <a className="flexStart" href={scholarLink} target="_blank" rel="noreferrer" title={title}>
+        {getIcon}
+        <p className="font20 read-link" style={{ marginLeft: 10 }}>{title}</p>
+      </a>
+      {/* <div style={{ margin: "30px 0" }}>
         <p className="font13">{description}</p>
-      </div>
+      </div> */}
       <div>
         {publications
           ? publications.map((publication, index) => (
             <PublicationItem key={index}>
               <h4 className="font20 extraBold">{publication.title}</h4>
-              {/* <p className="font13">Authors: {publication.authors}</p> */}
-              {/* <p className="font13">Journal: {publication.journal}</p> */}
-              <p className="font13">{t('year')}: {publication.year}</p>
-              <a className="read-link font13 semiBold" style={{ color: "#800000" }} href={publication.link} target="_blank" rel="noopener noreferrer" >
+
+              <p className="font15">{t('year')}: {publication.year}</p>
+              <a className=" font15 read-link" href={publication.link} target="_blank" rel="noopener noreferrer" title="Read" >
                 {t('readMore')}
               </a>
             </PublicationItem>
@@ -84,11 +83,16 @@ const PublicationItem = styled.div`
   }
 
   a {
-    color: #3498db;
+    color: black;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 1.2rem;
     }
   }
 `;

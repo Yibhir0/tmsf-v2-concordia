@@ -26,7 +26,7 @@ export default function Footer() {
                 <LogoImg />
               </Link>
               <StyleP
-                className="semiBold font20 pointer"
+                className="semiBold font20 myColor"
               >
 
 
@@ -44,8 +44,8 @@ export default function Footer() {
                 offset={-80}
                 title="Back to Home"
               >
-                <GoMoveToTop size={24} />
-                <span>{t("backToTopBtn")}</span>
+                <GoMoveToTop size={30} />
+                <span className="font20 semiBold">{t("backToTopBtn")}</span>
               </HashLink>
             </InnerWrapper>
           </div>

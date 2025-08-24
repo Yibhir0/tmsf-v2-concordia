@@ -38,7 +38,7 @@ export default function Contact() {
   };
 
   return (
-    <Wrapper id="contact">
+    <Wrapper id="contact" style={{ backgroundColor: "#e5e9ed" }}>
       <div >
         <div className="container">
           <HeaderInfo>
@@ -84,6 +84,7 @@ export default function Contact() {
 
 const Wrapper = styled.section`
   width: 100%;
+  
 `;
 
 const HeaderInfo = styled.div`

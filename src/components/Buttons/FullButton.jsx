@@ -1,4 +1,4 @@
-import React from "react";
+
 import styled from "styled-components";
 
 
@@ -6,7 +6,7 @@ import styled from "styled-components";
 export default function FullButton({ title, action, border }) {
   return (
     <Wrapper
-      className="animate pointer radius8 font18 "
+      className="animate pointer radius8 font18 semiBold "
       onClick={action ? () => action() : null}
       border={border}
     >
@@ -19,7 +19,7 @@ const Wrapper = styled.button`
   border: 1px solid ${(props) => (props.border ? "#912338" : "#A90E34")};
   background-color: ${(props) => (props.border ? "transparent" : "#912338")};
   width: 100%;
-  padding: 15px;
+  padding: 12px;
   outline: none;
   color: ${(props) => (props.border ? "#fff" : "#fff")};
   :hover {
@@ -30,6 +30,8 @@ const Wrapper = styled.button`
   @media (max-width: 768px) {
     padding: 12px 10px;
     font-size: 16px;
+  
+   
   }
 `;
 

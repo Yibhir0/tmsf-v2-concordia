@@ -10,7 +10,7 @@ import ProfileCard from "../components/Elements/ProfileCard";
 
 
 
-const Profile = () => {
+const ProfileScreen = () => {
 
   const { t } = useTranslation();
   const location = useLocation();
@@ -22,39 +22,30 @@ const Profile = () => {
     const { profile, category } = location.state || {};
     setCategory(category);
     const profiles = t(category, { returnObjects: true }) || [];
-
-
-
     const prf = profiles.find(p => p.email === profile.email);
 
     setProf(prf);
   }, [location.state, t]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-
-  // let profileImage = null;
-
-
-  // try {
-  //   profileImage = require(`../assets/img/people_images/${prof.picture}`);
-  // } catch (error) {
-  //   console.error("Error loading image:", error);
-
-  // }
   return (
-    <Wrapper >
 
-      <Wrapper className="container flexNullCenter flexRow">
+    <Wrapper>
+
+      <TopSide>
+        <h1 className="semiBold font30">{prof.name}</h1>
+
+      </TopSide>
+
+      <InnerWrapper className="container flexNullCenter flexRow">
 
 
         <LeftSide className="container flexNullCenter flexColumn"  >
 
-          {/* <HeaderInfo>
-            <h1 className="semiBold font30">{prof.name}</h1>
 
-          </HeaderInfo>
-
-          <img className="radius8" src={profileImage} alt="project"></img> */}
           <ProfileCard profile={prof} category={category} />
 
         </LeftSide>
@@ -65,16 +56,25 @@ const Profile = () => {
         </RightSide>
 
 
-      </Wrapper>
+      </InnerWrapper>
+
+
 
     </Wrapper>
   );
 }
 
-export default Profile;
-
+export default ProfileScreen;
 
 const Wrapper = styled.section`
+padding-top: 60px;
+
+  width: 100%;
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+`;
+const InnerWrapper = styled.div`
   
   width: 100%;
   min-height: 70vh;
@@ -107,14 +107,35 @@ const RightSide = styled.div`
     margin-top: 50px;
     order:1;
   }
-// `;
+ `;
 
-// const HeaderInfo = styled.div`
+const TopSide = styled.div`
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+   h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
 
-    
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
 
-//   @media (max-width: 768px) {
-//     text-align: center;
-//     font-size: 1.2rem;
-//   }
-// `;
+}
+
+  @media (max-width: 960px) {
+   
+    text-align: center;
+    order:2;
+  }
+
+`;

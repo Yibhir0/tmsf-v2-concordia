@@ -1,25 +1,30 @@
-import React from "react";
+import { useEffect } from "react";
 import styled from "styled-components";
+
+import { useTranslation } from "react-i18next";
 
 
 
 export default function FacilitiesScreen() {
+  const { t } = useTranslation();
 
-    return (
-        <Wrapper id="home" className="container flexNullCenter flexColumn">
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-            <LeftSide >
-                <div>
 
-                    <h1 className="extraBold font40">Facilities</h1>
-                    <HeaderP className="font20 extraBold myColor">
-                        Our Equipments ?
-                    </HeaderP>
-                </div>
-            </LeftSide>
+  return (
+    <Wrapper >
 
-        </Wrapper>
-    );
+      <LeftSide className="container ">
+
+
+        <h1 className="extraBold font40">{t('facilitiesHeader')}</h1>
+
+      </LeftSide>
+
+    </Wrapper>
+  );
 }
 
 
@@ -37,6 +42,23 @@ const LeftSide = styled.div`
   height: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
+    h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  h1::after {
+  
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #912338;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+
+}
   @media (max-width: 960px) {
    
      width: 100%;
@@ -47,16 +69,6 @@ const LeftSide = styled.div`
 
 `;
 
-const HeaderP = styled.div`
-  max-width: 470px;
-  padding: 15px 0 50px 0;
-  line-height: 1.5rem;
-  @media (max-width: 960px) {
-    padding: 15px 0 50px 0;
-    text-align: center;
-    max-width: 100%;
-  }
-`;
 
 
 
