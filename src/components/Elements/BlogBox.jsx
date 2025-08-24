@@ -30,9 +30,10 @@ const Wrapper = styled.div`
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     padding: 15px 20px;
     width: 80%;
+   
   }
 
   @media (max-width: 480px) {

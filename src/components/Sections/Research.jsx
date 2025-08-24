@@ -32,7 +32,7 @@ export default function Research() {
               {t('researchSubDescription')}
             </p>
           </HeaderInfo>
-          <div className="row textCenter flexCenter">
+          <ResearchWrapper className="textCenter flexCenter">
 
             {research.map((r, index) => (
               <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"
@@ -47,7 +47,7 @@ export default function Research() {
               </div>
             ))}
 
-          </div>
+          </ResearchWrapper>
           <div className="row flexCenter">
             <div style={{ marginTop: "50px", width: "200px" }}>
               <FullButton title={t('seeMore')} action={goToResearchPage} />
@@ -87,5 +87,11 @@ const HeaderInfo = styled.div`
      h1{
       font-size: 2rem;
     }
+  }
+`;
+
+const ResearchWrapper = styled.div`
+  @media (max-width: 860px) {
+    flex-direction: column;
   }
 `;
