@@ -24,16 +24,14 @@ export default function PublicationTable({ icon, title, description, publication
     <Wrapper className="grayBg radius8 shadow" >
       <a className="flexStart" href={scholarLink} target="_blank" rel="noreferrer" title={title}>
         {getIcon}
-        <p className="font20 read-link" style={{ marginLeft: 10 }}>{title}</p>
+        <p className=" read-link" style={{ marginLeft: 10 }}>{title}</p>
       </a>
-      {/* <div style={{ margin: "30px 0" }}>
-        <p className="font13">{description}</p>
-      </div> */}
+
       <div>
         {publications
           ? publications.map((publication, index) => (
             <PublicationItem key={index}>
-              <h4 className="font20 extraBold">{publication.title}</h4>
+              <h4 >{publication.title}</h4>
 
               <p className="font15">{t('year')}: {publication.year}</p>
               <a className=" font15 read-link" href={publication.link} target="_blank" rel="noopener noreferrer" title="Read" >
@@ -73,6 +71,7 @@ const PublicationItem = styled.div`
 
   h4 {
     margin-bottom: 5px;
+    font-size: 1.3rem;
   }
 
   p {
@@ -89,7 +88,7 @@ const PublicationItem = styled.div`
   }
   @media (max-width: 768px) {
     h4 {
-      font-size: 1.2;
+      font-size: 1rem;
     }
   }
 `;
