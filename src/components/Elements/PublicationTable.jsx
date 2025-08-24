@@ -27,6 +27,11 @@ export default function PublicationTable({ icon, title, description, publication
         <p className=" read-link" style={{ marginLeft: 10 }}>{title}</p>
       </a>
 
+      <div style={{ margin: "30px 0" }}>
+
+        <p className="font13">{description}</p>
+      </div>
+
       <div>
         {publications
           ? publications.map((publication, index) => (
