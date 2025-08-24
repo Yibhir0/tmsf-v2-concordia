@@ -15,7 +15,7 @@ import { useNavLinks } from '../../hooks/useNavLinks';
 import { useTranslation } from 'react-i18next';
 
 export default function TopNavbar() {
-  // const [y, setY] = useState(window.scrollY);
+
   const [sidebarOpen, toggleSidebar] = useState(false);
 
   const navLinks = useNavLinks()

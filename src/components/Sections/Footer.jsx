@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
 import { HashLink } from "react-router-hash-link";
-// Assets
+
 import LogoImg from "../../assets/logos/Logo";
 import { GoMoveToTop } from "react-icons/go";
 

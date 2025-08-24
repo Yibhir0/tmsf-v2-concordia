@@ -1,6 +1,6 @@
-import React from "react";
+
 import { Helmet } from "react-helmet";
-// Screens
+
 import LandingScreen from "./screens/LandingScreen.jsx";
 import AboutScreen from "./screens/AboutScreen.jsx";
 import { HashRouter, Route, Routes } from "react-router-dom";

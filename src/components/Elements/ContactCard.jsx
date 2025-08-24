@@ -1,5 +1,3 @@
-// ContactCard.js
-
 
 import { FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";

@@ -81,7 +81,7 @@ const RightSide = styled.div`
     margin-top: 50px;
     order:1;
   }
-// `;
+`;
 
 const BtnWrapper = styled.div`
   max-width: 190px;

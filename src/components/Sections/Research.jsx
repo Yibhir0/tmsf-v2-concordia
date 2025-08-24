@@ -1,6 +1,6 @@
 
 import styled from "styled-components";
-// Components
+
 import BlogBox from "../Elements/BlogBox";
 import FullButton from "../Buttons/FullButton";
 import { useResearch } from "../../hooks/useResearch";

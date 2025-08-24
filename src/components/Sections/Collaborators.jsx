@@ -1,6 +1,6 @@
 
 import styled from "styled-components";
-// Components
+
 import ClientSlider from "../Elements/ClientSlider";
 import { useTranslation } from 'react-i18next';
 

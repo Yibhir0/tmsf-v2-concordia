@@ -5,7 +5,7 @@ function LanguageBtn({ s }) {
     const { i18n } = useTranslation();
 
     const handleClick = (event) => {
-        event.preventDefault(); // Prevent any default button behavior
+        event.preventDefault();
         if (i18n.language === 'en') {
             i18n.changeLanguage('fr');
         } else {
