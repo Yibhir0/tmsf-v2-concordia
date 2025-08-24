@@ -100,7 +100,7 @@ const TablesWrapper = styled.div`
 const TableBox = styled.div`
   width: 31%;
   @media (max-width: 860px) {
-    max-width: 300px;
+    max-width: 700px;
     margin: 0 auto
   }
 `;
