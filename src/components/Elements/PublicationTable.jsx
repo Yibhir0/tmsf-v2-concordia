@@ -56,10 +56,16 @@ const Wrapper = styled.div`
   margin-top: 30px;
   border: 1px solid #e0e0e0;
 
+  a > p {
+    font-size: 1rem;
+  }
 
-
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     padding: 10px 15px;
+
+    a > p {
+      font-size: 0.9rem;
+    }
   }
 `;
 
