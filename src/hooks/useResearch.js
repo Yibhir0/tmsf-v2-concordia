@@ -4,6 +4,4 @@ export const useResearch = () => {
     const { t } = useTranslation();
 
     return t("research_list", { returnObjects: true });
-
-
 };
