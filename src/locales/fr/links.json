@@ -6,8 +6,9 @@
         { "id": "research", "title": "Recherche" },
         { "id": "publications", "title": "Publications" },
         { "id": "collaborators", "title": "Collaborateurs" },
-        { "id": "gallery", "title": "Galerie" },
-        { "id": "facilities", "title": "Installations" }
+         { "id": "facilities", "title": "Installations" },
+        { "id": "gallery", "title": "Galerie" }
+       
        
     ],
 
