@@ -58,7 +58,8 @@ const HeaderSection = styled.div`
 const MainTitle = styled.h1`
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 0.5rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
 
   @media (max-width: 600px) {
     font-size: 1.7rem;
