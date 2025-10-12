@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 
-import FullButton from "../Buttons/FullButton";
+// import FullButton from "../Buttons/FullButton";
 
 import FacilityItem from "../Elements/FacilityItem";
 
@@ -11,20 +11,20 @@ import { useFacilities } from "../../hooks/useFacilities";
 
 
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export default function Facilities() {
 
 
   const { t } = useTranslation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const facilities = useFacilities();
 
 
-  const goToFacilitiesPage = () => {
-    navigate('/facilities');
-  };
+  // const goToFacilitiesPage = () => {
+  //   navigate('/facilities');
+  // };
   return (
     <Wrapper id="facilities">
       <div >
@@ -56,11 +56,11 @@ export default function Facilities() {
               </div>
             ))}
           </div>
-          <div className="row flexCenter">
+          {/* <div className="row flexCenter">
             <div style={{ marginTop: "50px", width: "200px" }}>
               <FullButton title={t('seeMore')} action={goToFacilitiesPage} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

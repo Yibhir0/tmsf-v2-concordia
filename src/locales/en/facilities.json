@@ -2,26 +2,57 @@
 {
    "facility_list": [
        {
-           "name": "Vacuum Plasma Spray System",
-           "description": "The vacuum plasma spray system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites. ",
+           "name": "Mettech Axial III plasma gun",
+           "description": "A high-performance axial injection plasma gun that delivers superior coating quality with excellent deposition efficiency. Its unique axial powder feeding design allows for uniform particle heating, making it ideal for advanced coatings requiring high density and low porosity.",
            "img": "facility1.jpg"
 
     },
   
     
     {
-        "name": "Bordeur Thermal Spray Coating System",
-        "description": "The Bordeur thermal spray coating system is a state-of-the-art thermal spray system that is capable of depositing a wide range of materials, including ceramics, metals, and composites.",
+        "name": "Oerlikon Metco Sinplex Pro",
+        "description": "A versatile, user-friendly plasma spray system designed for simplified operation and consistent coating results. The Simplex gun is well-suited for general-purpose applications and efficient material processing.",
         "img": "facility2.jpg"
 
     },
     
     {
-        "name": "Thermal Spraying",
-        "description": "Thermal spraying is a coating process that uses a heat source to melt a material and propel it onto a substrate. The material is melted in the form of a powder, wire, or rod, and is then sprayed onto the substrate using a high-velocity gas stream. The material solidifies on the substrate to form a coating. ",
+        "name": "Oerlikon Metco 3MB",
+        "description": "A widely used, reliable radial injection plasma gun known for its robustness and adaptability. The 3MB is suitable for a broad range of coating materials and is often employed in both research and industrial settings. ",
         "img": "facility3.jpg"
     
     
+    }
+    ,
+    {
+        "name": "Metco DJC HVOF Gun",
+        "description": "A proven, high-velocity HVOF system known for delivering dense, low-porosity coatings with strong adhesion and minimal oxide content. The DJC gun is widely used for applying hard, wear-resistant coatings such as tungsten carbide, making it a trusted solution in aerospace and turbine applications where component durability is critical.",
+        "img": "facility4.jpg"
+    },
+    {
+        "name": "Uniquecoat Technologies M3 Gun",
+        "description": "A modern, high-energy HVOF system designed for maximum particle velocity and excellent coating density. The M3 gun is highly versatile, capable of applying a broad range of metallic and ceramic coatings with superior surface finishes, well-suited for aerospace parts requiring high-impact and wear resistance.",
+        "img": "facility5.png"
+    },
+    {
+        "name": "Uniquecoat Technologies i5 Gun",
+        "description": "A lightweight, high-performance HVOF gun tailored for detailed and precision coating tasks. The i5 is especially suited for smaller components and delicate substrates in aerospace systems where controlled coating quality and minimal thermal input are essential.",
+        "img": "facility6.png"
+    },
+    {
+        "name": "Liquid Accelerated Cold Spray (LACS)",
+        "description": "The LACS, designed and developed in our lab in cooperation with Polycontrols Technologies, is an emerging variation of conventional Cold Spray (CS), where a liquid medium (typically water) is used instead of a gas to accelerate particles toward a substrate. LACS is a promising and developing technology, with research primarily focused on alternative liquid medium, mechanistic understanding, system design, and potential applications.",
+        "img": "facility7.png"
+    },
+    {
+        "name": "Laser-Assisted Thermal Spray (LATS)",
+        "description": "Our laboratory is equipped with an IPG 4kW fiber laser, enabling Laser-Assisted Thermal Spray (LATS) processes that significantly enhance coating quality and performance. By introducing localized laser heating during or after the spray process, LATS enhances coating adhesion, reduces porosity, and enables in-situ modification of microstructures. The integration of laser technology offers precise thermal control, enabling the deposition of dense, high-integrity coatings with superior mechanical and thermal properties—ideal for critical aerospace applications where coating reliability is essential.",
+        "img": "facility8.png"
+    },
+    {
+        "name": "Vacuum Cold Spray (VCS)",
+        "description": "It’s an advanced coating and additive manufacturing process in which fine metallic or composite powders are accelerated to supersonic speeds by a high-pressure gas jet and deposited onto a substrate under vacuum conditions. Operating in a low-pressure environment minimizes oxidation and contamination, enabling the production of dense, high-purity coatings with excellent adhesion. VCS is particularly valuable for aerospace, electronics, and energy applications, where superior material properties and minimal thermal effects are essential. Its ability to repair or build components without significant heat input makes it ideal for sensitive or high-performance materials.",
+        "img": "facility9.png"
     }
    ],
 
