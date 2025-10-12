@@ -6,7 +6,32 @@
     "title": "Flux multiphasique",
     "text": "Pulvérisation et atomisation Impact de gouttelettes et transfert de chaleur Rivulet et couche mince liquide Microfluidique numérique-Electromouillage Instabilité des jets de liquide elliptiques.",
     "tag": "Apprendre plus",
-    "author":"Département de génie mécanique et industriel"
+    "author":"Département de génie mécanique et industriel",
+    
+    "description": "Avec des capacités uniques, telles que les systèmes de projection plasma atmosphérique et en suspension, les procédés assistés par laser, le carburant à haute vélocité air/oxygène (HVAF et HVOF) et la réparation par cold spray, nous développons et caractérisons des revêtements thermiques avancés pour l'aérospatiale : TBC, revêtements résistants à l'oxydation/à l'érosion, couches résistantes à l'usure et solutions de réparation/ajout.",
+    "researchThemes": [
+      {
+        "title": "Revêtements de Barrière Thermique (TBC)",
+        "details": "faible conductivité thermique, tolérance aux fissures."
+      },
+      {
+        "title": "Protection contre l'Oxydation et la Corrosion",
+        "details": "couches de liaison, barrières de diffusion."
+      },
+      {
+        "title": "Résistance à l'Érosion et aux Dégâts par Corps Étrangers (FOD)",
+        "details": "revêtements denses HVOF."
+      },
+      {
+        "title": "Réparation et Fabrication Additive",
+        "details": "dépôt par cold spray et procédé assisté par laser pour les réparations."
+      },
+      {
+        "title": "Revêtements Fonctionnels et Gradués",
+        "details": "couches multifonctionnelles (gestion thermique, usure + corrosion)."
+      }
+    ]
+
     
     },
   
@@ -15,7 +40,9 @@
     "title": "Projection thermique",
     "text": "La projection thermique représente un groupe de procédés dans lesquels des matériaux métalliques et non métalliques finement divisés sont déposés à l'état fondu ou semi-fondu sur une surface préparée..",
     "tag": "Apprendre plus",
-    "author":"Département de génie mécanique et industriel"
+    "author":"Département de génie mécanique et industriel",
+    "description": "Le Laboratoire des Écoulements Multiphasiques se spécialise dans l'étude des systèmes d'écoulement complexes impliquant des phases gazeuses, liquides et solides. Le laboratoire combine des approches expérimentales et numériques pour optimiser les processus dans les systèmes énergétiques, le génie chimique et les applications environnementales, offrant des solutions aux défis industriels réels."
+
     
     },
     
@@ -24,7 +51,8 @@
       "title": "Projection thermique",
       "text": "La projection thermique représente un groupe de procédés dans lesquels des matériaux métalliques et non métalliques finement divisés sont déposés à l'état fondu ou semi-fondu sur une surface préparée..",
       "tag": "Apprendre plus",
-      "author":"Département de génie mécanique et industriel"
+      "author":"Département de génie mécanique et industriel",
+      "description": "Le Laboratoire de Tribologie se consacre à l'étude du frottement, de l'usure et de la lubrification des surfaces en interaction. Grâce à des dispositifs expérimentaux avancés et à la caractérisation des matériaux, le laboratoire fournit des informations pour améliorer les performances, la durabilité et l'efficacité énergétique des systèmes mécaniques dans divers secteurs industriels."
       
       }
     ]

@@ -1,24 +1,34 @@
 
+import { useState } from "react";
+
 import styled from "styled-components";
 
 import BlogBox from "../Elements/BlogBox";
-import FullButton from "../Buttons/FullButton";
+// import FullButton from "../Buttons/FullButton";
 import { useResearch } from "../../hooks/useResearch";
 import { useTranslation } from 'react-i18next';
 
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import ResearchModal from "../modals/ResearchModal";
 
 export default function Research() {
   const research = useResearch();
   const { t } = useTranslation()
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedResearch, setSelectedResearch] = useState({});
 
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
 
-  const goToResearchPage = () => {
-    navigate('/research');
-  };
+  // const goToResearchPage = () => {
+  //   navigate('/research');
+  // };
+
+  const handleSelection = (s) => {
+    setSelectedResearch(s);
+    setIsModalOpen(true);
+  }
 
   return (
     <Wrapper id="research">
@@ -42,17 +52,27 @@ export default function Research() {
                   text={r.text}
                   tag={r.tag}
                   author={r.author}
-                  action={() => alert("clicked")}
+                  action={() => handleSelection(r)}
                 />
+
+
               </div>
             ))}
 
+            <ResearchModal
+              isOpen={isModalOpen}
+              onClose={() => setIsModalOpen(false)}
+              title={selectedResearch.title}
+              description={selectedResearch.description}
+              researchThemes={selectedResearch.researchThemes}
+            />
+
           </ResearchWrapper>
-          <div className="row flexCenter">
+          {/* <div className="row flexCenter">
             <div style={{ marginTop: "50px", width: "200px" }}>
               <FullButton title={t('seeMore')} action={goToResearchPage} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Wrapper>
