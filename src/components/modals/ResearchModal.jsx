@@ -62,8 +62,34 @@ li::before {
     margin-top: 1.5rem;
     border: none;
     border-radius: 8px;
-    padding: 0.6rem 1.2rem;
-    cursor: pointer;
+    @media (max-width: 600px) {
+        padding: 1rem;
+        max-width: 95vw;
+        font-size: 0.95rem;
+
+        h2 {
+            font-size: 1.1rem;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        ul {
+            margin: 0.5rem 0;
+        }
+
+        li {
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+        }
+
+        button {
+            width: 100%;
+            padding: 0.8rem 0;
+            font-size: 1rem;
+        }
+    } cursor: pointer;
     font-weight: 500;
     transition: 0.2s;
 
