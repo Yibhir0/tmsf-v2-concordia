@@ -2,29 +2,28 @@
 import styled from "styled-components";
 
 
-// import FullButton from "../Buttons/FullButton";
-
-import FacilityItem from "../Elements/FacilityItem";
-
+import FullButton from "../Buttons/FullButton";
 
 import { useFacilities } from "../../hooks/useFacilities";
+import FacilityList from '../Elements/FacilityList'
 
 
 import { useTranslation } from 'react-i18next';
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Facilities() {
 
 
   const { t } = useTranslation();
-  // const navigate = useNavigate();
-
-  const facilities = useFacilities();
+  const navigate = useNavigate();
 
 
-  // const goToFacilitiesPage = () => {
-  //   navigate('/facilities');
-  // };
+  const facilities = useFacilities().slice(0, 3);
+
+
+  const goToFacilitiesPage = () => {
+    navigate('/facilities');
+  };
   return (
     <Wrapper id="facilities">
       <div >
@@ -37,30 +36,12 @@ export default function Facilities() {
               {t('facilitiesSubDescription')}
             </p>
           </HeaderInfo>
-
-
-
-
-          <div className="row textCenter flexCenter">
-            {facilities.map((facility, index) => (
-              <div
-                className={`col-xs-12 col-sm-4 col-md-4 col-lg-4 ${index === 3 ? 'center-item' : ''}`}
-                key={index}
-              >
-                <FacilityItem
-                  img={facility.img}
-                  name={facility.name}
-                  description={facility.description}
-                  action={() => alert("clicked")}
-                />
-              </div>
-            ))}
-          </div>
-          {/* <div className="row flexCenter">
+          <FacilityList facilities={facilities} />
+          <div className="row flexCenter">
             <div style={{ marginTop: "50px", width: "200px" }}>
               <FullButton title={t('seeMore')} action={goToFacilitiesPage} />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
 

@@ -2,25 +2,29 @@ import { useEffect } from "react";
 import styled from "styled-components";
 
 import { useTranslation } from "react-i18next";
+import { useFacilities } from "../hooks/useFacilities";
+import FacilityList from "../components/Elements/FacilityList";
+
 
 
 
 export default function FacilitiesScreen() {
   const { t } = useTranslation();
+  const facilities = useFacilities();
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
 
+
   return (
     <Wrapper >
 
       <LeftSide className="container ">
-
-
         <h1 className="extraBold font40">{t('facilitiesHeader')}</h1>
-
+        <FacilityList facilities={facilities} />
       </LeftSide>
 
     </Wrapper>
