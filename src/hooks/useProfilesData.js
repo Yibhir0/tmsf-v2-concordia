@@ -10,8 +10,8 @@ export const useProfilesData = (category) => {
             return t('masc_students', { returnObjects: true });
         case 'lab_managers':
             return t('lab_managers', { returnObjects: true });
-        case 'research_associate':
-            return t('research_associate', { returnObjects: true });
+        case 'postdoctoral_fellow':
+            return t('postdoctoral_fellow', { returnObjects: true });
         case 'department_professors':
             return t('department_professors', { returnObjects: true });
         default:

@@ -1,17 +1,33 @@
 {
-    "nav_links":
-    [
-        { "id": "home", "title": "Accueil" },
-        { "id": "people", "title": "Personnes" },
-        { "id": "research", "title": "Recherche" },
-        { "id": "publications", "title": "Publications" },
-        { "id": "collaborators", "title": "Collaborateurs" },
-         { "id": "facilities", "title": "Installations" },
-        { "id": "gallery", "title": "Galerie" }
-       
-       
+    "nav_links": [
+        {
+            "id": "home",
+            "title": "Accueil"
+        },
+        {
+            "id": "people",
+            "title": "Personnes"
+        },
+        {
+            "id": "research",
+            "title": "Recherche"
+        },
+        {
+            "id": "publications",
+            "title": "Publications"
+        },
+        {
+            "id": "collaborators",
+            "title": "Collaborateurs"
+        },
+        {
+            "id": "facilities",
+            "title": "Installations"
+        },
+        {
+            "id": "gallery",
+            "title": "Galerie"
+        }
     ],
-
     "contact": "Contact"
 }
-  

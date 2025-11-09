@@ -5,19 +5,19 @@ import PublicationTable from "../Elements/PublicationTable";
 
 import { usePublications } from "../../hooks/usePublications";
 import { useTranslation } from 'react-i18next';
-import FullButton from "../Buttons/FullButton";
-import { useNavigate } from "react-router-dom";
+// import FullButton from "../Buttons/FullButton";
+// import { useNavigate } from "react-router-dom";
 
 
 export default function Publications() {
 
   const { t } = useTranslation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const publications = usePublications();
 
-  const goToPublicationPage = () => {
-    navigate('/publications');
-  };
+  // const goToPublicationPage = () => {
+  //   navigate('/publications');
+  // };
 
   return (
     <Wrapper id="publications">
@@ -50,11 +50,11 @@ export default function Publications() {
               : null}
 
           </TablesWrapper>
-          <div className="row flexCenter">
+          {/* <div className="row flexCenter">
             <div style={{ marginTop: "50px", width: "200px" }}>
               <FullButton title={t('seeMore')} action={goToPublicationPage} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Wrapper>

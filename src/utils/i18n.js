@@ -30,9 +30,6 @@ import FooterFr from '../locales/fr/footer.json';
 import AboutEn from '../locales/en/about.json';
 import AboutFr from '../locales/fr/about.json';
 
-
-
-
 // staff
 
 import LabManagerEn from "../locales/en/lab.managers.json";
@@ -48,10 +45,10 @@ import MAscStudentsFr from "../locales/fr/masc.students.json";
 import PhDStudentsEn from "../locales/en/phd.students.json";
 import PhDStudentsFr from "../locales/fr/phd.students.json";
 
-// Research Associates  
+// Post Doctoral  
 
-import ResearchAssociateEn from "../locales/en/reasearch.associate.json";
-import ResearchAssociateFr from "../locales/fr/reasearch.associate.json";
+import PostdoctoralFellowEn from "../locales/en/postdoctoral.fellow.json";
+import PostdoctoralFellowFr from "../locales/fr/postdoctoral.fellow.json";
 
 // Professors
 
@@ -78,7 +75,7 @@ const resources = {
             ...LabManagerEn,
             ...MAscStudentsEn,
             ...PhDStudentsEn,
-            ...ResearchAssociateEn,
+            ...PostdoctoralFellowEn,
             ...ProfessorsEn
 
 
@@ -101,7 +98,7 @@ const resources = {
             ...LabManagerFr,
             ...MAscStudentsFr,
             ...PhDStudentsFr,
-            ...ResearchAssociateFr,
+            ...PostdoctoralFellowFr,
             ...ProfessorsFr
 
         }

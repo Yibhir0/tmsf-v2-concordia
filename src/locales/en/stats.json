@@ -1,18 +1,25 @@
-
 {
-    "statsHeader":  "Our Statistics",
+    "statsHeader": "Our Statistics",
     "students": "Students",
     "company": "TRUSTED BY COMPANY",
     "research": "Research",
     "statsDescription": "Explore the key statistics that highlight our achievements, growth, and dedication",
     "statsSubDescription": "to making a meaningful impact in everything we do.",
-
-    "stats_list" : [
-       { "id": "students", "value": 380, "title": "Students" },
-       { "id": "company", "value": 230, "title": "Trusted by Company" },
-       { "id": "research", "value": 230, "title": "Research" }
+    "stats_list": [
+        {
+            "id": "students",
+            "value": 380,
+            "title": "Students"
+        },
+        {
+            "id": "company",
+            "value": 230,
+            "title": "Trusted by Company"
+        },
+        {
+            "id": "research",
+            "value": 230,
+            "title": "Research"
+        }
     ]
-
-   
-    
 }

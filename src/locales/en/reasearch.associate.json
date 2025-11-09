@@ -1,8 +1,6 @@
-
 {
     "researchAssociates": "Postdoctoral Fellow",
-    "research_associate":
-    [
+    "research_associate": [
         {
             "name": "Dr. Reza Attarzadeh",
             "occupation": "Research Associate",
@@ -13,10 +11,6 @@
             "linkedin": "https://www.linkedin.com/in/rezatta/",
             "google_scholar": "https://scholar.google.com/citations?user=cXAjmsIAAAAJ&hl=en&oi=ao",
             "duration": "2023 - Present"
-        
         }
-       
     ]
-  
-
 }

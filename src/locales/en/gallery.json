@@ -4,43 +4,36 @@
     "galleryDescription": "Browse through our gallery to discover captivating images and visuals that showcase our work, achievements, and milestones.",
     "gallerySubDescription": "Each image tells a story of innovation, dedication, and the impactful contributions we've made in various fields.",
     "videoHeader": "Videos Gallery",
-   "media": [
-    {
-        "url": "https://www.youtube.com/watch?v=xm9sY-91Qyc",
-        "type": "video",
-        "title": "HVAF M3 Gun in Action | Next-Gen Thermal Spray Technology at CTSC"
-
-    }
-    ,
-    {
-        "url": "https://www.youtube.com/watch?v=f5saFyUSPdk ",
-        "type": "video",
-        "title": "HVOF Thermal Spray in Action at Concordia Thermal Spray Center (CTSC)"
-
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=xmuf69rY03s",
-        "type": "video",
-        "title": "From Concept to Breakthrough: The Manu 1719 Project Success Story | Concordia x McGill"
-
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=__Xxtc4B9vI",
-        "type": "video",
-        "title": "High Speed Icing Wind Tunnel Project"
-
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=C7coNg5L_ck",
-        "type": "video",
-        "title": "CompreVac Vacuum Cold Spray"
-
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=ZZE2niMNiAU&t=11s",
-        "type": "video",
-        "title": "CompreVac Vacuum Cold Spray with Concordia University"
-
-    }
-   ]
+    "media": [
+        {
+            "url": "https://www.youtube.com/watch?v=xm9sY-91Qyc",
+            "type": "video",
+            "title": "HVAF M3 Gun in Action | Next-Gen Thermal Spray Technology at CTSC"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=f5saFyUSPdk ",
+            "type": "video",
+            "title": "HVOF Thermal Spray in Action at Concordia Thermal Spray Center (CTSC)"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xmuf69rY03s",
+            "type": "video",
+            "title": "From Concept to Breakthrough: The Manu 1719 Project Success Story | Concordia x McGill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=__Xxtc4B9vI",
+            "type": "video",
+            "title": "High Speed Icing Wind Tunnel Project"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=C7coNg5L_ck",
+            "type": "video",
+            "title": "CompreVac Vacuum Cold Spray"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ZZE2niMNiAU&t=11s",
+            "type": "video",
+            "title": "CompreVac Vacuum Cold Spray with Concordia University"
+        }
+    ]
 }

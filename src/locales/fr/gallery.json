@@ -1,8 +1,6 @@
 {
     "galleryHeader": "Galerie",
-     "seeMore":"Voir Plus",
-     "galleryDescription": "Parcourez notre galerie pour découvrir des images captivantes qui illustrent notre travail, nos réalisations et nos étapes importantes.",
-  "gallerySubDescription": "Chaque image raconte l'histoire de l'innovation, de l'engagement et des contributions significatives que nous avons apportées dans divers domaines."
-
-   
+    "seeMore": "Voir Plus",
+    "galleryDescription": "Parcourez notre galerie pour découvrir des images captivantes qui illustrent notre travail, nos réalisations et nos étapes importantes.",
+    "gallerySubDescription": "Chaque image raconte l'histoire de l'innovation, de l'engagement et des contributions significatives que nous avons apportées dans divers domaines."
 }

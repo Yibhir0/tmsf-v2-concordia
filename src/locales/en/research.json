@@ -1,62 +1,51 @@
 {
-
-    "research_list":[
-    {
-        "title": "Multiphase Flow",
-        "text": "Spray and atomization Droplet impact & heat transfer Rivulet & liquid thin film Digital Microfluidics-Electrowetting Instability of elliptic liquid jets.",
-        "tag": "Learn More",
-        "author":"Department of Mechanical and Industrial Engineering",
-        "description": "With unique capabilities, such as atmospheric and suspension plasma spray systems, laser-assisted processes, High Velocity Air/Oxygen Fuel (HVAF and HVOF), cold spray repair, we develop and characterise advanced thermal spray coatings for aerospace: TBCs, oxidation/erosion resistant coatings, wear-resistant layers, and repair/additive solutions.",
-        "researchThemes": [
-          {
-            "title": "Thermal Barrier Coatings (TBCs)",
-            "details": "low thermal conductivity, crack tolerance."
-          },
-          {
-            "title": "Oxidation & Corrosion Protection",
-            "details": "bond coats, diffusion barriers."
-          },
-          {
-            "title": "Erosion & Foreign Object Damage (FOD) Resistance",
-            "details": "HVOF and dense coatings."
-          },
-          {
-            "title": "Repair & Additive Manufacturing",
-            "details": "cold spray and laser-assisted deposition for repairs."
-          },
-          {
-            "title": "Functional & Graded Coatings",
-            "details": "multifunctional layers (thermal management, wear + corrosion)."
-          }
-        ]
-        
-    },
-    
-    {
-    "title": "Thermal spray",
-    "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
-    "tag": "Learn More",
-    "author":"Department of Mechanical and Industrial Engineering",
-    "description": "The Multiphase Flow Laboratory specializes in the investigation of complex flow systems involving gas, liquid, and solid phases. The lab combines experimental and computational approaches to optimize processes in energy systems, chemical engineering, and environmental applications, offering solutions to real-world industrial challenges. "
-    
-    },
-    
-    {
-    "title": "Tribology",
-    "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
-    "tag": "Learn More",
-    "author":"Department of Mechanical and Industrial Engineering",
-    "description":"The Tribology Laboratory is dedicated to studying friction, wear, and lubrication of interacting surfaces. Through advanced experimental setups and material characterization, the lab provides insights into improving the performance, durability, and energy efficiency of mechanical systems across various industries. "
-    
-    }
-
-    ]
-  
-  ,
-    "researchHeader":"Our Research",
-    "seeMore":"See More",
-    "researchDescription":"Dive into our research efforts that drive innovation, solve complex challenges, ",
-    "researchSubDescription":"and contribute to advancements across diverse fields."
-
+    "research_list": [
+        {
+            "title": "Thermal spray",
+            "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
+            "tag": "Learn More",
+            "author": "Department of Mechanical and Industrial Engineering",
+            "description": "The Multiphase Flow Laboratory specializes in the investigation of complex flow systems involving gas, liquid, and solid phases. The lab combines experimental and computational approaches to optimize processes in energy systems, chemical engineering, and environmental applications, offering solutions to real-world industrial challenges. "
+        },
+        {
+            "title": "Multiphase Flow",
+            "text": "Spray and atomization Droplet impact & heat transfer Rivulet & liquid thin film Digital Microfluidics-Electrowetting Instability of elliptic liquid jets.",
+            "tag": "Learn More",
+            "author": "Department of Mechanical and Industrial Engineering",
+            "description": "With unique capabilities, such as atmospheric and suspension plasma spray systems, laser-assisted processes, High Velocity Air/Oxygen Fuel (HVAF and HVOF), cold spray repair, we develop and characterise advanced thermal spray coatings for aerospace: TBCs, oxidation/erosion resistant coatings, wear-resistant layers, and repair/additive solutions.",
+            "researchThemes": [
+                {
+                    "title": "Thermal Barrier Coatings (TBCs)",
+                    "details": "low thermal conductivity, crack tolerance."
+                },
+                {
+                    "title": "Oxidation & Corrosion Protection",
+                    "details": "bond coats, diffusion barriers."
+                },
+                {
+                    "title": "Erosion & Foreign Object Damage (FOD) Resistance",
+                    "details": "HVOF and dense coatings."
+                },
+                {
+                    "title": "Repair & Additive Manufacturing",
+                    "details": "cold spray and laser-assisted deposition for repairs."
+                },
+                {
+                    "title": "Functional & Graded Coatings",
+                    "details": "multifunctional layers (thermal management, wear + corrosion)."
+                }
+            ]
+        },
+        {
+            "title": "Tribology",
+            "text": "Thermal spray represents a a group of processes in which ﬁnely divided metallic and non-metallic materials are deposited in a molten or semi-molten state on a prepared.",
+            "tag": "Learn More",
+            "author": "Department of Mechanical and Industrial Engineering",
+            "description": "The Tribology Laboratory is dedicated to studying friction, wear, and lubrication of interacting surfaces. Through advanced experimental setups and material characterization, the lab provides insights into improving the performance, durability, and energy efficiency of mechanical systems across various industries. "
+        }
+    ],
+    "researchHeader": "Our Research",
+    "seeMore": "See More",
+    "researchDescription": "Dive into our research efforts that drive innovation, solve complex challenges, ",
+    "researchSubDescription": "and contribute to advancements across diverse fields."
 }
-

@@ -1,31 +1,20 @@
-
 {
-
-    "facility_list" : [
-
-       
-
-    {
-        "name": "Mettech Axial III pistolet plasma",
-        "description": "Un pistolet plasma à injection axiale haute performance offrant une qualité de revêtement supérieure avec une excellente efficacité de dépôt. Son alimentation en poudre axiale unique permet un chauffage uniforme des particules, idéal pour les revêtements avancés nécessitant une haute densité et une faible porosité.",
-        "img": "facility1.jpg"
-    },
-  
-    
-    {
-        "name": "Oerlikon Metco Sinplex Pro",
-        "description": "Un système de pulvérisation plasma polyvalent et facile à utiliser, conçu pour une opération simplifiée et des résultats de revêtement cohérents. Le pistolet Simplex est bien adapté aux applications générales et au traitement efficace des matériaux.",
-        "img": "facility2.jpg"
-
-    },
-    
-    {
-        "name": "Oerlikon Metco 3MB",
-        "description": "Un pistolet plasma à injection radiale largement utilisé et fiable, connu pour sa robustesse et son adaptabilité. Le 3MB est adapté à un large éventail de matériaux de revêtement et est souvent utilisé dans des environnements de recherche et industriels.",
-        "img": "facility3.jpg"
-    
-    }
-    ,
+    "facility_list": [
+        {
+            "name": "Mettech Axial III pistolet plasma",
+            "description": "Un pistolet plasma à injection axiale haute performance offrant une qualité de revêtement supérieure avec une excellente efficacité de dépôt. Son alimentation en poudre axiale unique permet un chauffage uniforme des particules, idéal pour les revêtements avancés nécessitant une haute densité et une faible porosité.",
+            "img": "facility1.jpg"
+        },
+        {
+            "name": "Oerlikon Metco Sinplex Pro",
+            "description": "Un système de pulvérisation plasma polyvalent et facile à utiliser, conçu pour une opération simplifiée et des résultats de revêtement cohérents. Le pistolet Simplex est bien adapté aux applications générales et au traitement efficace des matériaux.",
+            "img": "facility2.jpg"
+        },
+        {
+            "name": "Oerlikon Metco 3MB",
+            "description": "Un pistolet plasma à injection radiale largement utilisé et fiable, connu pour sa robustesse et son adaptabilité. Le 3MB est adapté à un large éventail de matériaux de revêtement et est souvent utilisé dans des environnements de recherche et industriels.",
+            "img": "facility3.jpg"
+        },
         {
             "name": "Metco DJC HVOF Gun",
             "description": "Un système HVOF à grande vitesse éprouvé, reconnu pour fournir des revêtements denses et à faible porosité avec une forte adhérence et un minimum d’oxydes. Le pistolet DJC est largement utilisé pour l’application de revêtements durs et résistants à l’usure comme le carbure de tungstène, ce qui en fait une solution de confiance dans l’aérospatiale et les turbines où la durabilité des composants est essentielle.",
@@ -53,16 +42,12 @@
         },
         {
             "name": "Vacuum Cold Spray (VCS)",
-            "description": "Il s’agit d’un procédé avancé de revêtement et de fabrication additive dans lequel des poudres métalliques ou composites fines sont accélérées à des vitesses supersoniques par un jet de gaz haute pression et déposées sur un substrat sous vide. Le fonctionnement en environnement basse pression minimise l’oxydation et la contamination, permettant la production de revêtements denses et purs avec une excellente adhérence. Le VCS est particulièrement précieux pour l’aérospatiale, l’électronique et l’énergie, où des propriétés matérielles supérieures et des effets thermiques minimaux sont essentiels. Sa capacité à réparer ou fabriquer des composants sans apport thermique significatif le rend idéal pour les matériaux sensibles ou haute performance."
-            ,
+            "description": "Il s’agit d’un procédé avancé de revêtement et de fabrication additive dans lequel des poudres métalliques ou composites fines sont accélérées à des vitesses supersoniques par un jet de gaz haute pression et déposées sur un substrat sous vide. Le fonctionnement en environnement basse pression minimise l’oxydation et la contamination, permettant la production de revêtements denses et purs avec une excellente adhérence. Le VCS est particulièrement précieux pour l’aérospatiale, l’électronique et l’énergie, où des propriétés matérielles supérieures et des effets thermiques minimaux sont essentiels. Sa capacité à réparer ou fabriquer des composants sans apport thermique significatif le rend idéal pour les matériaux sensibles ou haute performance.",
             "img": "facility9.png"
         }
-],
-     "facilitiesHeader":"Nos Installations",
-    "seeMore":"Voir Plus",
+    ],
+    "facilitiesHeader": "Nos Installations",
+    "seeMore": "Voir Plus",
     "facilitiesDescription": "Découvrez nos installations de pointe qui soutiennent la recherche de haute technologie et favorisent l'innovation dans diverses disciplines.",
-  "facilitiesSubDescription": "Des laboratoires avancés aux espaces de travail collaboratifs, nos installations sont conçues pour inspirer la créativité et faciliter les découvertes révolutionnaires."
+    "facilitiesSubDescription": "Des laboratoires avancés aux espaces de travail collaboratifs, nos installations sont conçues pour inspirer la créativité et faciliter les découvertes révolutionnaires."
 }
-     
- 
- 

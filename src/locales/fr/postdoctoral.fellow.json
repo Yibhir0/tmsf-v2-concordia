@@ -1,0 +1,60 @@
+{
+    "postdoctoralFellow": "Chercheurs Postdoctoraux",
+    "postdoctoral_fellow": [
+        {
+            "name": "Amit Roy",
+            "occupation": "Chercheur Postdoctoraux",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "Amit.roy@concordia.ca",
+            "research_summary": "",
+            "picture": "amit-roy.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "duration": ""
+        },
+        {
+            "name": "Payank Patel",
+            "occupation": "Chercheur Postdoctoraux",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "Payank.patel@concordia.ca",
+            "research_summary": "",
+            "picture": "payank-patel.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "duration": ""
+        },
+        {
+            "name": "Farzam Arhami",
+            "occupation": "Chercheur Postdoctoraux",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "Farzam.arhami@concordia.ca",
+            "research_summary": "",
+            "picture": "farzam-arhami.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "duration": ""
+        },
+        {
+            "name": "Mohamed Mahdi Nasiri",
+            "occupation": "Chercheur Postdoctoraux",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "mohammadmahdi.nasiri@concordia.ca",
+            "research_summary": "",
+            "picture": "default-man.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "duration": ""
+        },
+        {
+            "name": "Faranak Barandehfard",
+            "occupation": "Chercheur Postdoctoraux",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "faranak.barandehfard@concordia.ca",
+            "research_summary": "",
+            "picture": "faranak-barandehfard.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "duration": ""
+        }
+    ]
+}

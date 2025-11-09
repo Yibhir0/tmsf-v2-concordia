@@ -1,9 +1,6 @@
-
 {
-
     "researchAssociates": "chercheurs postdoctoraux",
-    "research_associate":
-    [
+    "research_associate": [
         {
             "name": "Dr. Reza Attarzadeh",
             "occupation": "Associé de recherche, Département de génie mécanique, industriel et aérospatial (MIAE)",
@@ -13,9 +10,6 @@
             "linkedin": "https://www.linkedin.com/in/rezatta/",
             "google_scholar": "https://scholar.google.com/citations?user=cXAjmsIAAAAJ&hl=en&oi=ao",
             "duration": "2023 - Present"
-        
         }
     ]
-
-
 }

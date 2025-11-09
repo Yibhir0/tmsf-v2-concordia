@@ -1,21 +1,33 @@
 {
     "nav_links": [
-
-
-    { "id": "home", "title": "Home" },
-    { "id": "people", "title": "People" },
-    { "id": "research", "title": "Research" },
-    { "id": "publications", "title": "Publications" },
-    { "id": "collaborators", "title": "Collaborators" },
-     { "id": "facilities", "title": "Facilities" },
-    { "id": "gallery", "title": "Gallery" }
-   
-
+        {
+            "id": "home",
+            "title": "Home"
+        },
+        {
+            "id": "people",
+            "title": "People"
+        },
+        {
+            "id": "research",
+            "title": "Research"
+        },
+        {
+            "id": "publications",
+            "title": "Publications"
+        },
+        {
+            "id": "collaborators",
+            "title": "Collaborators"
+        },
+        {
+            "id": "facilities",
+            "title": "Facilities"
+        },
+        {
+            "id": "gallery",
+            "title": "Gallery"
+        }
     ],
-
-    
     "contact": "Contact"
-    
-  
 }
-  

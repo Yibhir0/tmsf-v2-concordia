@@ -1,12 +1,7 @@
-
 {
-    
-    "peopleHeader":"Our Awesome Team",
-    "peopleDescription":"Our team is made up of a diverse group of individuals who are passionate about what they do.",
-    "peopleSubDescription":"We are always looking for new talent to join our team, so if you think you have what it takes, get in touch with us today!",
-    "professors":"Professors",
-    "seeMore":"See More"
-
+    "peopleHeader": "Our Awesome Team",
+    "peopleDescription": "Our team is made up of a diverse group of individuals who are passionate about what they do.",
+    "peopleSubDescription": "We are always looking for new talent to join our team, so if you think you have what it takes, get in touch with us today!",
+    "professors": "Professors",
+    "seeMore": "See More"
 }
-    
-

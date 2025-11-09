@@ -1,91 +1,153 @@
 {
-
     "mascstudents": "Étudiants M.A.Sc.",
-
-    "masc_students":
-
-    [
-        
-    {
-        "name": "Golnoush Asadian",
-        "occupation": "Étudiante en maîtrise",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "golnoush.asadiankouhidehkordi@mail.concordia.ca",
-        "research_summary": "Maîtrise en génie mécanique, sciences appliquées travaillant sur un projet de recherche qui se concentre sur l'amélioration des propriétés des métaux tels que le cuivre en utilisant des techniques de dépôt par pulvérisation comme la pulvérisation thermique et la pulvérisation à froid. En réduisant la couche d'oxyde autour des particules métalliques et en les empêchant de s'oxyder davantage, ce travail vise à améliorer les performances des revêtements métalliques dans les applications industrielles, y compris la résistance à la corrosion et la conductivité électrique. Cette recherche a le potentiel de conduire à des revêtements plus durables et plus efficaces pour les processus de fabrication et de réparation, réduisant les coûts de maintenance et prolongeant la durée de vie des composants. En dehors du travail, être dans la nature non seulement alimente sa créativité mais offre également une pause rafraîchissante de la recherche, inspirant de nouvelles idées.",
-        "picture": "golnoush-asadian.jpg"  ,
-         "linkedin": "https://www.linkedin.com/in/golnoush-asadian-6a422a22b/",
-         "duration": "2022-Sep - 2024"
-    },
-    
-{
-        "name": "Matheus da Silva Pinto",
-        "occupation": "Étudiant en maîtrise",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "matheus.dasilvapinto@mail.concordia.ca",
-        "research_summary": "Étudiant en maîtrise en génie mécanique à l'Université Concordia, spécialisé dans l'évaluation tribologique des matériaux pour des applications dans l'industrie aérospatiale sous des conditions extrêmes. Travaille actuellement sur l'examen du comportement des matériaux à haute température et dans des environnements agressifs, en se concentrant sur la compréhension des mécanismes d'usure et en fournissant des informations sur l'aptitude des matériaux pour les applications des moteurs à turbine à gaz de nouvelle génération. Titulaire d'un diplôme en génie mécanique de l'Université fédérale de technologie - Paraná (UTFPR) au Brésil et possède six ans d'expérience dans l'industrie en maintenance et inspection d'équipements.",
-        "picture": "dasilvapinto-matheus.jpg",
-        "linkedin": "https://www.linkedin.com/in/matheus-da-silva-pinto-87979615a/"  ,
-        "duration": "2023 - Present" 
-
-    },
-   {
-        "name": "Mostafa Fotoohi",
-        "occupation": "Étudiant en maîtrise",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "mostafa.fotoohinezhadkhales@mail.concordia.ca",
-        "research_summary": "Mostafa est titulaire d'une maîtrise en génie des matériaux de l'Université Ferdowsi de Mashhad, en Iran, et poursuit actuellement une maîtrise en génie mécanique à l'Université Concordia, avec un accent sur la tribologie et les caractéristiques de surface des revêtements produits par diverses techniques, y compris HVOF, HVAF M3, HVAF I7 et APS. De plus, il travaille sur le développement de la pulvérisation à froid liquide, une technique novatrice offrant des avantages environnementaux et économiques potentiels. Sa recherche vise à améliorer la durabilité et les performances des revêtements industriels en examinant leurs comportements d'usure et de friction. En dehors de la recherche, Mostafa aime jouer au hockey et au billard, ainsi qu'écouter des podcasts.",
-        "picture": "fottohi-mostafa.jpg",
-        "linkedin": "https://www.linkedin.com/in/mostafa-fotoohi-nezhad-09789282/",
-        "google_scholar": "https://scholar.google.ca/citations?user=smjmiwwAAAAJ&hl=en&oi=ao",
-        "research_gate": "https://www.researchgate.net/profile/Mostafa-Fotoohi-2",
-        "duration": "2022-Sep - Present"
-
-    },
-    {
-        "name": "Dilkaram S. Ghuman",
-        "occupation": "Étudiant en maîtrise",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "d_ghuman@live.concordia.ca",
-        "research_summary": "Je travaille actuellement sur le développement et la caractérisation de composites à matrice métallique (MMC) à orientation normale et j'explore le dépôt et l'analyse de revêtements métalliques pulvérisés thermiquement sur des composites en fibre de carbone renforcés de polymères. Ma recherche vise à améliorer les propriétés mécaniques et la durabilité de ces matériaux, qui peuvent être appliqués dans des industries telles que l'aérospatiale, l'automobile et l'électronique. En améliorant la résistance à l'usure et les propriétés thermiques, ce travail contribue à l'avancement de matériaux légers et haute performance. Les résultats pourraient conduire à des composants plus efficaces dans des applications critiques. En dehors de la recherche, j'aime faire de la randonnée et explorer la nature, ainsi que lire sur les nouvelles avancées technologiques.",
-        "picture": "ghuman-dilkaram.jpg",
-        "linkedin": "https://ca.linkedin.com/in/dilghuman",
-        "google_scholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=WvLpEacAAAAJ",
-        "research_gate": "https://www.researchgate.net/profile/Dilkaram-Ghuman",
-        "duration": "2022 - Present"
-    },
-    {
-        "name": "ARINDAM MOR",
-        "occupation": "Étudiant en maîtrise, Assistant de recherche, Assistant d'enseignement, Correcteur",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "arindam.mor@concordia.ca",
-        "research_summary": "Ma recherche porte sur la modélisation numérique de la formation de revêtements par pulvérisation plasma en suspension afin d'optimiser les caractéristiques des revêtements résultants. Regardez une vidéo sur ma chaîne YouTube expliquant ma recherche en détail en trois minutes",
-        "picture": "arindam-mor.jpg",
-        "linkedin": "https://www.linkedin.com/in/morinmtl",
-        "youtube": "https://www.youtube.com/watch?v=dYMerrUpD2o",
-        "duration": "2022 - Present"
-    },
-    {
-        "name": " Dharshaanan Pushpakaran (Jacob)",
-        "occupation": "Étudiant en maîtrise",
-        "department": "Génie chimique et des matériaux",
-        "email": "dharshaanan.pushpakaran@mail.concordia.ca",
-        "research_summary": "Poursuivre mes études supérieures en Master of Applied Science (Nanoscience et Nanotechnologie) du Département de génie chimique et des matériaux sous la supervision du Prof. Pantcho Stoyanov et du Prof. Gilles Peslherbe.Dharshaanan est titulaire d'un baccalauréat en génie aérospatial de l'Université de Swansea, au Royaume-Uni. L'objectif principal de sa thèse est d'évaluer de manière critique les processus interfaciaux à l'échelle nanométrique dans les systèmes tribologiques tels que l'usure, la friction et la lubrification au sein des moteurs à turbine à gaz. Les méthodologies expérimentales développées seront combinées avec des simulations de dynamique moléculaire pour étudier, par exemple, les systèmes à base de cobalt et de nickel dans des conditions extrêmes. Les connaissances atomistiques acquises aideront à développer les matériaux aérospatiaux de nouvelle génération capables de fonctionner efficacement dans des environnements difficiles. Cette recherche contribuera à surmonter de nombreux défis aérospatiaux, allant de l'amélioration de la durabilité des avions et de la défaillance prématurée des composants au développement de nouveaux moteurs à turbine à gaz. En plus de mes aventures académiques, je profite de la plupart de mon temps libre en plein air en embrassant la nature avec des activités telles que la randonnée en été et le snowboard en hiver. Mes loisirs incluent la lecture et être un excellent chorégraphe/danseur professionnel.",
-        "picture": "dharshaanan-pushpakaran.jpg",
-        "linkedin": "https://ca.linkedin.com/in/jacobdharsh ",
-        "duration": "Fall 2024 - present "
-    },
-    {
-        "name": " Istiak Mahmud Saikat",
-        "occupation": "Étudiant en maîtrise",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "i.m.saikat@outlook.com",
-        "research_summary": "Currently pursuing a Master’s degree with a focus on tribology, specializing in the study of the Effect of Water Vapor on Tribological Performance of Inconel 718 at Different Conditions for Next-Generation Gas Turbine Engines and Effect of Hydrogen Exposure (Hydrogen Embrittlement) on Tribological Performance of Inconel 718. My research aims to enhance the performance and durability of materials used in advanced gas turbine engines. I hold a Bachelor’s degree in Mechanical Engineering from Ahsanullah University of Science and Technology and bring over 8 years of professional experience across the manufacturing, oil & gas lubricants, and construction equipment industries. This diverse background enables me to apply practical insights to cutting-edge research in the field of materials science and tribology",
-        "picture": "istiak-saikat.jpg",
-        "linkedin": "https://www.linkedin.com/in/istiak-mahmud-saikat/",
-        "duration": "2022 - Present "
-    }
+    "masc_students": [
+        {
+            "name": "Matheus da Silva Pinto",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "matheus.dasilvapinto@mail.concordia.ca",
+            "research_summary": "Étudiant en maîtrise en génie mécanique à l'Université Concordia, spécialisé dans l'évaluation tribologique des matériaux pour des applications dans l'industrie aérospatiale sous des conditions extrêmes. Travaille actuellement sur l'examen du comportement des matériaux à haute température et dans des environnements agressifs, en se concentrant sur la compréhension des mécanismes d'usure et en fournissant des informations sur l'aptitude des matériaux pour les applications des moteurs à turbine à gaz de nouvelle génération. Titulaire d'un diplôme en génie mécanique de l'Université fédérale de technologie - Paraná (UTFPR) au Brésil et possède six ans d'expérience dans l'industrie en maintenance et inspection d'équipements.",
+            "picture": "dasilvapinto-matheus.jpg",
+            "linkedin": "https://www.linkedin.com/in/matheus-da-silva-pinto-87979615a/",
+            "duration": "2023 - Present"
+        },
+        {
+            "name": "Golnoush Asadian",
+            "occupation": "Étudiante en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "golnoush.asadiankouhidehkordi@mail.concordia.ca",
+            "research_summary": "Maîtrise en génie mécanique, sciences appliquées travaillant sur un projet de recherche qui se concentre sur l'amélioration des propriétés des métaux tels que le cuivre en utilisant des techniques de dépôt par pulvérisation comme la pulvérisation thermique et la pulvérisation à froid. En réduisant la couche d'oxyde autour des particules métalliques et en les empêchant de s'oxyder davantage, ce travail vise à améliorer les performances des revêtements métalliques dans les applications industrielles, y compris la résistance à la corrosion et la conductivité électrique. Cette recherche a le potentiel de conduire à des revêtements plus durables et plus efficaces pour les processus de fabrication et de réparation, réduisant les coûts de maintenance et prolongeant la durée de vie des composants. En dehors du travail, être dans la nature non seulement alimente sa créativité mais offre également une pause rafraîchissante de la recherche, inspirant de nouvelles idées.",
+            "picture": "golnoush-asadian.jpg",
+            "linkedin": "https://www.linkedin.com/in/golnoush-asadian-6a422a22b/",
+            "duration": "2022-Sep - 2024"
+        },
+        {
+            "name": "ARINDAM MOR",
+            "occupation": "Étudiant en maîtrise, Assistant de recherche, Assistant d'enseignement, Correcteur",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "arindam.mor@concordia.ca",
+            "research_summary": "Ma recherche porte sur la modélisation numérique de la formation de revêtements par pulvérisation plasma en suspension afin d'optimiser les caractéristiques des revêtements résultants. Regardez une vidéo sur ma chaîne YouTube expliquant ma recherche en détail en trois minutes",
+            "picture": "arindam-mor.jpg",
+            "linkedin": "https://www.linkedin.com/in/morinmtl",
+            "youtube": "https://www.youtube.com/watch?v=dYMerrUpD2o",
+            "duration": "2022 - Present"
+        },
+        {
+            "name": "Dara Samii",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "dara.rahmatsamii@mail.concordia.ca",
+            "research_summary": "Dara travaille sur l’application de la dynamique des fluides numérique (CFD) et de l’intelligence artificielle (IA) pour accélérer la simulation des projections thermiques. Il a obtenu son baccalauréat en génie chimique à l’Université des sciences et de la technologie d’Iran (IUST) en 2022. Son intérêt pour la simulation, la modélisation et la dynamique des fluides l’a conduit à poursuivre une maîtrise en génie mécanique à l’Université Concordia. En dehors de ses recherches, Dara est passionné de musique et aime jouer et improviser des morceaux de jazz, de blues et de boogie-woogie au piano.",
+            "linkedin": "https://www.linkedin.com/in/dara-samii/",
+            "google_scholar": "https://scholar.google.com/citations?user=n3bdfeUAAAAJ&hl=en",
+            "research_gate": "https://www.researchgate.net/profile/Dara-Rahmat-Samii",
+            "duration": "Sept 2023 - Present"
+        },
+        {
+            "name": "Yazdan Arhami",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "Yazdan.arhami@concordia.ca",
+            "research_summary": "",
+            "picture": "default-man.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": "Farnaz Bayat",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "Farnaz.bayat@mail.concordia.ca",
+            "research_summary": "",
+            "picture": "default-woman.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": "Milad Hassani",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "milad.hassani@mail.concordia.ca",
+            "research_summary": "",
+            "picture": "milad-hassani.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": "Peyman Saffarzade",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "peyman.saffarzade@mail.concordia.ca",
+            "research_summary": "",
+            "picture": "peyman-saffarzade.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": " Dharshaanan Pushpakaran (Jacob)",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie chimique et des matériaux",
+            "email": "dharshaanan.pushpakaran@mail.concordia.ca",
+            "research_summary": "Poursuivre mes études supérieures en Master of Applied Science (Nanoscience et Nanotechnologie) du Département de génie chimique et des matériaux sous la supervision du Prof. Pantcho Stoyanov et du Prof. Gilles Peslherbe.Dharshaanan est titulaire d'un baccalauréat en génie aérospatial de l'Université de Swansea, au Royaume-Uni. L'objectif principal de sa thèse est d'évaluer de manière critique les processus interfaciaux à l'échelle nanométrique dans les systèmes tribologiques tels que l'usure, la friction et la lubrification au sein des moteurs à turbine à gaz. Les méthodologies expérimentales développées seront combinées avec des simulations de dynamique moléculaire pour étudier, par exemple, les systèmes à base de cobalt et de nickel dans des conditions extrêmes. Les connaissances atomistiques acquises aideront à développer les matériaux aérospatiaux de nouvelle génération capables de fonctionner efficacement dans des environnements difficiles. Cette recherche contribuera à surmonter de nombreux défis aérospatiaux, allant de l'amélioration de la durabilité des avions et de la défaillance prématurée des composants au développement de nouveaux moteurs à turbine à gaz. En plus de mes aventures académiques, je profite de la plupart de mon temps libre en plein air en embrassant la nature avec des activités telles que la randonnée en été et le snowboard en hiver. Mes loisirs incluent la lecture et être un excellent chorégraphe/danseur professionnel.",
+            "picture": "dharshaanan-pushpakaran.png",
+            "linkedin": "https://ca.linkedin.com/in/jacobdharsh ",
+            "duration": "Fall 2024 - present "
+        },
+        {
+            "name": "Marc Roche",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "marcjroche@gmail.com",
+            "research_summary": "",
+            "picture": "marc-roche.jpg",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": "Hironmoy Karmaker",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "hironmoy.karmaker@mail.concordia.ca",
+            "research_summary": "",
+            "picture": "hironmoy-karmaker.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": "Ahmed Toukir",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "toukir.ahmed@mail.concordia.ca",
+            "research_summary": "",
+            "picture": "ahmed-toukir.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        },
+        {
+            "name": "Ikshita Chaturvedi",
+            "occupation": "Étudiant en maîtrise",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "ikshita.chaturvedi@mail.concordia.ca",
+            "research_summary": "",
+            "picture": "default-woman.png",
+            "linkedin": "",
+            "google_scholar": "",
+            "research_gate": "",
+            "duration": ""
+        }
     ]
-
-
-
 }

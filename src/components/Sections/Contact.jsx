@@ -31,7 +31,7 @@ export default function Contact() {
       .then((result) => {
         alert('Message Sent Successfully')
       }, (error) => {
-        console.log(error.text);
+        console.error(error.text);
         alert('Something went wrong!')
       });
     e.target.reset()

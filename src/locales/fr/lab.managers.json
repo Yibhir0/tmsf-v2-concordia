@@ -1,24 +1,16 @@
 {
     "labManagers": "Gestionnaires de laboratoire",
-    "lab_managers": 
-
-    [
-
-        
-    {
-        "name": "Fadhel Ben Ettouil, Ph, D.",
-        "occupation": "Associé de recherche et gestionnaire de laboratoire",
-        "department": "Génie mécanique, industriel et aérospatial",
-        "email": "fadhel.benettouil@concordia.ca",
-        "research_summary": "Associé de recherche et gestionnaire de laboratoire motivé avec plus de 20 ans d'expérience dans la recherche et la supervision de laboratoire, expert dans l'amélioration des processus et la direction d'équipes pour respecter les délais des projets. Expert en procédés de projection thermique (Plasma Spray, HVOF, HVAF, Cold Spray, ...) et développement de revêtements fonctionnels et protecteurs (TBC, EBC, revêtements pour la protection contre l'érosion-corrosion, ...).",
-        "picture": "Fadhel-Ben-Ettouil1.png",
-        "linkedin": "https://www.linkedin.com/in/fadhel-ben-ettouil/" ,
-        "google_scholar": "https://scholar.google.com/citations?user=j1xHDZ8AAAAJ&hl",
-        "research_gate": "https://www.researchgate.net/profile/Fadhel-Ben-Ettouil/research"
-    }
-
+    "lab_managers": [
+        {
+            "name": "Fadhel Ben Ettouil, Ph, D.",
+            "occupation": "Associé de recherche et gestionnaire de laboratoire",
+            "department": "Génie mécanique, industriel et aérospatial",
+            "email": "fadhel.benettouil@concordia.ca",
+            "research_summary": "Associé de recherche et gestionnaire de laboratoire motivé avec plus de 20 ans d'expérience dans la recherche et la supervision de laboratoire, expert dans l'amélioration des processus et la direction d'équipes pour respecter les délais des projets. Expert en procédés de projection thermique (Plasma Spray, HVOF, HVAF, Cold Spray, ...) et développement de revêtements fonctionnels et protecteurs (TBC, EBC, revêtements pour la protection contre l'érosion-corrosion, ...).",
+            "picture": "Fadhel-Ben-Ettouil1.png",
+            "linkedin": "https://www.linkedin.com/in/fadhel-ben-ettouil/",
+            "google_scholar": "https://scholar.google.com/citations?user=j1xHDZ8AAAAJ&hl",
+            "research_gate": "https://www.researchgate.net/profile/Fadhel-Ben-Ettouil/research"
+        }
     ]
-
-
-
 }

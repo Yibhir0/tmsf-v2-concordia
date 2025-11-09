@@ -37,11 +37,11 @@ export default function PeopleScreen() {
 
 
         <HeaderP className="font30 regular">
-          {t("researchAssociates")}
+          {t("postdoctoralFellow")}
         </HeaderP>
 
 
-        <ProfileList category="research_associate" />
+        <ProfileList category="postdoctoral_fellow" />
 
         <HeaderP className="font30 regular">
           {t("phdstudents")}

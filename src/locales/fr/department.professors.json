@@ -1,43 +1,35 @@
 {
     "professors": "Professeurs",
-    "department_professors": 
-    [
-
+    "department_professors": [
         {
             "name": "Christian Moreau, PhD, FASM ",
             "occupation": "Professeur & Directeur de la pulvérisation thermique ",
-            "email":  "christian.moreau@concordia.ca",
+            "email": "christian.moreau@concordia.ca",
             "research_summary": "Dr. Christian Moreau est professeur au Département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est directeur du Laboratoire de pulvérisation thermique et du Centre des technologies de revêtement avancées. Il est membre de l'American Society for Materials (ASM) et de l'ASM Thermal Spray Society. Il est également membre de l'International Thermal Spray Association (ITSA) et de l'International Institute of Welding (IIW). Il est l'auteur de plus de 200 articles scientifiques et a supervisé plus de 50 étudiants diplômés. Il est le récipiendaire du prix 2016 de l'ASM Thermal Spray Society.",
             "department": "Génie mécanique, industriel et aérospatial ",
             "picture": "christian-moreau.jpg",
-            "linkedin": "https://www.linkedin.com/in/christianmoreau1/?originalSubdomain=ca" ,
+            "linkedin": "https://www.linkedin.com/in/christianmoreau1/?originalSubdomain=ca",
             "google_scholar": "https://scholar.google.ca/citations?user=GgDkBHsAAAAJ&hl=en"
         },
-
         {
             "name": "Moussa Tembely, PhD",
             "occupation": "Professeur adjoint & Directeur de laboratoire ",
-            "email":   "moussa.tembely@concordia.ca",
+            "email": "moussa.tembely@concordia.ca",
             "department": "Génie mécanique, industriel et aérospatial ",
             "research_summary": "Dr. Moussa Tembely est professeur adjoint au Département de génie mécanique, industriel et aérospatial de l'Université Concordia. Il est directeur du Laboratoire de fabrication avancée. Il est membre de l'American Society of Mechanical Engineers (ASME) et de la Société canadienne de génie mécanique (CSME). Il est l'auteur de plus de 50 articles scientifiques et a supervisé plus de 10 étudiants diplômés. Ses intérêts de recherche incluent la fabrication avancée, la fabrication additive et le traitement des matériaux.",
             "picture": "tembely-moussa.jpg",
-             "linkedin": "https://www.linkedin.com/in/moussa-tembely-84965b65/" ,
+            "linkedin": "https://www.linkedin.com/in/moussa-tembely-84965b65/",
             "google_scholar": "https://scholar.google.ca/citations?hl=en&user=XMJxuz8AAAAJ&view_op=list_works&sortby=pubdate"
-
         },
         {
             "name": " Pantcho P. Stoyanov, PhD",
             "occupation": "Professeur agrégé & Directeur du laboratoire de tribologie",
-            "email":  "pantcho.stoyanov@concordia.ca",
+            "email": "pantcho.stoyanov@concordia.ca",
             "department": "Génie chimique et des matériaux ",
             "research_summary": " Dr. Pantcho P. Stoyanov est professeur agrégé au Département de génie chimique et des matériaux de l'Université Concordia. Il est le directeur du Laboratoire de tribologie. Il est membre de la Society of Tribologists and Lubrication Engineers (STLE) et de la Société canadienne de génie mécanique (CSME). Il est l'auteur de plus de 100 articles scientifiques et a supervisé plus de 30 étudiants diplômés. Ses intérêts de recherche incluent la tribologie, l'ingénierie de surface et les matériaux avancés. Il est le récipiendaire de la médaille de tribologie 2016 de la CSME.",
             "picture": "pantcho-stoyanov.jpg",
-            "linkedin": "https://www.linkedin.com/in/pantchostoyanov/" ,
+            "linkedin": "https://www.linkedin.com/in/pantchostoyanov/",
             "google_scholar": "https://scholar.google.com/citations?hl=en&user=EKIun-gAAAAJ&view_op=list_works&sortby=pubdate"
         }
     ]
-   
-
-
-
 }

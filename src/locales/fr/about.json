@@ -1,32 +1,21 @@
 {
-    "aboutHeader":  {
-
+    "aboutHeader": {
         "header": "À propos de Nous",
         "welcome": "Notre groupe de recherche multidisciplinaire intègre une expertise de pointe à travers trois laboratoires principaux — Projection Thermique, Écoulements Diphasés et Tribologie — afin de stimuler l’innovation dans les domaines de la science des matériaux, de la mécanique des fluides et de la performance des systèmes mécaniques. Le laboratoire de Projection Thermique développe des solutions de revêtements avancées pour améliorer la durabilité et la fonctionnalité des surfaces dans les secteurs de l’aérospatiale, de l’énergie et du biomédical. Le laboratoire des Écoulements Diphasés étudie les interactions complexes entre les fluides, ouvrant la voie à des avancées majeures en génie des procédés et en technologies environnementales. De son côté, le laboratoire de Tribologie se concentre sur les phénomènes de friction, d’usure et de lubrification, contribuant à la conception de composants mécaniques plus efficaces et plus fiables.En favorisant la collaboration entre ces domaines complémentaires, notre groupe produit des résultats de recherche percutants, soutient l’innovation industrielle et fait progresser les connaissances scientifiques grâce à des approches interdisciplinaires et à des partenariats stratégiques",
         "about": "Nos laboratoires sont dédiés à l'avancement des frontières de la science des matériaux grâce à la recherche de pointe et à des solutions innovantes dans les domaines des revêtements de projection thermique, de la tribologie et de la dynamique de l'écoulement multiphasique. Nous nous engageons à favoriser la collaboration entre le monde universitaire et l'industrie pour stimuler le progrès technologique et relever les défis du monde réel."
-    
     },
-
-    "aboutBody":{
-
-        "thermal":{
+    "aboutBody": {
+        "thermal": {
             "header": "Laboratoire de projection thermique:",
             "body": "Dédié à l'étude des procédés de projection thermique pour les applications aérospatiales, automobiles et manufacturières. Nous développons de nouvelles techniques de revêtement pour améliorer les performances des matériaux et prolonger leur durée de vie dans des environnements extrêmes."
-
-
         },
-
-        "tribology":{
+        "tribology": {
             "header": "Laboratoire de tribologie:",
             "body": "Se concentrant sur l'étude des phénomènes de frottement, d'usure et de lubrification dans les systèmes mécaniques. Nous cherchons à améliorer l'efficacité et la fiabilité des composants mécaniques en développant des revêtements et des lubrifiants innovants."
         },
-
-        "multiphase":{
+        "multiphase": {
             "header": "Laboratoire d'écoulement multiphasique:",
             "body": " Explorant les interactions complexes entre les fluides et les solides dans des environnements industriels. Nous étudions les phénomènes d'écoulement multiphasique pour améliorer l'efficacité des procédés de fabrication et la sécurité des installations industrielles."
         }
-       
     }
-
-    
 }
