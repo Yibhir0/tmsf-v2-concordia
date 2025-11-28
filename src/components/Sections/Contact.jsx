@@ -10,9 +10,9 @@ export default function Contact() {
 
   const socialLinks = {
     facebook: 'https://www.facebook.com/MultiphaseFlowThermalSprayLaboratory',
-    linkedin: 'https://www.linkedin.com/company/enlighteneering-inc-',
+    linkedin: 'https://www.linkedin.com/company/80375577',
     twitter: 'https://www.facebook.com/ENLIGHTENEERING/',
-    youtube: 'https://www.linkedin.com/company/enlighteneering-inc-',
+    youtube: 'https://www.youtube.com/@Concordia_CTSC',
   };
 
   const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
