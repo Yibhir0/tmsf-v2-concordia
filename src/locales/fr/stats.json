@@ -1,25 +1,25 @@
 {
-    "statsHeader": "Nos Statistiques",
-    "students": "Étudiants",
-    "company": "Société de Confiance",
-    "research": "Recherche",
-    "statsDescription": "Plongez dans nos statistiques et explorez les données qui témoignent de notre impact, de notre",
-    "statsSubDescription": "croissance, et de notre engagement à exceller dans tout ce que nous entreprenons.",
-    "stats_list": [
-        {
-            "id": "students",
-            "value": 380,
-            "title": "Étudiants"
-        },
-        {
-            "id": "company",
-            "value": 230,
-            "title": "Société de Confiance"
-        },
-        {
-            "id": "research",
-            "value": 230,
-            "title": "Recherche"
-        }
-    ]
+  "statsHeader": "Nos Statistiques",
+  "students": "Étudiants",
+  "company": "Société de Confiance",
+  "research": "Recherche",
+  "statsDescription": "Plongez dans nos statistiques et explorez les données qui témoignent de notre impact, de notre",
+  "statsSubDescription": "croissance ces cinq dernières années.",
+  "stats_list": [
+    {
+      "id": "students",
+      "value": 80,
+      "title": "Étudiants"
+    },
+    {
+      "id": "company",
+      "value": 30,
+      "title": "Brevet"
+    },
+    {
+      "id": "publications",
+      "value": 160,
+      "title": "Publications"
+    }
+  ]
 }

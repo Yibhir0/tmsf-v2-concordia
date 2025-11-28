@@ -4,11 +4,11 @@
   "company": "TRUSTED BY COMPANY",
   "research": "Research",
   "statsDescription": "Explore the key statistics that highlight our achievements, growth, and dedication",
-  "statsSubDescription": "to making a meaningful impact in everything we do.",
+  "statsSubDescription": "for the last five years.",
   "stats_list": [
     {
       "id": "students",
-      "value": 380,
+      "value": 80,
       "title": "Students"
     },
     {
