@@ -11,7 +11,7 @@ export default function Contact() {
   const socialLinks = {
     facebook: 'https://www.facebook.com/MultiphaseFlowThermalSprayLaboratory',
     linkedin: 'https://www.linkedin.com/company/80375577',
-    twitter: 'https://www.facebook.com/ENLIGHTENEERING/',
+    twitter: 'https://x.com/MPF_TSL',
     youtube: 'https://www.youtube.com/@Concordia_CTSC',
   };
 
