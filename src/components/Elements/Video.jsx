@@ -1,43 +1,40 @@
 
-import styled from 'styled-components';
-import ReactPlayer from 'react-player';
+import React from "react";
+import styled from "styled-components";
+import ReactPlayer from "react-player";
 
 const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   width: 100%;
   margin: 0 auto;
 `;
 
 const PlayerWrapper = styled.div`
-  width: 1000px;
-  height: 750px;
   position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
 
-  @media (max-width: 1200px) {
-    height: 600px; /* Adjust height for smaller screens */
-  }
-
-  @media (max-width: 900px) {
-    height: 450px; /* Adjust height for even smaller screens */
-  }
-
-  @media (max-width: 600px) {
-    height: 300px; /* Adjust height for very small screens */
+  & > div {
+    position: absolute;
+    inset: 0;
   }
 `;
 
 const Video = ({ url }) => {
+  const cleanUrl = typeof url === "string" ? url.trim() : "";
+
+  if (!cleanUrl) {
+    return <p>Video URL is missing.</p>;
+  }
+
   return (
     <Container>
       <PlayerWrapper>
         <ReactPlayer
-          url={url}
+          key={cleanUrl}
+          url={cleanUrl}
           width="100%"
           height="100%"
-          controls={true}
+          controls
         />
       </PlayerWrapper>
     </Container>

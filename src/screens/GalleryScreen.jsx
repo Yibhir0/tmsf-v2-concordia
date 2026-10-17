@@ -20,7 +20,7 @@ export default function GalleryScreen() {
       </HeaderSection>
 
       <VideosSection>
-        {videos.map((video, index) => (
+        {videos?.map((video, index) => (
           <VideoCard key={index}>
 
             <Video url={video.url} />
